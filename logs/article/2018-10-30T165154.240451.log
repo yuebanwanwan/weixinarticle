@@ -1,0 +1,34 @@
+2018-10-30 16:51:54 [scrapy] ERROR: Error caught on signal handler: <bound method RefererMiddleware.request_scheduled of <scrapy.spidermiddlewares.referer.RefererMiddleware object at 0x105825ef0>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/signal.py", line 30, in send_catch_log
+    *arguments, **named)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pydispatch/robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 343, in request_scheduled
+    redirected_urls = request.meta.get('redirect_urls', [])
+AttributeError: 'generator' object has no attribute 'meta'
+2018-10-30 16:51:54 [scrapy] ERROR: Error caught on signal handler: <bound method CrawlManager.spider_idle of <scrapyrt.core.CrawlManager object at 0x105482048>>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/signal.py", line 30, in send_catch_log
+    *arguments, **named)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pydispatch/robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapyrt/core.py", line 204, in spider_idle
+    spider.crawler.engine.crawl(self.request, spider)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/engine.py", line 210, in crawl
+    self.schedule(request, spider)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/engine.py", line 216, in schedule
+    if not self.slot.scheduler.enqueue_request(request):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/scheduler.py", line 54, in enqueue_request
+    if not request.dont_filter and self.df.request_seen(request):
+AttributeError: 'generator' object has no attribute 'dont_filter'
+2018-10-30 16:51:54 [scrapy] INFO: Closing spider (finished)
+2018-10-30 16:51:54 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 10, 30, 8, 51, 54, 828001),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 6,
+ 'memusage/max': 55787520,
+ 'memusage/startup': 55783424,
+ 'start_time': datetime.datetime(2018, 10, 30, 8, 51, 54, 794950)}
+2018-10-30 16:51:54 [scrapy] INFO: Spider closed (finished)

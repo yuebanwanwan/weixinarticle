@@ -1,0 +1,2575 @@
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "begin_test" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.executors.default:Running job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:34:00 CST)" (scheduled at 2018-11-04 18:34:00.943076+08:00)
+INFO:root:黑话这个词，说起来各位都会会心一笑。各行各业都有自己的行业内的黑话，产品经理有产品经理的黑话、金融行业有金融行业的黑话，而程序员这个群体虽然虽然忠厚老实，但是却有着丰富的黑话史。
+INFO:root:今天小甲就给大家来整理整理互联网公司程序员的黑话，出一篇程序员黑话指南，你只有了解程序员的黑话才能跟程序员打成一团，获得buff加成，产品尽早上线。
+INFO:root:作为程序员你只有熟悉掌握程序员黑话才能更快融入群体，从此一步走向人生巅峰、赢取白富美，走向人生巅峰。
+INFO:root:1. 跟产品经理对话的时候
+INFO:root:我想想这个怎么实现
+INFO:root:== 我想想怎么砍掉这个需求
+INFO:root:没看过别的产品这么设计的
+INFO:root:== 这功能也太傻逼了
+INFO:root:你确定有这个需求吗
+INFO:root:== 做出来没人用劳资打死你
+INFO:root:不好意思，我没听清楚
+INFO:root:== 你是傻逼
+INFO:root:今天做不了
+INFO:root:== 今天回去看新垣结衣
+INFO:root:下个版本再做吧
+INFO:root:== 我不想做
+INFO:root:别人家的实现方式不一样
+INFO:root:== 我不会做
+INFO:root:你这个需求不清晰
+INFO:root:== 要不打一架
+INFO:root:你说的这个东西有什么可以参考的东西吗
+INFO:root:== 废话少说，你想抄哪个网站
+INFO:root:正在改
+INFO:root:== 我去，刷知乎太久了，居然把这茬给忘记了
+INFO:root:我先评估一下技术难度
+INFO:root:== 先拖几天
+INFO:root:我再想想还有什么解决办法没
+INFO:root:== 我再去 stack overflow 上抄抄其他解决办法
+INFO:root:这个软件是用的是最典型的做法
+INFO:root:== 我抄的微信 || 淘宝 || 滴滴
+INFO:root:我测试的时候没问题啊
+INFO:root:== 傻X，你到底会不会用我的软件啊
+INFO:root:2. 当程序员跟外行交流的时候
+INFO:root:你怎么还在用Windows啊
+INFO:root:== Linux要不要了解下
+INFO:root:你用的什么浏览器？
+INFO:root:== 要不要试试Chrome
+INFO:root:抱歉，我不会修
+INFO:root:== 你大爷，又让我修电脑
+INFO:root:不好意思，这个我弄不了
+INFO:root:== 这个项目你能给多少钱
+INFO:root:时间不早了
+INFO:root:== 我还要回去写代码
+INFO:root:你用百度搜一下
+INFO:root:== 这么简单的问题也来问我
+INFO:root:== 看你这土鳖就不会用Google
+INFO:root:3. 当程序员跟同行交流时
+INFO:root:哥们，最近怎么样？
+INFO:root:== 秃了吗？
+INFO:root:你告诉我怎么做吧，我自己来
+INFO:root:== 别用你的脏手摸我的宝贝键盘
+INFO:root:Talk is cheap,show me you code
+INFO:root:== 看你整天吹牛逼，就知道你写不好代码
+INFO:root:今晚早点回去陪我女朋友
+INFO:root:== 我的右手已经饥渴难耐了
+INFO:root:明天天冷
+INFO:root:== 不知道家里有格子衫没
+INFO:root:你帮我看看我的代码
+INFO:root:== 碰到个bug，我已经要崩溃了
+INFO:root:你确定吗？
+INFO:root:== 我代码不可能出问题的
+INFO:root:你用的什么系统？
+INFO:root:== 我在Linux上运行的好好的
+INFO:root:我正在调试程序
+INFO:root:==不想理你
+INFO:root:你怎么还在学Python啊
+INFO:root:== PHP才是世界上最好的语言
+INFO:root:你怎么还在用VS啊
+INFO:root:== 辣鸡，Vim才是正解
+INFO:root:兄弟，你能上得了网吗？
+INFO:root:== 我代理好像出问题了
+INFO:root:兄弟，有梯子吗
+INFO:root:== 我想看Pornhub
+INFO:root:大佬果然是大佬，写的代码就是不一样
+INFO:root:== 这代码我一句都看不懂
+INFO:root:我下班了
+INFO:root:== 现在是凌晨了
+INFO:root:说到这里，作为程序员群体中最优秀的你们，日常生活工作中还有哪些黑话是我没整理出来的？欢迎各位小伙伴踊跃发言！我在留言区等你们！
+INFO:root:参考资料：
+INFO:root:http://www.sohu.com/a/130389343_612768
+INFO:root:距离上次送书活动过去很久了，前几个月可以说都是犯懒一直没给大家送书，小甲掐指一算又到了给大家送书的时候了，这不刚好又在后台收到了读者的提醒。
+INFO:root:这次我打算送出50本书，这些书是由博文视点以及图灵教育赞助的，另外呢我还自掏腰包给大家随书赠送一些非常有纪念意义的鼠标垫，以及其他小礼品。
+INFO:root:当然我必须要告诉你们的是：这些书都会有我本人一一签名以及写上祝福语再寄给各位最终中奖的读者。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHkxAxqKgXVmZ8N2afyMAxyopiaI1AbLM0P5U9zu6sZwYCj408cKPOpfA/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHqtBUZU05oH259vyWiaFJkOrklESUEWRoLqiakUJJB62ibDLVFiafXLCnsw/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHUqjdic9MWwaf61ba0Anvm19GjfibIyk0qvnnegjicMBlgnxkjj5qshWicA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHTbQUOXb5kARXtTOk6bARF0CqI6rnpZib3Q3l2W6VXalmPsH47Edq1Cw/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHE5ps7I4YPcjoXQ4b0H5WBJVK6GaNfdx0TTmewtZWBKurlDI6c56t3g/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHL0wn5spFZSibMvEov7DvsIHZTJyYEPMrnJUics6Ub4wcbiaTPhm5Pkkmw/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsH3icr9b5tYAUX5hjyZZlUPkib5Lw8L4Lk4oRZhyeJwBK7I6ic4RUlTMcgA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHQDLEZJnibUsVK2n6olLDTiaJfSjTV5sLR6BR1rb2mU048dM2wWR6SrjA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHbhxzYQHF45DUw7m8RHdQ5yhaxcbNlVwUveyags49JqjeMJwvUxQbVw/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHnkGyd2IvUwdcwwLDibPiciakuOCgZSrttI2qI9bM70lstfAmjsoxe7ccQ/640?wx_fmt=png
+INFO:root:另外，我公众号一般都不开赞赏，一个月就开这么一次，就是在做送书活动的时候，其他时间你都看不到打赏按钮。
+INFO:root:只要在这段时间内你觉得我的文章帮助到了你，你都可以小小的打赏意思一下，顺便也能当是买个彩票抽个奖。打个赏也能让我眼熟你，下次做活动的时候肯定忘不掉你。
+INFO:root:关于抽奖方式，简单粗暴，抽奖的方式就是从赞赏的人中抽取50位读者。另外，我这个人就喜欢听别人夸我，所以如果留言能有打动我的，我也会酌情加一些礼物，期待你们的表演了。
+INFO:root:Pronhup大公司招来了三位实习生「大长腿、字母哥、静静」，经过一周的时间他们已经慢慢适应公司的工作环境。这几天大长腿接到项目经理的一个需求：
+INFO:root:用户在看视频的时候，需要同时按住键盘上的「A+P+M」三个键才能观看，否则会直接暂停。
+INFO:root:但是因为她还不是太熟悉git，一不小心把一个还有bug的版本提交了上去。这个时候大长腿开始慌了，不知道该怎么办才能撤回提交。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YmQpuNI7KrXoIXCPuCDzbXT4Oaz2huv7mPELk6Ar9DVWfuqsuCbxnibQ/640
+INFO:root:大长腿立马向身边的静静和字母发起求救：静静，字母哥，不好了！快来帮我看看怎么才能撤回提交啊！我刚刚一不小心提交了一个有BUG的版本提交上去了，这个要是被甲哥发现，我估计就得gg了。
+INFO:root:字母哥路见不平一声吼：大长腿你别急，让我来看看！还好你没有把你的提交push到远程仓库，我看你这个还能抢救。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YRALQfib2KcBuuejSP50u1E6mvhVhY5Y8UicNn2eyD8TD9f40mmPiaUYbg/640
+INFO:root:这个时候，你可以用 git log 命令就可以查看历史提交记录。然后找到上一个版本的id，用reset命令就可以退回到上个版本了。
+INFO:root:git reset --hard id
+INFO:root:大长腿如释负重：牛逼，字母哥好手段啊！之前可担心死我了。还好可以回退回去。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yd84axetxJk4SnQwOENeR0QyICYibGlyV1KVK7dBnLIVKo5bibFiaoBsxw/640
+INFO:root:静静心生疑问：字母哥，我看你刚才操作的时候，发现git回退版本的速度好快啊，为什么这么快啊？
+INFO:root:字母哥雄赳赳气昂昂：git回退速度快，其中的原理只是更改了版本head指针的指向而已。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YV6Bxn8kqOEaFvRoYibXn1GzlIibzuvVaaOAHTrGicDKEfvJ9ghyVre03g/640
+INFO:root:以前head指针指向你新提交的记录，现在指针只改了个指向，指向到上一个版本，所以回退得快咯。
+INFO:root:静静由衷佩服：原来字母哥懂这么多啊。我也不太熟悉git里面操作失误如何处理，要不你给我们讲一下吧。
+INFO:root:字母哥洋洋得意：其实我们实际操作中，肯定会遇到某个文件被修改，文件不小心被删除「当然删除文件也算作一种修改」，但是之后又后悔之前的修改的情况。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YVB2YlmoVWfQ5bQC6nibROBPw9BWaL1zWMGrZtaSHV2MdBQbk4nnq6Ng/640
+INFO:root:还好有git, 这个时候就可以使用 git status 命令查看当前仓库的状态，被修改的文件都会显示出来。然后再使用上次甲哥讲过的，用git中最常用的切换分支的命令checkout就可以放弃更改了。
+INFO:root:大长腿似懂非懂：原来用checkout就可以恢复啊，我试试随便在test.txt里面改两句话。然后
+INFO:root:git add test.txt
+INFO:root:git checkout test.txt
+INFO:root:神奇！！果然恢复了！！
+INFO:root:静静一脸正经：别这么一惊一乍嘛，这些基础的东西不应该不知道的。
+INFO:root:大长腿跃跃欲试：哈哈，我还要再试一次，太神奇了。我就随便再在还原的文档里面再改动改动，看看还能不能再次还原。然后
+INFO:root:git add test.txt
+INFO:root:git commit -m "modify test"
+INFO:root:git checkout test.txt
+INFO:root:欸，不对啊，你看这次我为什么又无法恢复修改前的内容啊？
+INFO:root:字母哥恨铁不成钢：你随便在test.txt里面修改了几句，相当于工作区修改了；之后你又用add命令，工作区的内容就保存到暂存区了。
+INFO:root:用checkout命令只有当本地工作区跟暂存区有修改的时候才有用。但是你这次操作还加了commit，commit之后，工作区跟暂存区都是干净的，是本地仓库有了修改。要撤回本地仓库修改就不归checkout管了，所以你最后一次用checkout才没反应。
+INFO:root:大长腿恍然大悟: 哦，那我知道为什么了。我需要先查log，再reset对吧，就像你刚才退回我不小心提交的那个版本一样，对吧？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Y2NtU1QG7vSE4rmLApHxPVpFjrYQ9QsK3rLtbhx2Mic7QmhBBYQz9sMA/640
+INFO:root:字母哥孺子可教：是的哦，如果commit之后，相当于目前的head指针指向了最新提交的内容，你需要找到上次提交的内容，用reset修改指针指向。
+INFO:root:大长腿小手一抖：哎呀，刚才我一不小心手贱把git关闭了，然后再用git log查看上传记录，一个都看不到了，怎么办啊？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YzFQUfD7IAYvibV8uia1TChBOlUtJrLNN4RWM0iakkIXlU14NxCFUjy2gA/640
+INFO:root:字母哥一口老血：平时使用的时候就得注意点哦，不要不小心关闭git了。不过一个优秀的版本控制系统总会给你好多后悔药吃的。这个时候就需要用到git reflog命令。
+INFO:root:git reflog命令会显示出你每一次操作命令，你看你之前的add, commit, log, reset命令这里统统都有显示，然后找到相应版本的id, 再用reset回退。
+INFO:root:现在世界就终于清净了。
+INFO:root:大长腿爱心泛滥：没想到关于一个git操作失误都有这么多学问，今天麻烦字母哥啦。待会请你跟静静吃海底捞，要不是你帮我这么多，以后就得你们去海底打捞我了。
+INFO:root:字母哥洋洋得意：哈哈，这个故事告诉我们，人帅又会用git，是会有免费海底捞吃的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yy4x3nKvofKSLxaKnJS4icrZm5DVng4xZ96kqHESiaMba9ZMwsiay4vEwg/640
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:- 成人网站Pornhup招人了
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:早晨起来发现这么一个很劲爆的消息：IBM宣布以2360亿人民币收购RedHat，这笔交易一旦达成将成为IBM自成立以来最大的一笔交易，也是美国科技历史上第三大收购案。
+INFO:root:关于RedHat「红帽」，我们开发者能比较了解的是它提供的操作系统Red Hat Enterprise Linux(RHEL)，但其实红帽远远不是一家提供操作系统的公司。除了操作系统，红帽提供的产品还包括云计算、存储、虚拟化、中间件等。
+INFO:root:红帽是世界上最成功的开源公司，世界上唯一一个年盈利超过10亿美元的开源公司。它通过把开源社区的项目产品化，使普通企业客户更容易消费开源创新技术。红帽将系统源代码共享给具有一定资格的使用者，并且这些使用者可以免费使用并且进行自定义编写红帽的产品。
+INFO:root:IBM坦言此次收购Red Hat主要是想在云市场发力，近几年来无论是在美国还是在中国云计算都是大公司们追逐的话题。国内的华为云、阿里云、京东云，国外的Microsoft Azure、Amazon Aws.无一不在花大代价在云计算上面。
+INFO:root:IBM也不例外，此次收购红帽公司将使其成为多云和混合云市场的领导者。这两家公司认为，这一交易将使企业能利用云计算服务完成更多工作，提高应用和数据的便携性、安全性。
+INFO:root:IBM的总裁表示：如今，大多数公司租用计算能力来削减成本，它们的云计算之路仅走到 20％，接下来的 80％ 是关于释放实际业务价值和推动增长的，这才是云的未来。它需要将业务应用程序转移到混合云中，提取更多数据并优化从供应链到销售业务的每个部分。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/b96CibCt70iaa8r7PJoyAtlfHAKe8RosE3UGPUQnuib0MWzGRby3b3aNvlUg4bQbFLwHQUsCRatNc4ab8WCrLH9LQ/640
+INFO:root:小甲有话说
+INFO:root:1.各位小伙伴们应该会问这次收购会对Red Hat有什么影响吗？
+INFO:root:从IBM的收购方案来看，Red Hat将作为IBM混合云团队独立运营。通过此次收购，IBM将继续致力于红帽的开放式治理、开源贡献、参与开源社区和开发模式，以及促进其广泛的开发人员生态系统。但其实从历年收购案来看，独立运营也只是暂时的。
+INFO:root:2.这次收购跟我们有什么关系？
+INFO:root:其实硬要说跟我们这些开发者有什么直接关系，我觉得倒是没有，但是近几年的这种云热潮，能让我们这些普通人知道当前的发展趋势，对未来的自身的发展选择有所借鉴意义。
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝：都是爬虫的锅
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:阅读本文大概需要 4 分钟。
+INFO:root:大家都知道最近各个行业不太景气，互联网行业也毫不例外，其中以游戏等为首的细分行业更是一跌再跌。我之前也写过一篇文章给大家支招：互联网寒冬来了，怎么去应对。
+INFO:root:互联网行业不太景气最直接的表现是股票大跌，然后就是各种公司的裁员了。最近就传出了阿里和华为缩招的消息，虽然之后阿里华为都出来辟谣了，但是一切的消息都不会是空穴来风的。
+INFO:root:从智联招聘发布的数据来看：今年的第三季度跟去年相比，互联网内各个行业的招聘需求都下降了接近40%
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdajF93Fia1o4fHYvJ6jn7zIMtWP4iaTFeTeibsxyT5JrwS5uHHPcXGuFyqw/640
+INFO:root:大公司在缩招，小公司也没闲着。这不华为缩招的「谣言」还没几天，人工智能明星企业第四范式就出事了。
+INFO:root:第四范式在互联网业尤其是人工智能方面已经是非常优秀的企业了，在今年校园招聘阶段凭着自己的名声招纳了不少优秀的学生，最终经过层层选拔大约一共发出了90封左右的offer意向书。
+INFO:root:但是发了意向书之后，第四范式却一直拖着不给发offer，实际上就是想对offer毁约。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhda1DDESdicNo76PGavwNVWqK6kdFSe1sPyz2FStqjuTORguTibGtfEUGaw/640
+INFO:root:这种单方面毁约的行为对很多学生来说无疑是非常大的打击。作为一家还算比较有名的公司，不遵守合约、不守诚信也是非常让人作恶。想想这些被毁约的同学，现在秋招都快结束了，本来想着找到工作了就安安稳稳的准备毕业的，现在可倒好。
+INFO:root:大公司蹲，大公司蹲，大公司蹲完小公司蹲。很多毕业生本来想着：大公司的工作不好找就算了，先去小公司磨练磨练也不错，但是从现在的情况来看，有点高兴的太早了。
+INFO:root:第四范式这件事情我这两天一直在关注。也就是在今天的时候我突然看到一个消息，字节头条「字节跳动是今日头条的母公司」HR放出了一个消息或者是说政策：
+INFO:root:如果你已经拿到BAT网易等互联网大厂的offer，或者你拥有AI独角兽or准独角兽公司的offer，那你将享受绿色通道，获得直通字节跳动面试的资格！
+INFO:root:
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaxwCl6cQjsgt2HkbwwrP7tfbKflaCX3VLbjJ44emR2lUZBJNcfUYvfA/640
+INFO:root:
+INFO:root:虽然今日头条没有明确提出，但是字里行间的「AI独角兽」有些特指的意味，很明显今日头条打算把这些被第四范式毁约的同学以及其它有相同遭遇的程序员接下来，可以参加今日头条的直通面试。
+INFO:root:这事情真的让我眼前一亮，以前我就听说今日头条是一个很注重技术人才的公司，今日头条的推荐算法团队可以说是全国最牛逼的团队，不少程序员挤破脑袋想进去。以前只是听说，真实情况不太了解，但是这件事情可以说证实了这一点。
+INFO:root:头条可以说是一个非常聪明的公司，我们能看到这个政策非常聪明，体现在两个地方：首先这批程序员都是经过大厂、独角兽筛选过的人，对他们来说筛选成本就降低了；第二头条接纳并且给这些程序员机会，相信不论是对那那拿到offer却被毁约的人还是广大程序员群体都是非常大的安慰。
+INFO:root:当然，最最重要的是头条还通过这件事情向我们这些程序员群体传达了消息：并不是所有的大厂都是在缩招的。同时头条还给互联网行业其它的大厂以及小企业做了一个非常好的榜样。
+INFO:root:最后，虽然一而再再而三的传出这种消息，但是大家仍然不要担心，因为从数据来看，咱们所在的互联网行业的薪资仍然是最高的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaSlQibDATibr6slgx9lVt35n6SD7CDkMOy9AuB4MKjtUe4lF4H0QoDUxw/640
+INFO:root:而且还是有像今日头条这样的大企业在不断的扩大招聘的，据我所知今日头条今年秋招一次性放出5000个HC，包括2000个技术HC，是一般互联网大厂的3-5倍，不但是今年最大规模的互联网校园招聘，可能是有史以来最大规模的互联网校园招聘。
+INFO:root:所以想进大厂其实机会一直是都在的，只是你有没有好好把握。总结一句：就算是经济不怎么好，也就算是互联网真的来了，那又怎样？只要真的好好学习了，有一身好的本领，什么样的公司会不要你呢？
+INFO:root:希望大家把今日头条这件事情转发传播出去，让更多的人看到，也让更多的企业看到。这件事情，我必须给头条点赞！
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝：都是爬虫的锅
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:近期正值冬招，Pornhup公司也招来了几位实习生，分别是：北大还行静静、清华不错ABCDEF「人称字母哥」，南翔技校盖儿「人称大长腿」
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduqGlPndwq6IWQnLlUbFmGHOd0hftuJ0WStQ2IEkiapFMjt5gqicBTaIgg/640?
+INFO:root:每年实习生来了，一般都有一个实习生培训，让实习生们快速的融入Pornhup的工作环境中。
+INFO:root:搁在以前大家都是不愿意去培训的，但是这次不仅公司的老王，老张吵着要去培训这几位实习生，连公司的女程序员都抢着要在实习周去培训他们。
+INFO:root:那么到底是什么原因让这几位实习生备受公司的重视？因为北大还行吗？其实是因为来的这几位实习生，男的是长这样子的：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zDzaqLOWiaANukG0iav1EibLtkwWK8ob5YSTsiaB1lbeLnMn1eBmNr6wbicg/640?
+INFO:root:女的是长这样子的
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zhocZNJ8MOYT2DnicmibEsGZ4LBUJcDlczjdfu7ungC1XmNpgQQDLiaFqg/640?
+INFO:root:就在公司的各种骨干吵得热火朝天的时候，还是管理者人甲出面，解决了这个问题：
+INFO:root:各位，我看这几位高材生，还是我亲自出面培训他们吧，不然显得咋们Pornhup不重视实习生，所以大家都不要争了，就这么愉快的决定了。就由我代替各位直接到前线去亲力亲为吧。
+INFO:root:小甲内心OS：这么漂亮的妹子，当然是我来了！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdurrLeuDy0E3kuqfR3I840dKutoaibxLOxGkvicalcuPVYjJacRNicZCQvg/640?
+INFO:root:人甲：欢迎各位加入Pornhup公司，相信之前的新员工培训大家已经知道我们公司的规章制度了。那么咱们也废话不多说，主要讲讲咱们公司程序员工作中使用的最重要的工具：版本控制工具Git怎么使用。
+INFO:root:Git是什么相信在这里不需要我多解释了吧？
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduZ7wtdwnr4ZicJePic7dE7lL07uYfgqophKCwLu8g6zYdGs0kzCCEibIrg/640?
+INFO:root:人甲：我们公司的Git分支主要涉及到：master，即主分支，这是每个项目必须有的；develop, 开发分支；feature，从develop分支上分出来的功能分支；release, 发布分支；fix，补丁分支；hotfix，热补丁分支。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCducGwpDpky1V3aRUZoVxI80iczQbyv8sRu7Rvhu0zvtXyQvbYiaPbV7Q7A/640?
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdusdbb0AiaBib6v6xe3Ugnxia1koibIDR2L6scibcvar5tbqjPI0NE4uAlNMQ/640?
+INFO:root:人甲：哈哈，目前听不太懂没关系，今天是第一天，我主要给大家讲一些基础。我就拿你们以后开发经常需要用到的feature分支举例子吧。
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduXmJ3lSUCNFeHzF4qeNhRWicxx8dcicSq1NhLOWDkZia2FdkRtL8HibgGxQ/640?
+INFO:root:人甲：首先，大家需要从Github上用git把我们的Pornhup项目下载下来。
+INFO:root:字母哥：那个，甲大，咋下载啊？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdugMlUUicRlTc0tznrI0icLsvjL7IIKXY7ibGnw29JKFjuoDEmkrliafu1KQ/640?
+INFO:root:静静：我看你有张吴彦祖的脸，为啥却没别人那智商，这你居然都不知道！
+INFO:root:要从Github下载一个项目，需要用到clone命令。在你常用的目录下面打开git, 输入如下命令，就把项目下载下来了。
+INFO:root:git clone xxxxxxx.git
+INFO:root:我说得没错吧，甲大
+INFO:root:人甲：嗯，没错。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdumlSZTE83nFWoj5DouHu9ur0XKsS3JPabKJ2ShL7xtJ9efeu96kVmZA/640?
+INFO:root:下载下来我们的项目后，默认是在master分支。master分支你们可以理解为是老虎的屁股，摸不得。
+INFO:root:所以就需要用checkout命令跳转到develop分支。checkout [切克闹] 被用来切换分支，是git中最常用的命令之一。
+INFO:root:git checkout develop
+INFO:root:如果这个时候，字母哥接到个任务是加入A功能，你知道该怎么做吗？
+INFO:root:字母哥：我想想啊
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduiaIzP8BC1icjeIEp9OFoicicvPGYctwKJBvicThITwfhbP9p2wzGygIrPsA/640?
+INFO:root:好像我们也不在develop分支上直接操作，这个时候应该需要再从develop分支上搞个分支出来。创建一个新分支，就需要用到branch命令。
+INFO:root:git branch feature-Agit checkout feature-A
+INFO:root:人甲：你这样说也没错，其实还有更简单的办法。两条命令合并成一条，branch直接用-b代替，然后再用checkout跳转到该分支，所以上面两句命令就变成一句了
+INFO:root:git checkout -b feature-A develop
+INFO:root:然后你们就可以在这个feature-A分支上完成你们的工作了。那么，如果代码写完发现没有问题，接下来大家知道怎么做吗？
+INFO:root:静静: 哈哈，我知道！
+INFO:root:用add命令来添加新写的代码
+INFO:root:commit命令用来提交新写的代码
+INFO:root:git add feature-Agit commit -m "add feature A"
+INFO:root:人甲：静静你很厉害嘛，晚上下班到我办公室来。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdussK5icNzDuPa0ZQ8ia4WIedohQefmeJAGqnpkKNx7YjOxUicgpT3TI6icQ/640?
+INFO:root:但是先add, 再commit你们不觉得很繁琐吗？git这么设计必定由它的道理，你们有人知道为什么需要先add, 再commit吗？
+INFO:root:静静、字母哥、大长腿：不知道欸，没仔细研究过。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduejc5ILQW0YaB0H3gGGcRhZDLqGtTWMGm5vicxQPYZnZbm7zeqKzZlibw/640?
+INFO:root:人甲：git有好几个区，我们平时更改添加删减的代码都在工作区里面保存。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdu5RHAtZDmZw5VZxxtSjopLuUbG4ILDmSib89A8Zqo4oApmJyLnbOWTtg/640?
+INFO:root:add命令执行后，修改被保存到暂存区。可以理解为你操作本地文件按了下ctrl + s
+INFO:root:然后当你commit后，暂存区里的东西就被保存到了本地仓库。这里可以理解成你把修改好的东西放到了仓库，已经准备好运到下一个仓库去了，也就是所谓的远程仓库，Github。
+INFO:root:静静、字母哥、大长腿：原来是这样啊！！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduayOqbsDZYL1v07P0iclZa69fXFdo0Y66cQZOhia1U5BLiayYdAVe782RA/640?
+INFO:root:大长腿：人甲，接下来我来抢答下，add跟commit后是不是这个时候就用到merge命令，合并feature-A分到develop去啊？
+INFO:root:人甲：不对哦，你如果这样做，很可能出现冲突。因为可能出现有很多人在develop分支上更新。所以你这个时候用pull命令，把远程仓库的更新取回并更新。
+INFO:root:git pull origin develop
+INFO:root:然后再切换回自己的分支，用rebase命令合并新更新到自己目前工作的分支。
+INFO:root:再检查有没有冲突，最好双手合十起到没有冲突，有的话可能目前你们的水平也解决不了。
+INFO:root:静静、字母哥、大长腿: 这么麻烦啊！！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduSmfQhVyEgpjx04XOoxosqhRoX4grjsqn96xN0P9rYnOHNBJ60VicRZg/640?
+INFO:root:人甲：没办法，git就是这么设计的，如果一切安好的话。就可以用merge命令合并分支
+INFO:root:git merge --no-ff feature-A
+INFO:root:合并之后就剩下最后一步操作了。
+INFO:root:大长腿: 甲大，选我来说
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduk5hyC0Gt6FFpQ09ibuE1coiaIpAqq4ChsLFBVlEcAwE0icPYqdSyeb3Hw/640?
+INFO:root:这个时候，我们已经成功合并分支到develop分支上了，为了防止工作丢失，可以把刚才的工作推送给到云端去了。
+INFO:root:人甲：是的，最后一步工作就是用push命令推送到Github就完事了
+INFO:root:git push origin develop
+INFO:root:好的，今天就给大家讲这么多，大家要是明白了之后，就可以去试着开发上面交代的工作了。
+INFO:root:对了，静静，下班后请你到我办公室来。
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:「没有大公司的命，得了大公司的病」想起这句话的时候源自于我跟一家小企业的合作。整个合作的流程非常糟糕，甚至让我觉得他们并不是一家称职的外包公司。
+INFO:root:流程混乱
+INFO:root:群龙无首
+INFO:root:流程冗长
+INFO:root:整个合作让人非常之不爽
+INFO:root:我断言这家公司在未来的路走的不会太远。具体怎么说？且听我详细说来。
+INFO:root:小公司的优势在于小巧灵活，甚至可以因为外在因素调整公司的大方向。小公司因为其小、人员简单，做事情的流程也相对简单。比方说你想调整一个线上的小功能，可能就是拉上几个人一起开个会，通过了就能开发了，然后就上线了。这个流程可能就是一周的时间。
+INFO:root:但是在大公司是不行的，你有这么一个小想法需要经过一层一层的审批，审批完了之后也需要开发来 评估排期，测试测试排期。很多想法被扼杀在审批中，开发也会拒绝掉一些需求。这样一来一个想法的实施非常难，就算能够实施也是几个月之后。
+INFO:root:说实话
+INFO:root:看到这个流程之后
+INFO:root:你自己可能会把想法只埋在心中了
+INFO:root:再问你一句：
+INFO:root:几个月之后
+INFO:root:你还有动力？
+INFO:root:以上只是个例子。小公司能够成功，非常依赖于这一点：所有人都有话语权，做事情流程简单也很迅速。
+INFO:root:但是所有都有话语权并不是说每个人都是老大，就是说在整个公司中必须要有统一的声音，并且有非常明确的谁大谁小的概念，尤其是对外的时候。
+INFO:root:在对外合作的时候，小公司派出多个代表与合作方对接，最后多个代表却代表了多层的意思。比方说是一个软件的开发需求，代表A的需求是N界面，代表B的需求是M界面。
+INFO:root:出现这种状况
+INFO:root:本质上就是管理权的问题
+INFO:root:散漫惯了
+INFO:root:很难改变
+INFO:root:当然这种管理权的问题说到底其实又是流程的问题。如果公司早已经把对外合作、对内工作的这种工作形成了一套流程模板也不会出现上面所说的这种情况。
+INFO:root:无论是一家公司还是一个团队，规章制度是必须要有的。如果没有规则的约束，公司的一切都是混乱的，会出现种种你不愿意看到的东西。
+INFO:root:各位小伙伴
+INFO:root:如果碰到符合上面特征的公司
+INFO:root:听我一句
+INFO:root:撤！
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wf5rxZQ06pTJOPbJIcLWGCtq4FanHrpA0w6zQekOhVF3hXfNtGcEeXw/640
+INFO:root:单词是基石
+INFO:root:https://mmbiz.qpic.cn/mmbiz_gif/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqF9fYaGBSg5vmbVJSsDWqYoGRNBsMia1NyTuAJg3F5Mc7oefCYXc2fRg/640
+INFO:root:为什么学英语这么难？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/tPK9oOJ9hl01iaHuwlx3smsCKpvvibQuZaZiceSo3nlKHVV15jvRqz0cROGpiaMVc01Za7WBNlrnVuianVVXQRQL7kw/640
+INFO:root:答案是显而易见的。传统的学习英语、背单词的方式根本就是错的！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJicT1SQLiaHicgV5sxvSQSsYudDcAg5hjIgo6YcC7DzV5qMaSDhp85T5w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wvhhWDXSibHhqOpCup6jn9LfUwZciaU0cFd6HXibsFdWh71BoyBotYTssQ/640
+INFO:root:所以只要我们在对待单词时，不要死记硬背，把它们融入到我们的生活中，奇迹就发生了！
+INFO:root:极光单词
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJyNG1VMe2IQXKsZfvnxiaLLctkibJSAeKhZTId3iaWasOicTqW2nc0F8wg/640
+INFO:root:极光单词
+INFO:root:让每个人都拥有记光单词的能力！
+INFO:root:【电影原声】+【电影画面】
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZLNRQfAgJtkpdKqpPyAmZmujibViczWYtBSnJGbPdcLPicyKHmh3N6KgA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlK4GB0wo9esGedo5wW3xYNLKcLfTM7QFp3DibV5YFzyiavv7ibMPwCIuRWw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKcptx6Csz8h0AcC4UHBYh6OlJr6qAQWliafbWq1n7zvANG2mh4DmuOMw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKTjicG2Du3y0VaAmtUxDVfe1pLgD7wLAw5Fn2YC3eOIibJxDaphiasjXrg/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZM0VvpEbZZEIc98XxiaSKKb9W6ia4l4ZopSRbHupQ2j3dbWnGHMgQLKA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKjZWaibYNOWcFssiaDB1CAtgHngWBfTCo3LJhMaibMoeImyLSjDQ0TIxtw/640
+INFO:root:极光单词还把每一个单词都放在了与我们生活息息相关的情景之中
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKs4zOic73KrJ84hiaV2p6Vl4boFHkcTQZWmU7I7pMtrofC9cgumnTmia2A/640
+INFO:root:突出了它们最能被记住的特征！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8ib7odrZbAj0fnFEglSq4H2V2qfnTrpLfo63agXNeQy3fOWp1ibVyJOQ/640
+INFO:root:用这些特征，直击每个英语学习者的记忆神经。
+INFO:root:第一天心血来潮背了200多个单词
+INFO:root:第二天累了只背了50多个
+INFO:root:第三天20个
+INFO:root:第四天就完全放弃了，把单词书扔在一边逍遥快活去了……
+INFO:root:学习赌局返现金钱来刺激
+INFO:root:返1元69元全部返还！
+INFO:root:一个程序员的日常粉丝专属福利
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期仅开放100个名额，先到先得！
+INFO:root:90%退回了全部学费
+INFO:root:极光单词
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jSkyVJH0rfV9jTzbxicKVjBhfZCVKUb6wvF2klQfRuHnK78E8KPvQxwicf1EIVvlaR491UQRg7BKw/640
+INFO:root:美剧、VOA、BBC纪录片原生……
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8vcsEsIdnUapSZIia1VYmZa5qRq4lBeLuRcicGKPxM1vKLkIePYgUHicQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w5vddK7FJgMcdm3Z5BHlod5b66ib9UO6zQpgLy4yXw4VVxyE9mibia5NVA/640
+INFO:root:情景记忆法
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wPzNFzpQXjvd7VgnLCk8xFYXjBhsLoXuLib74OPSEhCP17MxSPLVvXPg/640
+INFO:root:医疗、亲子、旅行、商务新概念、以及小学、初中、高中、大学四六八级、留学考试（雅思、托福）、KET、GRE
+INFO:root:学习赌局返现金钱来激励自己学习。
+INFO:root:返1元69元全部返还
+INFO:root:一个程序员的日常粉丝专属福利
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期活动仅开放100个名额，先到先得！
+INFO:root:90%的学员
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicVPVSAx4LmsuYUFJibBe6olvP6iaDpWC2fy9ALYtVXMRsnmok2QMeBVYwVuHsTJhIMsP0eibHUulicDg/640
+INFO:root:***  课程评价  ***
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH56NLveo135AJbevoLgVrPBcm2DkDuHibiakrhOADGnKsXXa5OqxbsfpMQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wSZicChecNIFezgHJeGlXYEewJxJ8pT3qcNHWkicQQXOvvuLGDibAErh8g/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wrZAvoGk88icehHEqoCWtP19w6D3WP1Zztm7RoEgBdIhiamuQXrprPic3w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wGYyiaLicGiaoicAx03ehrTL0kAsIM16ArcRCnIiaxjguF2R9Zb6Dibyphjibg/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH5WcDuiacZ4SH611V4fhh970p9DpDMyZl1ia9xC16wnjSib6lIJC6v8aZ7w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wZmaUatgliarsLuot55d2cUiaU3LYn43Cxe3mVaibSoggmGgXN0iawUTRPQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wkq1cibzZEJ8FMLGrgdPdKEUmicuuia6YJufjkh8CzVslbhmnEqgIHGdEw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wwtLqZYHwdwu8Rx7I5947KfiaLKVkzDicApEbUe8v25v8TiaiaFxBhMHJrw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wLacYZ3VhEAXtscTGwiaTVv5SFB7TyDNw4QC2lNLDkxdLaOId7PsMHoA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wn7ct9WaEA4ga2IH5AUZfXseCFQLkmcl5nAnW5WP5UubcCLDFQ0ENRw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wsw8nhlmAnwNMZjiaFeQmNJAdHgDPWg4EVRpMXkbQ9VcJJq2TemM4jicw/640
+INFO:root:全额退费
+INFO:root:一个程序员的日常粉丝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+WARNING:apscheduler.scheduler:Execution of job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:34:10 CST)" skipped: maximum number of running instances reached (1)
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期活动仅开放100个名额，先到先得！
+INFO:root:▼点击原文链接，立即参加赌局！
+INFO:root:几天马蜂窝这个网站火了，世界杯期间它是因为那个洗脑的广告火的，而这几天火是因为几个程序员捅了它。他们采集了马蜂窝的数据，他们用马蜂窝的数据跟携程、大众点评等网站的数据对比，发现了一个惊天的事实：
+INFO:root:马蜂窝整个网站的自称21000000条的真实点评，实际上其中有85%的点评搬运自大众点评、携程、yelp；也就是说马蜂窝这个网站上的真实点评可能只有315万。
+INFO:root:官方口径的2100万
+INFO:root:VS
+INFO:root:实际上真实的315万
+INFO:root:你特娘的也是个人才啊。其实咱们都知道在当今的互联网界，大家在冷启动的时候都喜欢这么干：把别人网站的成熟的资料抄袭过来。我们都熟知的Airbnb在冷启动的时候前1000个房源信息就是从Craigslist采集过来直接贴在网站上的。
+INFO:root:同样来自携程、大众点评等网站的这些点评资料拿过来之后可以丰富马蜂窝网站的内容。冷启动的时候干情有可原。
+INFO:root:但是马蜂窝错就错在
+INFO:root:它不是冷启动的时候在做这件事情
+INFO:root:他是一直在做这件事情
+INFO:root:甚至在公司内部养着一个大型的团队在做这件事情
+INFO:root:把抄袭、搬运做大了规模
+INFO:root:做成了产业
+INFO:root:这不是找死么？
+INFO:root:过了冷启动期其实也可以干，你看国内的很多新闻网网站都是互相的采集对方的新闻信息进行伪装，今日头条也采集新浪微博的，悟空问答也采集知乎的。
+INFO:root:但是这种采集都要有个限度、要小声的采集，你网站本身提供的独立价值要远远大于抄袭搬运带来的价值。
+INFO:root:而马蜂窝就不一样，你默默的抄袭也就罢了，你默默的搬运也就罢了。你还生怕别人不知道，所以你还非要在各种地方重点宣布：来自网友2100万的真实点评，引以为傲。
+INFO:root:你还把这2100万的真实点评数据放在投资人的面前，投资人眼花了，一转眼间给马蜂窝投成了独角兽，体积大了几千倍。虽然我知道国内很多投资人都是只看数据、不长记性的，但是这么造假玩骗钱就有点过了。我想问问马蜂窝「独角兽」
+INFO:root:马蜂窝你们在用假数据宣传的时候就没有一点的脸红吗？
+INFO:root:你们在用假数据向投资人骗钱的时候就没有一点心虚吗？
+INFO:root:哦，我懂了，可能宣传久了，你们已经认为那2100万点评真的是你们自己的了。
+INFO:root:按照马蜂窝这个逻辑，说实话，我一个程序员加上一个能吹牛的合伙人我们能复制出一百个独角兽出来。
+INFO:root:我可以采集飞猪、去哪儿、携程所有酒店的资料和点评内容，做一个酒店预订网站，而且保证我的酒店信息和点评资料是全中国最全的、最大的，投资人你给钱吗？别问我为什么，因为我是汇总的。
+INFO:root:我可以采集知乎、悟空问答、Quora等等所有问答内容做一个全球最大的问答网站。别问我为什么敢自称最大，因为爬虫所以自信。
+INFO:root:我可以采集…
+INFO:root:现在爬虫这个技术是有些泛滥了，会爬虫的人和公司也越来越多了。所以造假、搬运、抄袭的成本也越来越低了。
+INFO:root:不奢望捅马蜂窝这事情能改变互联网大环境，
+INFO:root:但致少能给那些还在抄袭的大型互联网企业敲个钟吧！
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:坐在办公司的人甲看着显示器前记录Pornhup的访问量相比前几天有所下降，看着10月31日万圣节就要到来，再过几天又是双十一，还有程序员节1024，人甲眉头一皱，发现事情没那么简单。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6y8EibffD3niciaicgTOzqrvLtTLYfOBbfjyibCvRtVWRjiaibALcpCkSG0dGg/640
+INFO:root:目前pornhup流量走低只是暴风雨前的平静，有经验的管理者都知道，每逢大节来临，网站必定流量激增。到时候如果pornhup如果出现服务器宕机，全球70亿同胞无法正常看「电影」，那可就出大事情了。
+INFO:root:全体集合，开个会吧。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6gctK6mWbtEPicROM6zKxfiaiaulX5J9YGsGMW7WKOa6ppibLENKC05fLAQ/640
+INFO:root:
+INFO:root:管理者人甲：各位，由于我们目前的服务器选择的带宽刚好能满足我们业务的正常需求。但是我有预感，过几天我们的网站即将引来一次流量激增，到时候我们目前的服务器配置可能处理不了那么大的访问量，可能会导致服务器宕机，各位对此有什么好的解决办法吗？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6VMPKD9aKftCdjGdEBbziasicDYZJuQEOh58wHAETib0fTCaRlAT6dicEAw/640
+INFO:root:运维小A：网站流量暴涨这肯定是好事情，不过如果不能未雨绸缪，保证服务器的稳定，好事情也可能变成坏事。
+INFO:root:管理者人甲：哦？为什么这么说呢？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Fu7zquEyb92LcmCIE99WdknHmSP4jm2F2IJqP2RTe6sInojtcQRIMA/640
+INFO:root:运维小A：网站访问量增多，更能提高我们pornhup的知名度，同时吸引更多人来我们网站投放广告，我们也能通过访问量赚更多的钱。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Qy5YkeULlB2XTR0fveq2poBFcDGbl6kYhqPwib8l1kWnkksuEj8WWGQ/640
+INFO:root:但是，要是网站访问量人太多，造成资源耗尽，超出带宽使用范围，服务器处理不过来如此大量的数据，就会导致服务器宕机。
+INFO:root:服务器出现宕机，可能会出现数据丢失或损坏的情况。更可怕的是，要是服务器宕机，传出pornhup网站不稳定的负面消息，到时候产生用户对pornhup的信任危机，不是砸了自己的名声么。
+INFO:root:你看看国内微博整天宕机，千万不能像他一样！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6OMsMANSaxFwQ7Leg3IKianicgqN3xw7fHwqGF2lLLb6DeGEK80gw5tLg/640
+INFO:root:管理者人甲：是的，我们pornhup公司好歹也是世界500强，网站下线1分钟也可能造成很大的负面消息，服务器宕机这类的事情绝对不允许发生！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6ZibPePbAfYiabOswClX2RT1T8oQsGxhCDd6arK1cibuQzZ7UX0IcK7pxg/640
+INFO:root:运维小A：人甲刚刚预测后面几个节日，会有一大波流量来袭我们pornhup网站，当然这属于可预测的流量咯。
+INFO:root:那我这个老运维便给大家说说的对于可预测的流量激增可以采取哪些措施。
+INFO:root:1. 对未来的流量进行估算，提前购买带宽资源，增加高性能的服务器，优化数据库访问速度，对内容传输网络的配置进行流量优化。
+INFO:root:管理者人甲: 那这样大规模购买带宽，服务器肯定会增加不少费用吧？虽然我们公司已经很有钱了，但是花钱也是要有个尺度的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6icRbRCtSUdGk057ia6sYubCFaZXA1qWr3e0kdUtCibYlur6ia7wDqt4UlQ/640
+INFO:root:运维小A: 是的，上面说的是最基本的控制大流量的方面。当然还需要结合其他方面进行优化。
+INFO:root:管理者人甲：好的，那你继续说说你下面要说的方案。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6vHOjEY2FicquhQXHJCCeXDs7kZ8boibhMmhAxq2oK6419QicibjOOicBfgQ/640
+INFO:root:运维小A:
+INFO:root:2.部分网页可选用默认缓存模式。这样用户请求服务器的时候，这些网页已经在用户电脑上有了缓存，就不需要再从服务器上面下载，这样就可以减轻服务器负载。
+INFO:root:管理者人甲：但是一个网页最多也几百KB, 光从配置缓存的办法似乎不能减少太多服务器的压力。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q63Pm9v8SI2V2lmbTQXqU0IIaicY0icHC44Cetv5XqQhM0O1YtBpgePUdQ/640
+INFO:root:运维小A：
+INFO:root:3. 对于不影响到系统核心服务和性能的服务配置降级方案。因为服务器资源有限，所以服务器处理的内容也应分个有限等级。应尽可能的把系统资源让给优先级高的服务。
+INFO:root:这就像不重要的东西就先扔一边，别占着茅坑不拉屎是一个道理。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Z3zl7ia3sQBdnzicOWvQIDeje8wNe6Fj6AranW6ibR8SdEnsDMssQ9x1Q/640
+INFO:root:所以发现一些服务长时间超市或者有网络抖动，或者网页一些不必要的渲染，或者一些占用系统资源太高的应用，都可以进行降级处理。
+INFO:root:管理者人甲：这个解决办法听起来很不错嘛。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6v1m4szskQJNreSTSjHMQ7gnXnvQsEgHiahicHhicm1RLAECXLCaZbNmHg/640
+INFO:root:运维小A：
+INFO:root:4. 采取限流方案。对每个p2p进行流量监控，设置每个ip连接数和流量上限，并配置好防火墙。这样有恶意攻击，突发流量等情况则可进行拦截。
+INFO:root:管理者人甲：感觉小A说得很有道理，那么大家便按照说的方案去实施。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q64p22gh1PzHmETrMWUFnMT0ca6Dn33EKpwu5k5mNocOpicehMHfiaL1PQ/640
+INFO:root:运维小B: 不过，老甲，小A刚才说到的那些方案也只是在有可预测流量部分的解决方案。
+INFO:root:但是更多情况下，网站要面临的是不可预测流量。如果一直用小A那套方案，必定会造成很多服务器资源的浪费，这样做不行啊。
+INFO:root:管理者人甲：那么，面对不可预测流量激增的时候，又有什么解决办法呢？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q66hyzwufkZ53TQkibGXaqLxxHcBEY8tj6KNCOy7vebgNbpHfyz4ibibJ8g/640
+INFO:root:运维小B:
+INFO:root:1. 采用合适的CDN服务。CDN服务可以避开数据传输速度速度和稳定性上的瓶颈，保证传输内容更快更稳定。
+INFO:root:管理者人甲：感觉好像很厉害的样子，CDN服务能做到这么优秀，是怎么实现的呢？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6XeT1MHmPUOicEcP8mvjv53dzZS7EdhfEwJAvlv5moR1hKwvw2cGxA4g/640
+INFO:root:运维小B:其实里面的原理就是采用各种缓存服务器，通过负载均衡技术，让不同地区的服务器保存相应地区的缓存。
+INFO:root:比如北京地区就访问北京地区的节点，上海地区的用户访问上海地区的节点，这样访问的速度更快，也可以防止网络拥堵情况。
+INFO:root:2. 选择优秀的自动化运维工具也很重要。如果还按照传统的方案，几千台服务器全靠人去维护，效率不仅不高，而且维护起来还很麻烦。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6ib2MBvsSrQeTnTAQCBor6jNg2iccyBiaiasz3zicsibAs6FXSHZ1pqvaHppQ/640
+INFO:root:如果能采用一套好的运维工具，这样这些脏活累活全部交给计算机自动解决。这样就等于一套工具就把数名运维的苦力工作都做了。
+INFO:root:内部资源能更好的整合到一块，这样pornhup的服务器也能更好的面对流量激增的问题。
+INFO:root:嘿嘿，自从有了上述的几套方案，pornhup高清无码，想看就看。万圣节人甲邀你pornhup激情看片，约吗？
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了、Java也要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:apscheduler.executors.default:Job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:34:20 CST)" executed successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "begin_test" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "begin_test" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.executors.default:Running job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:58:15 CST)" (scheduled at 2018-11-04 18:58:05.535065+08:00)
+INFO:root:黑话这个词，说起来各位都会会心一笑。各行各业都有自己的行业内的黑话，产品经理有产品经理的黑话、金融行业有金融行业的黑话，而程序员这个群体虽然虽然忠厚老实，但是却有着丰富的黑话史。
+INFO:root:今天小甲就给大家来整理整理互联网公司程序员的黑话，出一篇程序员黑话指南，你只有了解程序员的黑话才能跟程序员打成一团，获得buff加成，产品尽早上线。
+INFO:root:作为程序员你只有熟悉掌握程序员黑话才能更快融入群体，从此一步走向人生巅峰、赢取白富美，走向人生巅峰。
+INFO:root:1. 跟产品经理对话的时候
+INFO:root:我想想这个怎么实现
+INFO:root:== 我想想怎么砍掉这个需求
+INFO:root:没看过别的产品这么设计的
+INFO:root:== 这功能也太傻逼了
+INFO:root:你确定有这个需求吗
+INFO:root:== 做出来没人用劳资打死你
+INFO:root:不好意思，我没听清楚
+INFO:root:== 你是傻逼
+INFO:root:今天做不了
+INFO:root:== 今天回去看新垣结衣
+INFO:root:下个版本再做吧
+INFO:root:== 我不想做
+INFO:root:别人家的实现方式不一样
+INFO:root:== 我不会做
+INFO:root:你这个需求不清晰
+INFO:root:== 要不打一架
+INFO:root:你说的这个东西有什么可以参考的东西吗
+INFO:root:== 废话少说，你想抄哪个网站
+INFO:root:正在改
+INFO:root:== 我去，刷知乎太久了，居然把这茬给忘记了
+INFO:root:我先评估一下技术难度
+INFO:root:== 先拖几天
+INFO:root:我再想想还有什么解决办法没
+INFO:root:== 我再去 stack overflow 上抄抄其他解决办法
+INFO:root:这个软件是用的是最典型的做法
+INFO:root:== 我抄的微信 || 淘宝 || 滴滴
+INFO:root:我测试的时候没问题啊
+INFO:root:== 傻X，你到底会不会用我的软件啊
+INFO:root:2. 当程序员跟外行交流的时候
+INFO:root:你怎么还在用Windows啊
+INFO:root:== Linux要不要了解下
+INFO:root:你用的什么浏览器？
+INFO:root:== 要不要试试Chrome
+INFO:root:抱歉，我不会修
+INFO:root:== 你大爷，又让我修电脑
+INFO:root:不好意思，这个我弄不了
+INFO:root:== 这个项目你能给多少钱
+INFO:root:时间不早了
+INFO:root:== 我还要回去写代码
+INFO:root:你用百度搜一下
+INFO:root:== 这么简单的问题也来问我
+INFO:root:== 看你这土鳖就不会用Google
+INFO:root:3. 当程序员跟同行交流时
+INFO:root:哥们，最近怎么样？
+INFO:root:== 秃了吗？
+INFO:root:你告诉我怎么做吧，我自己来
+INFO:root:== 别用你的脏手摸我的宝贝键盘
+INFO:root:Talk is cheap,show me you code
+INFO:root:== 看你整天吹牛逼，就知道你写不好代码
+INFO:root:今晚早点回去陪我女朋友
+INFO:root:== 我的右手已经饥渴难耐了
+INFO:root:明天天冷
+INFO:root:== 不知道家里有格子衫没
+INFO:root:你帮我看看我的代码
+INFO:root:== 碰到个bug，我已经要崩溃了
+INFO:root:你确定吗？
+INFO:root:== 我代码不可能出问题的
+INFO:root:你用的什么系统？
+INFO:root:== 我在Linux上运行的好好的
+INFO:root:我正在调试程序
+INFO:root:==不想理你
+INFO:root:你怎么还在学Python啊
+INFO:root:== PHP才是世界上最好的语言
+INFO:root:你怎么还在用VS啊
+INFO:root:== 辣鸡，Vim才是正解
+INFO:root:兄弟，你能上得了网吗？
+INFO:root:== 我代理好像出问题了
+INFO:root:兄弟，有梯子吗
+INFO:root:== 我想看Pornhub
+INFO:root:大佬果然是大佬，写的代码就是不一样
+INFO:root:== 这代码我一句都看不懂
+INFO:root:我下班了
+INFO:root:== 现在是凌晨了
+INFO:root:说到这里，作为程序员群体中最优秀的你们，日常生活工作中还有哪些黑话是我没整理出来的？欢迎各位小伙伴踊跃发言！我在留言区等你们！
+INFO:root:参考资料：
+INFO:root:http://www.sohu.com/a/130389343_612768
+INFO:root:距离上次送书活动过去很久了，前几个月可以说都是犯懒一直没给大家送书，小甲掐指一算又到了给大家送书的时候了，这不刚好又在后台收到了读者的提醒。
+INFO:root:这次我打算送出50本书，这些书是由博文视点以及图灵教育赞助的，另外呢我还自掏腰包给大家随书赠送一些非常有纪念意义的鼠标垫，以及其他小礼品。
+INFO:root:当然我必须要告诉你们的是：这些书都会有我本人一一签名以及写上祝福语再寄给各位最终中奖的读者。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHkxAxqKgXVmZ8N2afyMAxyopiaI1AbLM0P5U9zu6sZwYCj408cKPOpfA/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHqtBUZU05oH259vyWiaFJkOrklESUEWRoLqiakUJJB62ibDLVFiafXLCnsw/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHUqjdic9MWwaf61ba0Anvm19GjfibIyk0qvnnegjicMBlgnxkjj5qshWicA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHTbQUOXb5kARXtTOk6bARF0CqI6rnpZib3Q3l2W6VXalmPsH47Edq1Cw/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHE5ps7I4YPcjoXQ4b0H5WBJVK6GaNfdx0TTmewtZWBKurlDI6c56t3g/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHL0wn5spFZSibMvEov7DvsIHZTJyYEPMrnJUics6Ub4wcbiaTPhm5Pkkmw/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsH3icr9b5tYAUX5hjyZZlUPkib5Lw8L4Lk4oRZhyeJwBK7I6ic4RUlTMcgA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHQDLEZJnibUsVK2n6olLDTiaJfSjTV5sLR6BR1rb2mU048dM2wWR6SrjA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHbhxzYQHF45DUw7m8RHdQ5yhaxcbNlVwUveyags49JqjeMJwvUxQbVw/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHnkGyd2IvUwdcwwLDibPiciakuOCgZSrttI2qI9bM70lstfAmjsoxe7ccQ/640?wx_fmt=png
+INFO:root:另外，我公众号一般都不开赞赏，一个月就开这么一次，就是在做送书活动的时候，其他时间你都看不到打赏按钮。
+INFO:root:只要在这段时间内你觉得我的文章帮助到了你，你都可以小小的打赏意思一下，顺便也能当是买个彩票抽个奖。打个赏也能让我眼熟你，下次做活动的时候肯定忘不掉你。
+INFO:root:关于抽奖方式，简单粗暴，抽奖的方式就是从赞赏的人中抽取50位读者。另外，我这个人就喜欢听别人夸我，所以如果留言能有打动我的，我也会酌情加一些礼物，期待你们的表演了。
+INFO:root:Pronhup大公司招来了三位实习生「大长腿、字母哥、静静」，经过一周的时间他们已经慢慢适应公司的工作环境。这几天大长腿接到项目经理的一个需求：
+INFO:root:用户在看视频的时候，需要同时按住键盘上的「A+P+M」三个键才能观看，否则会直接暂停。
+INFO:root:但是因为她还不是太熟悉git，一不小心把一个还有bug的版本提交了上去。这个时候大长腿开始慌了，不知道该怎么办才能撤回提交。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YmQpuNI7KrXoIXCPuCDzbXT4Oaz2huv7mPELk6Ar9DVWfuqsuCbxnibQ/640
+INFO:root:大长腿立马向身边的静静和字母发起求救：静静，字母哥，不好了！快来帮我看看怎么才能撤回提交啊！我刚刚一不小心提交了一个有BUG的版本提交上去了，这个要是被甲哥发现，我估计就得gg了。
+INFO:root:字母哥路见不平一声吼：大长腿你别急，让我来看看！还好你没有把你的提交push到远程仓库，我看你这个还能抢救。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YRALQfib2KcBuuejSP50u1E6mvhVhY5Y8UicNn2eyD8TD9f40mmPiaUYbg/640
+INFO:root:这个时候，你可以用 git log 命令就可以查看历史提交记录。然后找到上一个版本的id，用reset命令就可以退回到上个版本了。
+INFO:root:git reset --hard id
+INFO:root:大长腿如释负重：牛逼，字母哥好手段啊！之前可担心死我了。还好可以回退回去。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yd84axetxJk4SnQwOENeR0QyICYibGlyV1KVK7dBnLIVKo5bibFiaoBsxw/640
+INFO:root:静静心生疑问：字母哥，我看你刚才操作的时候，发现git回退版本的速度好快啊，为什么这么快啊？
+INFO:root:字母哥雄赳赳气昂昂：git回退速度快，其中的原理只是更改了版本head指针的指向而已。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YV6Bxn8kqOEaFvRoYibXn1GzlIibzuvVaaOAHTrGicDKEfvJ9ghyVre03g/640
+INFO:root:以前head指针指向你新提交的记录，现在指针只改了个指向，指向到上一个版本，所以回退得快咯。
+INFO:root:静静由衷佩服：原来字母哥懂这么多啊。我也不太熟悉git里面操作失误如何处理，要不你给我们讲一下吧。
+INFO:root:字母哥洋洋得意：其实我们实际操作中，肯定会遇到某个文件被修改，文件不小心被删除「当然删除文件也算作一种修改」，但是之后又后悔之前的修改的情况。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YVB2YlmoVWfQ5bQC6nibROBPw9BWaL1zWMGrZtaSHV2MdBQbk4nnq6Ng/640
+INFO:root:还好有git, 这个时候就可以使用 git status 命令查看当前仓库的状态，被修改的文件都会显示出来。然后再使用上次甲哥讲过的，用git中最常用的切换分支的命令checkout就可以放弃更改了。
+INFO:root:大长腿似懂非懂：原来用checkout就可以恢复啊，我试试随便在test.txt里面改两句话。然后
+INFO:root:git add test.txt
+INFO:root:git checkout test.txt
+INFO:root:神奇！！果然恢复了！！
+INFO:root:静静一脸正经：别这么一惊一乍嘛，这些基础的东西不应该不知道的。
+INFO:root:大长腿跃跃欲试：哈哈，我还要再试一次，太神奇了。我就随便再在还原的文档里面再改动改动，看看还能不能再次还原。然后
+INFO:root:git add test.txt
+INFO:root:git commit -m "modify test"
+INFO:root:git checkout test.txt
+INFO:root:欸，不对啊，你看这次我为什么又无法恢复修改前的内容啊？
+INFO:root:字母哥恨铁不成钢：你随便在test.txt里面修改了几句，相当于工作区修改了；之后你又用add命令，工作区的内容就保存到暂存区了。
+INFO:root:用checkout命令只有当本地工作区跟暂存区有修改的时候才有用。但是你这次操作还加了commit，commit之后，工作区跟暂存区都是干净的，是本地仓库有了修改。要撤回本地仓库修改就不归checkout管了，所以你最后一次用checkout才没反应。
+INFO:root:大长腿恍然大悟: 哦，那我知道为什么了。我需要先查log，再reset对吧，就像你刚才退回我不小心提交的那个版本一样，对吧？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Y2NtU1QG7vSE4rmLApHxPVpFjrYQ9QsK3rLtbhx2Mic7QmhBBYQz9sMA/640
+INFO:root:字母哥孺子可教：是的哦，如果commit之后，相当于目前的head指针指向了最新提交的内容，你需要找到上次提交的内容，用reset修改指针指向。
+INFO:root:大长腿小手一抖：哎呀，刚才我一不小心手贱把git关闭了，然后再用git log查看上传记录，一个都看不到了，怎么办啊？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YzFQUfD7IAYvibV8uia1TChBOlUtJrLNN4RWM0iakkIXlU14NxCFUjy2gA/640
+INFO:root:字母哥一口老血：平时使用的时候就得注意点哦，不要不小心关闭git了。不过一个优秀的版本控制系统总会给你好多后悔药吃的。这个时候就需要用到git reflog命令。
+INFO:root:git reflog命令会显示出你每一次操作命令，你看你之前的add, commit, log, reset命令这里统统都有显示，然后找到相应版本的id, 再用reset回退。
+INFO:root:现在世界就终于清净了。
+INFO:root:大长腿爱心泛滥：没想到关于一个git操作失误都有这么多学问，今天麻烦字母哥啦。待会请你跟静静吃海底捞，要不是你帮我这么多，以后就得你们去海底打捞我了。
+INFO:root:字母哥洋洋得意：哈哈，这个故事告诉我们，人帅又会用git，是会有免费海底捞吃的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yy4x3nKvofKSLxaKnJS4icrZm5DVng4xZ96kqHESiaMba9ZMwsiay4vEwg/640
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:- 成人网站Pornhup招人了
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:早晨起来发现这么一个很劲爆的消息：IBM宣布以2360亿人民币收购RedHat，这笔交易一旦达成将成为IBM自成立以来最大的一笔交易，也是美国科技历史上第三大收购案。
+INFO:root:关于RedHat「红帽」，我们开发者能比较了解的是它提供的操作系统Red Hat Enterprise Linux(RHEL)，但其实红帽远远不是一家提供操作系统的公司。除了操作系统，红帽提供的产品还包括云计算、存储、虚拟化、中间件等。
+INFO:root:红帽是世界上最成功的开源公司，世界上唯一一个年盈利超过10亿美元的开源公司。它通过把开源社区的项目产品化，使普通企业客户更容易消费开源创新技术。红帽将系统源代码共享给具有一定资格的使用者，并且这些使用者可以免费使用并且进行自定义编写红帽的产品。
+INFO:root:IBM坦言此次收购Red Hat主要是想在云市场发力，近几年来无论是在美国还是在中国云计算都是大公司们追逐的话题。国内的华为云、阿里云、京东云，国外的Microsoft Azure、Amazon Aws.无一不在花大代价在云计算上面。
+INFO:root:IBM也不例外，此次收购红帽公司将使其成为多云和混合云市场的领导者。这两家公司认为，这一交易将使企业能利用云计算服务完成更多工作，提高应用和数据的便携性、安全性。
+INFO:root:IBM的总裁表示：如今，大多数公司租用计算能力来削减成本，它们的云计算之路仅走到 20％，接下来的 80％ 是关于释放实际业务价值和推动增长的，这才是云的未来。它需要将业务应用程序转移到混合云中，提取更多数据并优化从供应链到销售业务的每个部分。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/b96CibCt70iaa8r7PJoyAtlfHAKe8RosE3UGPUQnuib0MWzGRby3b3aNvlUg4bQbFLwHQUsCRatNc4ab8WCrLH9LQ/640
+INFO:root:小甲有话说
+INFO:root:1.各位小伙伴们应该会问这次收购会对Red Hat有什么影响吗？
+INFO:root:从IBM的收购方案来看，Red Hat将作为IBM混合云团队独立运营。通过此次收购，IBM将继续致力于红帽的开放式治理、开源贡献、参与开源社区和开发模式，以及促进其广泛的开发人员生态系统。但其实从历年收购案来看，独立运营也只是暂时的。
+INFO:root:2.这次收购跟我们有什么关系？
+INFO:root:其实硬要说跟我们这些开发者有什么直接关系，我觉得倒是没有，但是近几年的这种云热潮，能让我们这些普通人知道当前的发展趋势，对未来的自身的发展选择有所借鉴意义。
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝：都是爬虫的锅
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:阅读本文大概需要 4 分钟。
+INFO:root:大家都知道最近各个行业不太景气，互联网行业也毫不例外，其中以游戏等为首的细分行业更是一跌再跌。我之前也写过一篇文章给大家支招：互联网寒冬来了，怎么去应对。
+INFO:root:互联网行业不太景气最直接的表现是股票大跌，然后就是各种公司的裁员了。最近就传出了阿里和华为缩招的消息，虽然之后阿里华为都出来辟谣了，但是一切的消息都不会是空穴来风的。
+INFO:root:从智联招聘发布的数据来看：今年的第三季度跟去年相比，互联网内各个行业的招聘需求都下降了接近40%
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdajF93Fia1o4fHYvJ6jn7zIMtWP4iaTFeTeibsxyT5JrwS5uHHPcXGuFyqw/640
+INFO:root:大公司在缩招，小公司也没闲着。这不华为缩招的「谣言」还没几天，人工智能明星企业第四范式就出事了。
+INFO:root:第四范式在互联网业尤其是人工智能方面已经是非常优秀的企业了，在今年校园招聘阶段凭着自己的名声招纳了不少优秀的学生，最终经过层层选拔大约一共发出了90封左右的offer意向书。
+INFO:root:但是发了意向书之后，第四范式却一直拖着不给发offer，实际上就是想对offer毁约。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhda1DDESdicNo76PGavwNVWqK6kdFSe1sPyz2FStqjuTORguTibGtfEUGaw/640
+INFO:root:这种单方面毁约的行为对很多学生来说无疑是非常大的打击。作为一家还算比较有名的公司，不遵守合约、不守诚信也是非常让人作恶。想想这些被毁约的同学，现在秋招都快结束了，本来想着找到工作了就安安稳稳的准备毕业的，现在可倒好。
+INFO:root:大公司蹲，大公司蹲，大公司蹲完小公司蹲。很多毕业生本来想着：大公司的工作不好找就算了，先去小公司磨练磨练也不错，但是从现在的情况来看，有点高兴的太早了。
+INFO:root:第四范式这件事情我这两天一直在关注。也就是在今天的时候我突然看到一个消息，字节头条「字节跳动是今日头条的母公司」HR放出了一个消息或者是说政策：
+INFO:root:如果你已经拿到BAT网易等互联网大厂的offer，或者你拥有AI独角兽or准独角兽公司的offer，那你将享受绿色通道，获得直通字节跳动面试的资格！
+INFO:root:
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaxwCl6cQjsgt2HkbwwrP7tfbKflaCX3VLbjJ44emR2lUZBJNcfUYvfA/640
+INFO:root:
+INFO:root:虽然今日头条没有明确提出，但是字里行间的「AI独角兽」有些特指的意味，很明显今日头条打算把这些被第四范式毁约的同学以及其它有相同遭遇的程序员接下来，可以参加今日头条的直通面试。
+INFO:root:这事情真的让我眼前一亮，以前我就听说今日头条是一个很注重技术人才的公司，今日头条的推荐算法团队可以说是全国最牛逼的团队，不少程序员挤破脑袋想进去。以前只是听说，真实情况不太了解，但是这件事情可以说证实了这一点。
+INFO:root:头条可以说是一个非常聪明的公司，我们能看到这个政策非常聪明，体现在两个地方：首先这批程序员都是经过大厂、独角兽筛选过的人，对他们来说筛选成本就降低了；第二头条接纳并且给这些程序员机会，相信不论是对那那拿到offer却被毁约的人还是广大程序员群体都是非常大的安慰。
+INFO:root:当然，最最重要的是头条还通过这件事情向我们这些程序员群体传达了消息：并不是所有的大厂都是在缩招的。同时头条还给互联网行业其它的大厂以及小企业做了一个非常好的榜样。
+INFO:root:最后，虽然一而再再而三的传出这种消息，但是大家仍然不要担心，因为从数据来看，咱们所在的互联网行业的薪资仍然是最高的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaSlQibDATibr6slgx9lVt35n6SD7CDkMOy9AuB4MKjtUe4lF4H0QoDUxw/640
+INFO:root:而且还是有像今日头条这样的大企业在不断的扩大招聘的，据我所知今日头条今年秋招一次性放出5000个HC，包括2000个技术HC，是一般互联网大厂的3-5倍，不但是今年最大规模的互联网校园招聘，可能是有史以来最大规模的互联网校园招聘。
+INFO:root:所以想进大厂其实机会一直是都在的，只是你有没有好好把握。总结一句：就算是经济不怎么好，也就算是互联网真的来了，那又怎样？只要真的好好学习了，有一身好的本领，什么样的公司会不要你呢？
+INFO:root:希望大家把今日头条这件事情转发传播出去，让更多的人看到，也让更多的企业看到。这件事情，我必须给头条点赞！
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝：都是爬虫的锅
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:近期正值冬招，Pornhup公司也招来了几位实习生，分别是：北大还行静静、清华不错ABCDEF「人称字母哥」，南翔技校盖儿「人称大长腿」
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduqGlPndwq6IWQnLlUbFmGHOd0hftuJ0WStQ2IEkiapFMjt5gqicBTaIgg/640?
+INFO:root:每年实习生来了，一般都有一个实习生培训，让实习生们快速的融入Pornhup的工作环境中。
+INFO:root:搁在以前大家都是不愿意去培训的，但是这次不仅公司的老王，老张吵着要去培训这几位实习生，连公司的女程序员都抢着要在实习周去培训他们。
+INFO:root:那么到底是什么原因让这几位实习生备受公司的重视？因为北大还行吗？其实是因为来的这几位实习生，男的是长这样子的：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zDzaqLOWiaANukG0iav1EibLtkwWK8ob5YSTsiaB1lbeLnMn1eBmNr6wbicg/640?
+INFO:root:女的是长这样子的
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zhocZNJ8MOYT2DnicmibEsGZ4LBUJcDlczjdfu7ungC1XmNpgQQDLiaFqg/640?
+INFO:root:就在公司的各种骨干吵得热火朝天的时候，还是管理者人甲出面，解决了这个问题：
+INFO:root:各位，我看这几位高材生，还是我亲自出面培训他们吧，不然显得咋们Pornhup不重视实习生，所以大家都不要争了，就这么愉快的决定了。就由我代替各位直接到前线去亲力亲为吧。
+INFO:root:小甲内心OS：这么漂亮的妹子，当然是我来了！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdurrLeuDy0E3kuqfR3I840dKutoaibxLOxGkvicalcuPVYjJacRNicZCQvg/640?
+INFO:root:人甲：欢迎各位加入Pornhup公司，相信之前的新员工培训大家已经知道我们公司的规章制度了。那么咱们也废话不多说，主要讲讲咱们公司程序员工作中使用的最重要的工具：版本控制工具Git怎么使用。
+INFO:root:Git是什么相信在这里不需要我多解释了吧？
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduZ7wtdwnr4ZicJePic7dE7lL07uYfgqophKCwLu8g6zYdGs0kzCCEibIrg/640?
+INFO:root:人甲：我们公司的Git分支主要涉及到：master，即主分支，这是每个项目必须有的；develop, 开发分支；feature，从develop分支上分出来的功能分支；release, 发布分支；fix，补丁分支；hotfix，热补丁分支。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCducGwpDpky1V3aRUZoVxI80iczQbyv8sRu7Rvhu0zvtXyQvbYiaPbV7Q7A/640?
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdusdbb0AiaBib6v6xe3Ugnxia1koibIDR2L6scibcvar5tbqjPI0NE4uAlNMQ/640?
+INFO:root:人甲：哈哈，目前听不太懂没关系，今天是第一天，我主要给大家讲一些基础。我就拿你们以后开发经常需要用到的feature分支举例子吧。
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduXmJ3lSUCNFeHzF4qeNhRWicxx8dcicSq1NhLOWDkZia2FdkRtL8HibgGxQ/640?
+INFO:root:人甲：首先，大家需要从Github上用git把我们的Pornhup项目下载下来。
+INFO:root:字母哥：那个，甲大，咋下载啊？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdugMlUUicRlTc0tznrI0icLsvjL7IIKXY7ibGnw29JKFjuoDEmkrliafu1KQ/640?
+INFO:root:静静：我看你有张吴彦祖的脸，为啥却没别人那智商，这你居然都不知道！
+INFO:root:要从Github下载一个项目，需要用到clone命令。在你常用的目录下面打开git, 输入如下命令，就把项目下载下来了。
+INFO:root:git clone xxxxxxx.git
+INFO:root:我说得没错吧，甲大
+INFO:root:人甲：嗯，没错。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdumlSZTE83nFWoj5DouHu9ur0XKsS3JPabKJ2ShL7xtJ9efeu96kVmZA/640?
+INFO:root:下载下来我们的项目后，默认是在master分支。master分支你们可以理解为是老虎的屁股，摸不得。
+INFO:root:所以就需要用checkout命令跳转到develop分支。checkout [切克闹] 被用来切换分支，是git中最常用的命令之一。
+INFO:root:git checkout develop
+INFO:root:如果这个时候，字母哥接到个任务是加入A功能，你知道该怎么做吗？
+INFO:root:字母哥：我想想啊
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduiaIzP8BC1icjeIEp9OFoicicvPGYctwKJBvicThITwfhbP9p2wzGygIrPsA/640?
+INFO:root:好像我们也不在develop分支上直接操作，这个时候应该需要再从develop分支上搞个分支出来。创建一个新分支，就需要用到branch命令。
+INFO:root:git branch feature-Agit checkout feature-A
+INFO:root:人甲：你这样说也没错，其实还有更简单的办法。两条命令合并成一条，branch直接用-b代替，然后再用checkout跳转到该分支，所以上面两句命令就变成一句了
+INFO:root:git checkout -b feature-A develop
+INFO:root:然后你们就可以在这个feature-A分支上完成你们的工作了。那么，如果代码写完发现没有问题，接下来大家知道怎么做吗？
+INFO:root:静静: 哈哈，我知道！
+INFO:root:用add命令来添加新写的代码
+INFO:root:commit命令用来提交新写的代码
+INFO:root:git add feature-Agit commit -m "add feature A"
+INFO:root:人甲：静静你很厉害嘛，晚上下班到我办公室来。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdussK5icNzDuPa0ZQ8ia4WIedohQefmeJAGqnpkKNx7YjOxUicgpT3TI6icQ/640?
+INFO:root:但是先add, 再commit你们不觉得很繁琐吗？git这么设计必定由它的道理，你们有人知道为什么需要先add, 再commit吗？
+INFO:root:静静、字母哥、大长腿：不知道欸，没仔细研究过。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduejc5ILQW0YaB0H3gGGcRhZDLqGtTWMGm5vicxQPYZnZbm7zeqKzZlibw/640?
+INFO:root:人甲：git有好几个区，我们平时更改添加删减的代码都在工作区里面保存。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdu5RHAtZDmZw5VZxxtSjopLuUbG4ILDmSib89A8Zqo4oApmJyLnbOWTtg/640?
+INFO:root:add命令执行后，修改被保存到暂存区。可以理解为你操作本地文件按了下ctrl + s
+INFO:root:然后当你commit后，暂存区里的东西就被保存到了本地仓库。这里可以理解成你把修改好的东西放到了仓库，已经准备好运到下一个仓库去了，也就是所谓的远程仓库，Github。
+INFO:root:静静、字母哥、大长腿：原来是这样啊！！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduayOqbsDZYL1v07P0iclZa69fXFdo0Y66cQZOhia1U5BLiayYdAVe782RA/640?
+INFO:root:大长腿：人甲，接下来我来抢答下，add跟commit后是不是这个时候就用到merge命令，合并feature-A分到develop去啊？
+INFO:root:人甲：不对哦，你如果这样做，很可能出现冲突。因为可能出现有很多人在develop分支上更新。所以你这个时候用pull命令，把远程仓库的更新取回并更新。
+INFO:root:git pull origin develop
+INFO:root:然后再切换回自己的分支，用rebase命令合并新更新到自己目前工作的分支。
+INFO:root:再检查有没有冲突，最好双手合十起到没有冲突，有的话可能目前你们的水平也解决不了。
+INFO:root:静静、字母哥、大长腿: 这么麻烦啊！！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduSmfQhVyEgpjx04XOoxosqhRoX4grjsqn96xN0P9rYnOHNBJ60VicRZg/640?
+INFO:root:人甲：没办法，git就是这么设计的，如果一切安好的话。就可以用merge命令合并分支
+INFO:root:git merge --no-ff feature-A
+INFO:root:合并之后就剩下最后一步操作了。
+INFO:root:大长腿: 甲大，选我来说
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduk5hyC0Gt6FFpQ09ibuE1coiaIpAqq4ChsLFBVlEcAwE0icPYqdSyeb3Hw/640?
+INFO:root:这个时候，我们已经成功合并分支到develop分支上了，为了防止工作丢失，可以把刚才的工作推送给到云端去了。
+INFO:root:人甲：是的，最后一步工作就是用push命令推送到Github就完事了
+INFO:root:git push origin develop
+INFO:root:好的，今天就给大家讲这么多，大家要是明白了之后，就可以去试着开发上面交代的工作了。
+INFO:root:对了，静静，下班后请你到我办公室来。
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+WARNING:apscheduler.scheduler:Execution of job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:58:15 CST)" skipped: maximum number of running instances reached (1)
+INFO:root:「没有大公司的命，得了大公司的病」想起这句话的时候源自于我跟一家小企业的合作。整个合作的流程非常糟糕，甚至让我觉得他们并不是一家称职的外包公司。
+INFO:root:流程混乱
+INFO:root:群龙无首
+INFO:root:流程冗长
+INFO:root:整个合作让人非常之不爽
+INFO:root:我断言这家公司在未来的路走的不会太远。具体怎么说？且听我详细说来。
+INFO:root:小公司的优势在于小巧灵活，甚至可以因为外在因素调整公司的大方向。小公司因为其小、人员简单，做事情的流程也相对简单。比方说你想调整一个线上的小功能，可能就是拉上几个人一起开个会，通过了就能开发了，然后就上线了。这个流程可能就是一周的时间。
+INFO:root:但是在大公司是不行的，你有这么一个小想法需要经过一层一层的审批，审批完了之后也需要开发来 评估排期，测试测试排期。很多想法被扼杀在审批中，开发也会拒绝掉一些需求。这样一来一个想法的实施非常难，就算能够实施也是几个月之后。
+INFO:root:说实话
+INFO:root:看到这个流程之后
+INFO:root:你自己可能会把想法只埋在心中了
+INFO:root:再问你一句：
+INFO:root:几个月之后
+INFO:root:你还有动力？
+INFO:root:以上只是个例子。小公司能够成功，非常依赖于这一点：所有人都有话语权，做事情流程简单也很迅速。
+INFO:root:但是所有都有话语权并不是说每个人都是老大，就是说在整个公司中必须要有统一的声音，并且有非常明确的谁大谁小的概念，尤其是对外的时候。
+INFO:root:在对外合作的时候，小公司派出多个代表与合作方对接，最后多个代表却代表了多层的意思。比方说是一个软件的开发需求，代表A的需求是N界面，代表B的需求是M界面。
+INFO:root:出现这种状况
+INFO:root:本质上就是管理权的问题
+INFO:root:散漫惯了
+INFO:root:很难改变
+INFO:root:当然这种管理权的问题说到底其实又是流程的问题。如果公司早已经把对外合作、对内工作的这种工作形成了一套流程模板也不会出现上面所说的这种情况。
+INFO:root:无论是一家公司还是一个团队，规章制度是必须要有的。如果没有规则的约束，公司的一切都是混乱的，会出现种种你不愿意看到的东西。
+INFO:root:各位小伙伴
+INFO:root:如果碰到符合上面特征的公司
+INFO:root:听我一句
+INFO:root:撤！
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wf5rxZQ06pTJOPbJIcLWGCtq4FanHrpA0w6zQekOhVF3hXfNtGcEeXw/640
+INFO:root:单词是基石
+INFO:root:https://mmbiz.qpic.cn/mmbiz_gif/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqF9fYaGBSg5vmbVJSsDWqYoGRNBsMia1NyTuAJg3F5Mc7oefCYXc2fRg/640
+INFO:root:为什么学英语这么难？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/tPK9oOJ9hl01iaHuwlx3smsCKpvvibQuZaZiceSo3nlKHVV15jvRqz0cROGpiaMVc01Za7WBNlrnVuianVVXQRQL7kw/640
+INFO:root:答案是显而易见的。传统的学习英语、背单词的方式根本就是错的！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJicT1SQLiaHicgV5sxvSQSsYudDcAg5hjIgo6YcC7DzV5qMaSDhp85T5w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wvhhWDXSibHhqOpCup6jn9LfUwZciaU0cFd6HXibsFdWh71BoyBotYTssQ/640
+INFO:root:所以只要我们在对待单词时，不要死记硬背，把它们融入到我们的生活中，奇迹就发生了！
+INFO:root:极光单词
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJyNG1VMe2IQXKsZfvnxiaLLctkibJSAeKhZTId3iaWasOicTqW2nc0F8wg/640
+INFO:root:极光单词
+INFO:root:让每个人都拥有记光单词的能力！
+INFO:root:【电影原声】+【电影画面】
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZLNRQfAgJtkpdKqpPyAmZmujibViczWYtBSnJGbPdcLPicyKHmh3N6KgA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlK4GB0wo9esGedo5wW3xYNLKcLfTM7QFp3DibV5YFzyiavv7ibMPwCIuRWw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKcptx6Csz8h0AcC4UHBYh6OlJr6qAQWliafbWq1n7zvANG2mh4DmuOMw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKTjicG2Du3y0VaAmtUxDVfe1pLgD7wLAw5Fn2YC3eOIibJxDaphiasjXrg/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZM0VvpEbZZEIc98XxiaSKKb9W6ia4l4ZopSRbHupQ2j3dbWnGHMgQLKA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKjZWaibYNOWcFssiaDB1CAtgHngWBfTCo3LJhMaibMoeImyLSjDQ0TIxtw/640
+INFO:root:极光单词还把每一个单词都放在了与我们生活息息相关的情景之中
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKs4zOic73KrJ84hiaV2p6Vl4boFHkcTQZWmU7I7pMtrofC9cgumnTmia2A/640
+INFO:root:突出了它们最能被记住的特征！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8ib7odrZbAj0fnFEglSq4H2V2qfnTrpLfo63agXNeQy3fOWp1ibVyJOQ/640
+INFO:root:用这些特征，直击每个英语学习者的记忆神经。
+INFO:root:第一天心血来潮背了200多个单词
+INFO:root:第二天累了只背了50多个
+INFO:root:第三天20个
+INFO:root:第四天就完全放弃了，把单词书扔在一边逍遥快活去了……
+INFO:root:学习赌局返现金钱来刺激
+INFO:root:返1元69元全部返还！
+INFO:root:一个程序员的日常粉丝专属福利
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期仅开放100个名额，先到先得！
+INFO:root:90%退回了全部学费
+INFO:root:极光单词
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jSkyVJH0rfV9jTzbxicKVjBhfZCVKUb6wvF2klQfRuHnK78E8KPvQxwicf1EIVvlaR491UQRg7BKw/640
+INFO:root:美剧、VOA、BBC纪录片原生……
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8vcsEsIdnUapSZIia1VYmZa5qRq4lBeLuRcicGKPxM1vKLkIePYgUHicQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w5vddK7FJgMcdm3Z5BHlod5b66ib9UO6zQpgLy4yXw4VVxyE9mibia5NVA/640
+INFO:root:情景记忆法
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wPzNFzpQXjvd7VgnLCk8xFYXjBhsLoXuLib74OPSEhCP17MxSPLVvXPg/640
+INFO:root:医疗、亲子、旅行、商务新概念、以及小学、初中、高中、大学四六八级、留学考试（雅思、托福）、KET、GRE
+INFO:root:学习赌局返现金钱来激励自己学习。
+INFO:root:返1元69元全部返还
+INFO:root:一个程序员的日常粉丝专属福利
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期活动仅开放100个名额，先到先得！
+INFO:root:90%的学员
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicVPVSAx4LmsuYUFJibBe6olvP6iaDpWC2fy9ALYtVXMRsnmok2QMeBVYwVuHsTJhIMsP0eibHUulicDg/640
+INFO:root:***  课程评价  ***
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH56NLveo135AJbevoLgVrPBcm2DkDuHibiakrhOADGnKsXXa5OqxbsfpMQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wSZicChecNIFezgHJeGlXYEewJxJ8pT3qcNHWkicQQXOvvuLGDibAErh8g/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wrZAvoGk88icehHEqoCWtP19w6D3WP1Zztm7RoEgBdIhiamuQXrprPic3w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wGYyiaLicGiaoicAx03ehrTL0kAsIM16ArcRCnIiaxjguF2R9Zb6Dibyphjibg/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH5WcDuiacZ4SH611V4fhh970p9DpDMyZl1ia9xC16wnjSib6lIJC6v8aZ7w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wZmaUatgliarsLuot55d2cUiaU3LYn43Cxe3mVaibSoggmGgXN0iawUTRPQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wkq1cibzZEJ8FMLGrgdPdKEUmicuuia6YJufjkh8CzVslbhmnEqgIHGdEw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wwtLqZYHwdwu8Rx7I5947KfiaLKVkzDicApEbUe8v25v8TiaiaFxBhMHJrw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wLacYZ3VhEAXtscTGwiaTVv5SFB7TyDNw4QC2lNLDkxdLaOId7PsMHoA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wn7ct9WaEA4ga2IH5AUZfXseCFQLkmcl5nAnW5WP5UubcCLDFQ0ENRw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wsw8nhlmAnwNMZjiaFeQmNJAdHgDPWg4EVRpMXkbQ9VcJJq2TemM4jicw/640
+INFO:root:全额退费
+INFO:root:一个程序员的日常粉丝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期活动仅开放100个名额，先到先得！
+INFO:root:▼点击原文链接，立即参加赌局！
+INFO:root:几天马蜂窝这个网站火了，世界杯期间它是因为那个洗脑的广告火的，而这几天火是因为几个程序员捅了它。他们采集了马蜂窝的数据，他们用马蜂窝的数据跟携程、大众点评等网站的数据对比，发现了一个惊天的事实：
+INFO:root:马蜂窝整个网站的自称21000000条的真实点评，实际上其中有85%的点评搬运自大众点评、携程、yelp；也就是说马蜂窝这个网站上的真实点评可能只有315万。
+INFO:root:官方口径的2100万
+INFO:root:VS
+INFO:root:实际上真实的315万
+INFO:root:你特娘的也是个人才啊。其实咱们都知道在当今的互联网界，大家在冷启动的时候都喜欢这么干：把别人网站的成熟的资料抄袭过来。我们都熟知的Airbnb在冷启动的时候前1000个房源信息就是从Craigslist采集过来直接贴在网站上的。
+INFO:root:同样来自携程、大众点评等网站的这些点评资料拿过来之后可以丰富马蜂窝网站的内容。冷启动的时候干情有可原。
+INFO:root:但是马蜂窝错就错在
+INFO:root:它不是冷启动的时候在做这件事情
+INFO:root:他是一直在做这件事情
+INFO:root:甚至在公司内部养着一个大型的团队在做这件事情
+INFO:root:把抄袭、搬运做大了规模
+INFO:root:做成了产业
+INFO:root:这不是找死么？
+INFO:root:过了冷启动期其实也可以干，你看国内的很多新闻网网站都是互相的采集对方的新闻信息进行伪装，今日头条也采集新浪微博的，悟空问答也采集知乎的。
+INFO:root:但是这种采集都要有个限度、要小声的采集，你网站本身提供的独立价值要远远大于抄袭搬运带来的价值。
+INFO:root:而马蜂窝就不一样，你默默的抄袭也就罢了，你默默的搬运也就罢了。你还生怕别人不知道，所以你还非要在各种地方重点宣布：来自网友2100万的真实点评，引以为傲。
+INFO:root:你还把这2100万的真实点评数据放在投资人的面前，投资人眼花了，一转眼间给马蜂窝投成了独角兽，体积大了几千倍。虽然我知道国内很多投资人都是只看数据、不长记性的，但是这么造假玩骗钱就有点过了。我想问问马蜂窝「独角兽」
+INFO:root:马蜂窝你们在用假数据宣传的时候就没有一点的脸红吗？
+INFO:root:你们在用假数据向投资人骗钱的时候就没有一点心虚吗？
+INFO:root:哦，我懂了，可能宣传久了，你们已经认为那2100万点评真的是你们自己的了。
+INFO:root:按照马蜂窝这个逻辑，说实话，我一个程序员加上一个能吹牛的合伙人我们能复制出一百个独角兽出来。
+INFO:root:我可以采集飞猪、去哪儿、携程所有酒店的资料和点评内容，做一个酒店预订网站，而且保证我的酒店信息和点评资料是全中国最全的、最大的，投资人你给钱吗？别问我为什么，因为我是汇总的。
+INFO:root:我可以采集知乎、悟空问答、Quora等等所有问答内容做一个全球最大的问答网站。别问我为什么敢自称最大，因为爬虫所以自信。
+INFO:root:我可以采集…
+INFO:root:现在爬虫这个技术是有些泛滥了，会爬虫的人和公司也越来越多了。所以造假、搬运、抄袭的成本也越来越低了。
+INFO:root:不奢望捅马蜂窝这事情能改变互联网大环境，
+INFO:root:但致少能给那些还在抄袭的大型互联网企业敲个钟吧！
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:坐在办公司的人甲看着显示器前记录Pornhup的访问量相比前几天有所下降，看着10月31日万圣节就要到来，再过几天又是双十一，还有程序员节1024，人甲眉头一皱，发现事情没那么简单。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6y8EibffD3niciaicgTOzqrvLtTLYfOBbfjyibCvRtVWRjiaibALcpCkSG0dGg/640
+INFO:root:目前pornhup流量走低只是暴风雨前的平静，有经验的管理者都知道，每逢大节来临，网站必定流量激增。到时候如果pornhup如果出现服务器宕机，全球70亿同胞无法正常看「电影」，那可就出大事情了。
+INFO:root:全体集合，开个会吧。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6gctK6mWbtEPicROM6zKxfiaiaulX5J9YGsGMW7WKOa6ppibLENKC05fLAQ/640
+INFO:root:
+INFO:root:管理者人甲：各位，由于我们目前的服务器选择的带宽刚好能满足我们业务的正常需求。但是我有预感，过几天我们的网站即将引来一次流量激增，到时候我们目前的服务器配置可能处理不了那么大的访问量，可能会导致服务器宕机，各位对此有什么好的解决办法吗？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6VMPKD9aKftCdjGdEBbziasicDYZJuQEOh58wHAETib0fTCaRlAT6dicEAw/640
+INFO:root:运维小A：网站流量暴涨这肯定是好事情，不过如果不能未雨绸缪，保证服务器的稳定，好事情也可能变成坏事。
+INFO:root:管理者人甲：哦？为什么这么说呢？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Fu7zquEyb92LcmCIE99WdknHmSP4jm2F2IJqP2RTe6sInojtcQRIMA/640
+INFO:root:运维小A：网站访问量增多，更能提高我们pornhup的知名度，同时吸引更多人来我们网站投放广告，我们也能通过访问量赚更多的钱。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Qy5YkeULlB2XTR0fveq2poBFcDGbl6kYhqPwib8l1kWnkksuEj8WWGQ/640
+INFO:root:但是，要是网站访问量人太多，造成资源耗尽，超出带宽使用范围，服务器处理不过来如此大量的数据，就会导致服务器宕机。
+INFO:root:服务器出现宕机，可能会出现数据丢失或损坏的情况。更可怕的是，要是服务器宕机，传出pornhup网站不稳定的负面消息，到时候产生用户对pornhup的信任危机，不是砸了自己的名声么。
+INFO:root:你看看国内微博整天宕机，千万不能像他一样！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6OMsMANSaxFwQ7Leg3IKianicgqN3xw7fHwqGF2lLLb6DeGEK80gw5tLg/640
+INFO:root:管理者人甲：是的，我们pornhup公司好歹也是世界500强，网站下线1分钟也可能造成很大的负面消息，服务器宕机这类的事情绝对不允许发生！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6ZibPePbAfYiabOswClX2RT1T8oQsGxhCDd6arK1cibuQzZ7UX0IcK7pxg/640
+INFO:root:运维小A：人甲刚刚预测后面几个节日，会有一大波流量来袭我们pornhup网站，当然这属于可预测的流量咯。
+INFO:root:那我这个老运维便给大家说说的对于可预测的流量激增可以采取哪些措施。
+INFO:root:1. 对未来的流量进行估算，提前购买带宽资源，增加高性能的服务器，优化数据库访问速度，对内容传输网络的配置进行流量优化。
+INFO:root:管理者人甲: 那这样大规模购买带宽，服务器肯定会增加不少费用吧？虽然我们公司已经很有钱了，但是花钱也是要有个尺度的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6icRbRCtSUdGk057ia6sYubCFaZXA1qWr3e0kdUtCibYlur6ia7wDqt4UlQ/640
+INFO:root:运维小A: 是的，上面说的是最基本的控制大流量的方面。当然还需要结合其他方面进行优化。
+INFO:root:管理者人甲：好的，那你继续说说你下面要说的方案。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6vHOjEY2FicquhQXHJCCeXDs7kZ8boibhMmhAxq2oK6419QicibjOOicBfgQ/640
+INFO:root:运维小A:
+INFO:root:2.部分网页可选用默认缓存模式。这样用户请求服务器的时候，这些网页已经在用户电脑上有了缓存，就不需要再从服务器上面下载，这样就可以减轻服务器负载。
+INFO:root:管理者人甲：但是一个网页最多也几百KB, 光从配置缓存的办法似乎不能减少太多服务器的压力。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q63Pm9v8SI2V2lmbTQXqU0IIaicY0icHC44Cetv5XqQhM0O1YtBpgePUdQ/640
+INFO:root:运维小A：
+INFO:root:3. 对于不影响到系统核心服务和性能的服务配置降级方案。因为服务器资源有限，所以服务器处理的内容也应分个有限等级。应尽可能的把系统资源让给优先级高的服务。
+INFO:root:这就像不重要的东西就先扔一边，别占着茅坑不拉屎是一个道理。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Z3zl7ia3sQBdnzicOWvQIDeje8wNe6Fj6AranW6ibR8SdEnsDMssQ9x1Q/640
+INFO:root:所以发现一些服务长时间超市或者有网络抖动，或者网页一些不必要的渲染，或者一些占用系统资源太高的应用，都可以进行降级处理。
+INFO:root:管理者人甲：这个解决办法听起来很不错嘛。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6v1m4szskQJNreSTSjHMQ7gnXnvQsEgHiahicHhicm1RLAECXLCaZbNmHg/640
+INFO:root:运维小A：
+INFO:root:4. 采取限流方案。对每个p2p进行流量监控，设置每个ip连接数和流量上限，并配置好防火墙。这样有恶意攻击，突发流量等情况则可进行拦截。
+INFO:root:管理者人甲：感觉小A说得很有道理，那么大家便按照说的方案去实施。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q64p22gh1PzHmETrMWUFnMT0ca6Dn33EKpwu5k5mNocOpicehMHfiaL1PQ/640
+INFO:root:运维小B: 不过，老甲，小A刚才说到的那些方案也只是在有可预测流量部分的解决方案。
+INFO:root:但是更多情况下，网站要面临的是不可预测流量。如果一直用小A那套方案，必定会造成很多服务器资源的浪费，这样做不行啊。
+INFO:root:管理者人甲：那么，面对不可预测流量激增的时候，又有什么解决办法呢？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q66hyzwufkZ53TQkibGXaqLxxHcBEY8tj6KNCOy7vebgNbpHfyz4ibibJ8g/640
+INFO:root:运维小B:
+INFO:root:1. 采用合适的CDN服务。CDN服务可以避开数据传输速度速度和稳定性上的瓶颈，保证传输内容更快更稳定。
+INFO:root:管理者人甲：感觉好像很厉害的样子，CDN服务能做到这么优秀，是怎么实现的呢？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6XeT1MHmPUOicEcP8mvjv53dzZS7EdhfEwJAvlv5moR1hKwvw2cGxA4g/640
+INFO:root:运维小B:其实里面的原理就是采用各种缓存服务器，通过负载均衡技术，让不同地区的服务器保存相应地区的缓存。
+INFO:root:比如北京地区就访问北京地区的节点，上海地区的用户访问上海地区的节点，这样访问的速度更快，也可以防止网络拥堵情况。
+INFO:root:2. 选择优秀的自动化运维工具也很重要。如果还按照传统的方案，几千台服务器全靠人去维护，效率不仅不高，而且维护起来还很麻烦。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6ib2MBvsSrQeTnTAQCBor6jNg2iccyBiaiasz3zicsibAs6FXSHZ1pqvaHppQ/640
+INFO:root:如果能采用一套好的运维工具，这样这些脏活累活全部交给计算机自动解决。这样就等于一套工具就把数名运维的苦力工作都做了。
+INFO:root:内部资源能更好的整合到一块，这样pornhup的服务器也能更好的面对流量激增的问题。
+INFO:root:嘿嘿，自从有了上述的几套方案，pornhup高清无码，想看就看。万圣节人甲邀你pornhup激情看片，约吗？
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了、Java也要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:title:<head>
+<title>程序员黑话指南</title>
+</head>
+INFO:root:word:<span>黑话这个词，说起来各位都会会心一笑。各行各业都有自己的行业内的黑话，产品经理有产品经理的黑话、金融行业有金融行业的黑话，而程序员这个群体虽然虽然忠厚老实，但是却有着丰富的黑话史。</span>
+INFO:root:word:<span>今天小甲就给大家来整理整理互联网公司程序员的黑话，出一篇程序员黑话指南，你只有了解程序员的黑话才能跟程序员打成一团，获得buff加成，产品尽早上线。</span>
+INFO:root:word:<span>作为程序员你只有熟悉掌握程序员黑话才能更快融入群体，从此一步走向人生巅峰、赢取白富美，走向人生巅峰。</span>
+INFO:root:word:<span>1. 跟产品经理对话的时候</span>
+INFO:root:word:<span>我想想这个怎么实现</span>
+INFO:root:word:<span>== 我想想怎么砍掉这个需求</span>
+INFO:root:word:<span>没看过别的产品这么设计的</span>
+INFO:root:word:<span>== 这功能也太傻逼了</span>
+INFO:root:word:<span>你确定有这个需求吗</span>
+INFO:root:word:<span>== 做出来没人用劳资打死你</span>
+INFO:root:word:<span>不好意思，我没听清楚</span>
+INFO:root:word:<span>== 你是傻逼</span>
+INFO:root:word:<span>今天做不了</span>
+INFO:root:word:<span>== 今天回去看新垣结衣</span>
+INFO:root:word:<span>下个版本再做吧</span>
+INFO:root:word:<span>== 我不想做</span>
+INFO:root:word:<span>别人家的实现方式不一样</span>
+INFO:root:word:<span>== 我不会做</span>
+INFO:root:word:<span>你这个需求不清晰</span>
+INFO:root:word:<span>== 要不打一架</span>
+INFO:root:word:<span>你说的这个东西有什么可以参考的东西吗</span>
+INFO:root:word:<span>== 废话少说，你想抄哪个网站</span>
+INFO:root:word:<span>正在改</span>
+INFO:root:word:<span>== 我去，刷知乎太久了，居然把这茬给忘记了</span>
+INFO:root:word:<span>我先评估一下技术难度</span>
+INFO:root:word:<span>== 先拖几天</span>
+INFO:root:word:<span>我再想想还有什么解决办法没</span>
+INFO:root:word:<span>== 我再去 stack overflow 上抄抄其他解决办法</span>
+INFO:root:word:<span>这个软件是用的是最典型的做法</span>
+INFO:root:word:<span>== 我抄的微信 || 淘宝 || 滴滴</span>
+INFO:root:word:<span>我测试的时候没问题啊</span>
+INFO:root:word:<span>== 傻X，你到底会不会用我的软件啊</span>
+INFO:root:word:<span>2. 当程序员跟外行交流的时候</span>
+INFO:root:word:<span>你怎么还在用Windows啊</span>
+INFO:root:word:<span>== Linux要不要了解下</span>
+INFO:root:word:<span>你用的什么浏览器？</span>
+INFO:root:word:<span>== 要不要试试Chrome</span>
+INFO:root:word:<span>抱歉，我不会修</span>
+INFO:root:word:<span>== 你大爷，又让我修电脑</span>
+INFO:root:word:<span>不好意思，这个我弄不了</span>
+INFO:root:word:<span>== 这个项目你能给多少钱</span>
+INFO:root:word:<span>时间不早了</span>
+INFO:root:word:<span>== 我还要回去写代码</span>
+INFO:root:word:<span>你用百度搜一下</span>
+INFO:root:word:<span>== 这么简单的问题也来问我</span>
+INFO:root:word:<span>== 看你这土鳖就不会用Google</span>
+INFO:root:word:<span>3. 当程序员跟同行交流时</span>
+INFO:root:word:<span>哥们，最近怎么样？</span>
+INFO:root:word:<span>== 秃了吗？</span>
+INFO:root:word:<span>你告诉我怎么做吧，我自己来</span>
+INFO:root:word:<span>== 别用你的脏手摸我的宝贝键盘</span>
+INFO:root:word:<span>Talk is cheap,show me you code</span>
+INFO:root:word:<span>== 看你整天吹牛逼，就知道你写不好代码</span>
+INFO:root:word:<span>今晚早点回去陪我女朋友</span>
+INFO:root:word:<span>== 我的右手已经饥渴难耐了</span>
+INFO:root:word:<span>明天天冷</span>
+INFO:root:word:<span>== 不知道家里有格子衫没</span>
+INFO:root:word:<span>你帮我看看我的代码</span>
+INFO:root:word:<span>== 碰到个bug，我已经要崩溃了</span>
+INFO:root:word:<span>你确定吗？</span>
+INFO:root:word:<span>== 我代码不可能出问题的</span>
+INFO:root:word:<span>你用的什么系统？</span>
+INFO:root:word:<span>== 我在Linux上运行的好好的</span>
+INFO:root:word:<span>我正在调试程序</span>
+INFO:root:word:<span>==不想理你</span>
+INFO:root:word:<span>你怎么还在学Python啊</span>
+INFO:root:word:<span>== PHP才是世界上最好的语言</span>
+INFO:root:word:<span>你怎么还在用VS啊</span>
+INFO:root:word:<span>== 辣鸡，Vim才是正解</span>
+INFO:root:word:<span>兄弟，你能上得了网吗？</span>
+INFO:root:word:<span>== 我代理好像出问题了</span>
+INFO:root:word:<span>兄弟，有梯子吗</span>
+INFO:root:word:<span>== 我想看Pornhub</span>
+INFO:root:word:<span>大佬果然是大佬，写的代码就是不一样</span>
+INFO:root:word:<span>== 这代码我一句都看不懂</span>
+INFO:root:word:<span>我下班了</span>
+INFO:root:word:<span>== 现在是凌晨了</span>
+INFO:root:word:<span>说到这里，作为程序员群体中最优秀的你们，日常生活工作中还有哪些黑话是我没整理出来的？欢迎各位小伙伴踊跃发言！我在留言区等你们！</span>
+INFO:root:word:<span>参考资料：</span>
+INFO:root:word:<span>http://www.sohu.com/a/130389343_612768</span>
+INFO:root:title:<head>
+<title>滴，送书！</title>
+</head>
+INFO:root:word:<span>距离上次送书活动过去很久了，前几个月可以说都是犯懒一直没给大家送书，小甲掐指一算又到了给大家送书的时候了，这不刚好又在后台收到了读者的提醒。</span>
+INFO:root:word:<span>这次我打算送出50本书，这些书是由博文视点以及图灵教育赞助的，另外呢我还自掏腰包给大家随书赠送一些非常有纪念意义的鼠标垫，以及其他小礼品。</span>
+INFO:root:word:<span>当然我必须要告诉你们的是：这些书都会有我本人一一签名以及写上祝福语再寄给各位最终中奖的读者。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHkxAxqKgXVmZ8N2afyMAxyopiaI1AbLM0P5U9zu6sZwYCj408cKPOpfA/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHqtBUZU05oH259vyWiaFJkOrklESUEWRoLqiakUJJB62ibDLVFiafXLCnsw/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHUqjdic9MWwaf61ba0Anvm19GjfibIyk0qvnnegjicMBlgnxkjj5qshWicA/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHTbQUOXb5kARXtTOk6bARF0CqI6rnpZib3Q3l2W6VXalmPsH47Edq1Cw/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHE5ps7I4YPcjoXQ4b0H5WBJVK6GaNfdx0TTmewtZWBKurlDI6c56t3g/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHL0wn5spFZSibMvEov7DvsIHZTJyYEPMrnJUics6Ub4wcbiaTPhm5Pkkmw/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsH3icr9b5tYAUX5hjyZZlUPkib5Lw8L4Lk4oRZhyeJwBK7I6ic4RUlTMcgA/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHQDLEZJnibUsVK2n6olLDTiaJfSjTV5sLR6BR1rb2mU048dM2wWR6SrjA/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHbhxzYQHF45DUw7m8RHdQ5yhaxcbNlVwUveyags49JqjeMJwvUxQbVw/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHnkGyd2IvUwdcwwLDibPiciakuOCgZSrttI2qI9bM70lstfAmjsoxe7ccQ/640?wx_fmt=png"/>
+INFO:root:word:<span>另外，我公众号一般都不开赞赏，一个月就开这么一次，就是在做送书活动的时候，其他时间你都看不到打赏按钮。</span>
+INFO:root:word:<span>只要在这段时间内你觉得我的文章帮助到了你，你都可以小小的打赏意思一下，顺便也能当是买个彩票抽个奖。打个赏也能让我眼熟你，下次做活动的时候肯定忘不掉你。</span>
+INFO:root:word:<span>关于抽奖方式，简单粗暴，抽奖的方式就是从赞赏的人中抽取50位读者。另外，我这个人就喜欢听别人夸我，所以如果留言能有打动我的，我也会酌情加一些礼物，期待你们的表演了。</span>
+INFO:root:title:<head>
+<title>Pornhup 出 Bug 了</title>
+</head>
+INFO:root:word:<span>Pronhup大公司招来了三位实习生「大长腿、字母哥、静静」，经过一周的时间他们已经慢慢适应公司的工作环境。这几天大长腿接到项目经理的一个需求：</span>
+INFO:root:word:<span>用户在看视频的时候，需要同时按住键盘上的「A+P+M」三个键才能观看，否则会直接暂停。</span>
+INFO:root:word:<span>但是因为她还不是太熟悉git，一不小心把一个还有bug的版本提交了上去。这个时候大长腿开始慌了，不知道该怎么办才能撤回提交。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YmQpuNI7KrXoIXCPuCDzbXT4Oaz2huv7mPELk6Ar9DVWfuqsuCbxnibQ/640"/>
+INFO:root:word:<span>大长腿立马向身边的静静和字母发起求救：静静，字母哥，不好了！快来帮我看看怎么才能撤回提交啊！我刚刚一不小心提交了一个有BUG的版本提交上去了，这个要是被甲哥发现，我估计就得gg了。</span>
+INFO:root:word:<span>字母哥路见不平一声吼：大长腿你别急，让我来看看！还好你没有把你的提交push到远程仓库，我看你这个还能抢救。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YRALQfib2KcBuuejSP50u1E6mvhVhY5Y8UicNn2eyD8TD9f40mmPiaUYbg/640"/>
+INFO:root:word:<span>这个时候，你可以用 git log 命令就可以查看历史提交记录。然后找到上一个版本的id，用reset命令就可以退回到上个版本了。</span>
+INFO:root:word:<span>git reset --hard id</span>
+INFO:root:word:<span>大长腿如释负重：牛逼，字母哥好手段啊！之前可担心死我了。还好可以回退回去。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yd84axetxJk4SnQwOENeR0QyICYibGlyV1KVK7dBnLIVKo5bibFiaoBsxw/640"/>
+INFO:root:word:<span>静静心生疑问：字母哥，我看你刚才操作的时候，发现git回退版本的速度好快啊，为什么这么快啊？</span>
+INFO:root:word:<span>字母哥雄赳赳气昂昂：git回退速度快，其中的原理只是更改了版本head指针的指向而已。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YV6Bxn8kqOEaFvRoYibXn1GzlIibzuvVaaOAHTrGicDKEfvJ9ghyVre03g/640"/>
+INFO:root:word:<span>以前head指针指向你新提交的记录，现在指针只改了个指向，指向到上一个版本，所以回退得快咯。</span>
+INFO:root:word:<span>静静由衷佩服：原来字母哥懂这么多啊。我也不太熟悉git里面操作失误如何处理，要不你给我们讲一下吧。</span>
+INFO:root:word:<span>字母哥洋洋得意：其实我们实际操作中，肯定会遇到某个文件被修改，文件不小心被删除「当然删除文件也算作一种修改」，但是之后又后悔之前的修改的情况。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YVB2YlmoVWfQ5bQC6nibROBPw9BWaL1zWMGrZtaSHV2MdBQbk4nnq6Ng/640"/>
+INFO:root:word:<span>还好有git, 这个时候就可以使用 git status 命令查看当前仓库的状态，被修改的文件都会显示出来。然后再使用上次甲哥讲过的，用git中最常用的切换分支的命令checkout就可以放弃更改了。</span>
+INFO:root:word:<span>大长腿似懂非懂：原来用checkout就可以恢复啊，我试试随便在test.txt里面改两句话。然后</span>
+INFO:root:word:<span>git add test.txt</span>
+INFO:root:word:<span>git checkout test.txt</span>
+INFO:root:word:<span>神奇！！果然恢复了！！</span>
+INFO:root:word:<span>静静一脸正经：别这么一惊一乍嘛，这些基础的东西不应该不知道的。</span>
+INFO:root:word:<span>大长腿跃跃欲试：哈哈，我还要再试一次，太神奇了。我就随便再在还原的文档里面再改动改动，看看还能不能再次还原。然后</span>
+INFO:root:word:<span>git add test.txt</span>
+INFO:root:word:<span>git commit -m "modify test"</span>
+INFO:root:word:<span>git checkout test.txt</span>
+INFO:root:word:<span>欸，不对啊，你看这次我为什么又无法恢复修改前的内容啊？</span>
+INFO:root:word:<span>字母哥恨铁不成钢：你随便在test.txt里面修改了几句，相当于工作区修改了；之后你又用add命令，工作区的内容就保存到暂存区了。</span>
+INFO:root:word:<span>用checkout命令只有当本地工作区跟暂存区有修改的时候才有用。但是你这次操作还加了commit，commit之后，工作区跟暂存区都是干净的，是本地仓库有了修改。要撤回本地仓库修改就不归checkout管了，所以你最后一次用checkout才没反应。</span>
+INFO:root:word:<span>大长腿恍然大悟: 哦，那我知道为什么了。我需要先查log，再reset对吧，就像你刚才退回我不小心提交的那个版本一样，对吧？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Y2NtU1QG7vSE4rmLApHxPVpFjrYQ9QsK3rLtbhx2Mic7QmhBBYQz9sMA/640"/>
+INFO:root:word:<span>字母哥孺子可教：是的哦，如果commit之后，相当于目前的head指针指向了最新提交的内容，你需要找到上次提交的内容，用reset修改指针指向。</span>
+INFO:root:word:<span>大长腿小手一抖：哎呀，刚才我一不小心手贱把git关闭了，然后再用git log查看上传记录，一个都看不到了，怎么办啊？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YzFQUfD7IAYvibV8uia1TChBOlUtJrLNN4RWM0iakkIXlU14NxCFUjy2gA/640"/>
+INFO:root:word:<span>字母哥一口老血：平时使用的时候就得注意点哦，不要不小心关闭git了。不过一个优秀的版本控制系统总会给你好多后悔药吃的。这个时候就需要用到git reflog命令。</span>
+INFO:root:word:<span>git reflog命令会显示出你每一次操作命令，你看你之前的add, commit, log, reset命令这里统统都有显示，然后找到相应版本的id, 再用reset回退。</span>
+INFO:root:word:<span>现在世界就终于清净了。</span>
+INFO:root:word:<span>大长腿爱心泛滥：没想到关于一个git操作失误都有这么多学问，今天麻烦字母哥啦。待会请你跟静静吃海底捞，要不是你帮我这么多，以后就得你们去海底打捞我了。</span>
+INFO:root:word:<span>字母哥洋洋得意：哈哈，这个故事告诉我们，人帅又会用git，是会有免费海底捞吃的。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yy4x3nKvofKSLxaKnJS4icrZm5DVng4xZ96kqHESiaMba9ZMwsiay4vEwg/640"/>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>- 成人网站Pornhup招人了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<title>重磅！IBM以2360亿元收购 RedHat！</title>
+</head>
+INFO:root:word:<span>早晨起来发现这么一个很劲爆的消息：IBM宣布以2360亿人民币收购RedHat，这笔交易一旦达成将成为IBM自成立以来最大的一笔交易，也是美国科技历史上第三大收购案。</span>
+INFO:root:word:<span>关于RedHat「红帽」，我们开发者能比较了解的是它提供的操作系统Red Hat Enterprise Linux(RHEL)，但其实红帽远远不是一家提供操作系统的公司。除了操作系统，红帽提供的产品还包括云计算、存储、虚拟化、中间件等。</span>
+INFO:root:word:<span>红帽是世界上最成功的开源公司，世界上唯一一个年盈利超过10亿美元的开源公司。它通过把开源社区的项目产品化，使普通企业客户更容易消费开源创新技术。红帽将系统源代码共享给具有一定资格的使用者，并且这些使用者可以免费使用并且进行自定义编写红帽的产品。</span>
+INFO:root:word:<span>IBM坦言此次收购Red Hat主要是想在云市场发力，近几年来无论是在美国还是在中国云计算都是大公司们追逐的话题。国内的华为云、阿里云、京东云，国外的Microsoft Azure、Amazon Aws.无一不在花大代价在云计算上面。</span>
+INFO:root:word:<span>IBM也不例外，此次收购红帽公司将使其成为多云和混合云市场的领导者。这两家公司认为，这一交易将使企业能利用云计算服务完成更多工作，提高应用和数据的便携性、安全性。</span>
+INFO:root:word:<span>IBM的总裁表示：如今，大多数公司租用计算能力来削减成本，它们的云计算之路仅走到 20％，接下来的 80％ 是关于释放实际业务价值和推动增长的，这才是云的未来。它需要将业务应用程序转移到混合云中，提取更多数据并优化从供应链到销售业务的每个部分。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/b96CibCt70iaa8r7PJoyAtlfHAKe8RosE3UGPUQnuib0MWzGRby3b3aNvlUg4bQbFLwHQUsCRatNc4ab8WCrLH9LQ/640"/>
+INFO:root:word:<span>小甲有话说</span>
+INFO:root:word:<span>1.各位小伙伴们应该会问这次收购会对Red Hat有什么影响吗？</span>
+INFO:root:word:<span>从IBM的收购方案来看，Red Hat将作为IBM混合云团队独立运营。通过此次收购，IBM将继续致力于红帽的开放式治理、开源贡献、参与开源社区和开发模式，以及促进其广泛的开发人员生态系统。但其实从历年收购案来看，独立运营也只是暂时的。</span>
+INFO:root:word:<span>2.这次收购跟我们有什么关系？</span>
+INFO:root:word:<span>其实硬要说跟我们这些开发者有什么直接关系，我觉得倒是没有，但是近几年的这种云热潮，能让我们这些普通人知道当前的发展趋势，对未来的自身的发展选择有所借鉴意义。</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝：都是爬虫的锅</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<title>给今日头条点赞</title>
+</head>
+INFO:root:word:<span>阅读本文大概需要 4 分钟。</span>
+INFO:root:word:<span>大家都知道最近各个行业不太景气，互联网行业也毫不例外，其中以游戏等为首的细分行业更是一跌再跌。我之前也写过一篇文章给大家支招：互联网寒冬来了，怎么去应对。</span>
+INFO:root:word:<span>互联网行业不太景气最直接的表现是股票大跌，然后就是各种公司的裁员了。最近就传出了阿里和华为缩招的消息，虽然之后阿里华为都出来辟谣了，但是一切的消息都不会是空穴来风的。</span>
+INFO:root:word:<span>从智联招聘发布的数据来看：今年的第三季度跟去年相比，互联网内各个行业的招聘需求都下降了接近40%</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdajF93Fia1o4fHYvJ6jn7zIMtWP4iaTFeTeibsxyT5JrwS5uHHPcXGuFyqw/640"/>
+INFO:root:word:<span>大公司在缩招，小公司也没闲着。这不华为缩招的「谣言」还没几天，人工智能明星企业第四范式就出事了。</span>
+INFO:root:word:<span>第四范式在互联网业尤其是人工智能方面已经是非常优秀的企业了，在今年校园招聘阶段凭着自己的名声招纳了不少优秀的学生，最终经过层层选拔大约一共发出了90封左右的offer意向书。</span>
+INFO:root:word:<span>但是发了意向书之后，第四范式却一直拖着不给发offer，实际上就是想对offer毁约。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhda1DDESdicNo76PGavwNVWqK6kdFSe1sPyz2FStqjuTORguTibGtfEUGaw/640"/>
+INFO:root:word:<span>这种单方面毁约的行为对很多学生来说无疑是非常大的打击。作为一家还算比较有名的公司，不遵守合约、不守诚信也是非常让人作恶。想想这些被毁约的同学，现在秋招都快结束了，本来想着找到工作了就安安稳稳的准备毕业的，现在可倒好。</span>
+INFO:root:word:<span>大公司蹲，大公司蹲，大公司蹲完小公司蹲。很多毕业生本来想着：大公司的工作不好找就算了，先去小公司磨练磨练也不错，但是从现在的情况来看，有点高兴的太早了。</span>
+INFO:root:word:<span>第四范式这件事情我这两天一直在关注。也就是在今天的时候我突然看到一个消息，字节头条「字节跳动是今日头条的母公司」HR放出了一个消息或者是说政策：</span>
+INFO:root:word:<span>如果你已经拿到BAT网易等互联网大厂的offer，或者你拥有AI独角兽or准独角兽公司的offer，那你将享受绿色通道，获得直通字节跳动面试的资格！</span>
+INFO:root:word:<span></span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaxwCl6cQjsgt2HkbwwrP7tfbKflaCX3VLbjJ44emR2lUZBJNcfUYvfA/640"/>
+INFO:root:word:<span></span>
+INFO:root:word:<span>虽然今日头条没有明确提出，但是字里行间的「AI独角兽」有些特指的意味，很明显今日头条打算把这些被第四范式毁约的同学以及其它有相同遭遇的程序员接下来，可以参加今日头条的直通面试。</span>
+INFO:root:word:<span>这事情真的让我眼前一亮，以前我就听说今日头条是一个很注重技术人才的公司，今日头条的推荐算法团队可以说是全国最牛逼的团队，不少程序员挤破脑袋想进去。以前只是听说，真实情况不太了解，但是这件事情可以说证实了这一点。</span>
+INFO:root:word:<span>头条可以说是一个非常聪明的公司，我们能看到这个政策非常聪明，体现在两个地方：首先这批程序员都是经过大厂、独角兽筛选过的人，对他们来说筛选成本就降低了；第二头条接纳并且给这些程序员机会，相信不论是对那那拿到offer却被毁约的人还是广大程序员群体都是非常大的安慰。</span>
+INFO:root:word:<span>当然，最最重要的是头条还通过这件事情向我们这些程序员群体传达了消息：并不是所有的大厂都是在缩招的。同时头条还给互联网行业其它的大厂以及小企业做了一个非常好的榜样。</span>
+INFO:root:word:<span>最后，虽然一而再再而三的传出这种消息，但是大家仍然不要担心，因为从数据来看，咱们所在的互联网行业的薪资仍然是最高的。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaSlQibDATibr6slgx9lVt35n6SD7CDkMOy9AuB4MKjtUe4lF4H0QoDUxw/640"/>
+INFO:root:word:<span>而且还是有像今日头条这样的大企业在不断的扩大招聘的，据我所知今日头条今年秋招一次性放出5000个HC，包括2000个技术HC，是一般互联网大厂的3-5倍，不但是今年最大规模的互联网校园招聘，可能是有史以来最大规模的互联网校园招聘。</span>
+INFO:root:word:<span>所以想进大厂其实机会一直是都在的，只是你有没有好好把握。总结一句：就算是经济不怎么好，也就算是互联网真的来了，那又怎样？只要真的好好学习了，有一身好的本领，什么样的公司会不要你呢？</span>
+INFO:root:word:<span>希望大家把今日头条这件事情转发传播出去，让更多的人看到，也让更多的企业看到。这件事情，我必须给头条点赞！</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝：都是爬虫的锅</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<title>成人网站Pornhup招人了</title>
+</head>
+INFO:root:word:<span>近期正值冬招，Pornhup公司也招来了几位实习生，分别是：北大还行静静、清华不错ABCDEF「人称字母哥」，南翔技校盖儿「人称大长腿」</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduqGlPndwq6IWQnLlUbFmGHOd0hftuJ0WStQ2IEkiapFMjt5gqicBTaIgg/640?"/>
+INFO:root:word:<span>每年实习生来了，一般都有一个实习生培训，让实习生们快速的融入Pornhup的工作环境中。</span>
+INFO:root:word:<span>搁在以前大家都是不愿意去培训的，但是这次不仅公司的老王，老张吵着要去培训这几位实习生，连公司的女程序员都抢着要在实习周去培训他们。</span>
+INFO:root:word:<span>那么到底是什么原因让这几位实习生备受公司的重视？因为北大还行吗？其实是因为来的这几位实习生，男的是长这样子的：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zDzaqLOWiaANukG0iav1EibLtkwWK8ob5YSTsiaB1lbeLnMn1eBmNr6wbicg/640?"/>
+INFO:root:word:<span>女的是长这样子的</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zhocZNJ8MOYT2DnicmibEsGZ4LBUJcDlczjdfu7ungC1XmNpgQQDLiaFqg/640?"/>
+INFO:root:word:<span>就在公司的各种骨干吵得热火朝天的时候，还是管理者人甲出面，解决了这个问题：</span>
+INFO:root:word:<span>各位，我看这几位高材生，还是我亲自出面培训他们吧，不然显得咋们Pornhup不重视实习生，所以大家都不要争了，就这么愉快的决定了。就由我代替各位直接到前线去亲力亲为吧。</span>
+INFO:root:word:<span>小甲内心OS：这么漂亮的妹子，当然是我来了！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdurrLeuDy0E3kuqfR3I840dKutoaibxLOxGkvicalcuPVYjJacRNicZCQvg/640?"/>
+INFO:root:word:<span>人甲：欢迎各位加入Pornhup公司，相信之前的新员工培训大家已经知道我们公司的规章制度了。那么咱们也废话不多说，主要讲讲咱们公司程序员工作中使用的最重要的工具：版本控制工具Git怎么使用。</span>
+INFO:root:word:<span>Git是什么相信在这里不需要我多解释了吧？</span>
+INFO:root:word:<span>静静、字母哥、大长腿：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduZ7wtdwnr4ZicJePic7dE7lL07uYfgqophKCwLu8g6zYdGs0kzCCEibIrg/640?"/>
+INFO:root:word:<span>人甲：我们公司的Git分支主要涉及到：master，即主分支，这是每个项目必须有的；develop, 开发分支；feature，从develop分支上分出来的功能分支；release, 发布分支；fix，补丁分支；hotfix，热补丁分支。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCducGwpDpky1V3aRUZoVxI80iczQbyv8sRu7Rvhu0zvtXyQvbYiaPbV7Q7A/640?"/>
+INFO:root:word:<span>静静、字母哥、大长腿：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdusdbb0AiaBib6v6xe3Ugnxia1koibIDR2L6scibcvar5tbqjPI0NE4uAlNMQ/640?"/>
+INFO:root:word:<span>人甲：哈哈，目前听不太懂没关系，今天是第一天，我主要给大家讲一些基础。我就拿你们以后开发经常需要用到的feature分支举例子吧。</span>
+INFO:root:word:<span>静静、字母哥、大长腿：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduXmJ3lSUCNFeHzF4qeNhRWicxx8dcicSq1NhLOWDkZia2FdkRtL8HibgGxQ/640?"/>
+INFO:root:word:<span>人甲：首先，大家需要从Github上用git把我们的Pornhup项目下载下来。</span>
+INFO:root:word:<span>字母哥：那个，甲大，咋下载啊？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdugMlUUicRlTc0tznrI0icLsvjL7IIKXY7ibGnw29JKFjuoDEmkrliafu1KQ/640?"/>
+INFO:root:word:<span>静静：我看你有张吴彦祖的脸，为啥却没别人那智商，这你居然都不知道！</span>
+INFO:root:word:<span>要从Github下载一个项目，需要用到clone命令。在你常用的目录下面打开git, 输入如下命令，就把项目下载下来了。</span>
+INFO:root:word:<span>git clone xxxxxxx.git</span>
+INFO:root:word:<span>我说得没错吧，甲大</span>
+INFO:root:word:<span>人甲：嗯，没错。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdumlSZTE83nFWoj5DouHu9ur0XKsS3JPabKJ2ShL7xtJ9efeu96kVmZA/640?"/>
+INFO:root:word:<span>下载下来我们的项目后，默认是在master分支。master分支你们可以理解为是老虎的屁股，摸不得。</span>
+INFO:root:word:<span>所以就需要用checkout命令跳转到develop分支。checkout [切克闹] 被用来切换分支，是git中最常用的命令之一。</span>
+INFO:root:word:<span>git checkout develop</span>
+INFO:root:word:<span>如果这个时候，字母哥接到个任务是加入A功能，你知道该怎么做吗？</span>
+INFO:root:word:<span>字母哥：我想想啊</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduiaIzP8BC1icjeIEp9OFoicicvPGYctwKJBvicThITwfhbP9p2wzGygIrPsA/640?"/>
+INFO:root:word:<span>好像我们也不在develop分支上直接操作，这个时候应该需要再从develop分支上搞个分支出来。创建一个新分支，就需要用到branch命令。</span>
+INFO:root:word:<span>git branch feature-Agit checkout feature-A</span>
+INFO:root:word:<span>人甲：你这样说也没错，其实还有更简单的办法。两条命令合并成一条，branch直接用-b代替，然后再用checkout跳转到该分支，所以上面两句命令就变成一句了</span>
+INFO:root:word:<span>git checkout -b feature-A develop</span>
+INFO:root:word:<span>然后你们就可以在这个feature-A分支上完成你们的工作了。那么，如果代码写完发现没有问题，接下来大家知道怎么做吗？</span>
+INFO:root:word:<span>静静: 哈哈，我知道！</span>
+INFO:root:word:<span>用add命令来添加新写的代码</span>
+INFO:root:word:<span>commit命令用来提交新写的代码</span>
+INFO:root:word:<span>git add feature-Agit commit -m "add feature A"</span>
+INFO:root:word:<span>人甲：静静你很厉害嘛，晚上下班到我办公室来。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdussK5icNzDuPa0ZQ8ia4WIedohQefmeJAGqnpkKNx7YjOxUicgpT3TI6icQ/640?"/>
+INFO:root:word:<span>但是先add, 再commit你们不觉得很繁琐吗？git这么设计必定由它的道理，你们有人知道为什么需要先add, 再commit吗？</span>
+INFO:root:word:<span>静静、字母哥、大长腿：不知道欸，没仔细研究过。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduejc5ILQW0YaB0H3gGGcRhZDLqGtTWMGm5vicxQPYZnZbm7zeqKzZlibw/640?"/>
+INFO:root:word:<span>人甲：git有好几个区，我们平时更改添加删减的代码都在工作区里面保存。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdu5RHAtZDmZw5VZxxtSjopLuUbG4ILDmSib89A8Zqo4oApmJyLnbOWTtg/640?"/>
+INFO:root:word:<span>add命令执行后，修改被保存到暂存区。可以理解为你操作本地文件按了下ctrl + s</span>
+INFO:root:word:<span>然后当你commit后，暂存区里的东西就被保存到了本地仓库。这里可以理解成你把修改好的东西放到了仓库，已经准备好运到下一个仓库去了，也就是所谓的远程仓库，Github。</span>
+INFO:root:word:<span>静静、字母哥、大长腿：原来是这样啊！！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduayOqbsDZYL1v07P0iclZa69fXFdo0Y66cQZOhia1U5BLiayYdAVe782RA/640?"/>
+INFO:root:word:<span>大长腿：人甲，接下来我来抢答下，add跟commit后是不是这个时候就用到merge命令，合并feature-A分到develop去啊？</span>
+INFO:root:word:<span>人甲：不对哦，你如果这样做，很可能出现冲突。因为可能出现有很多人在develop分支上更新。所以你这个时候用pull命令，把远程仓库的更新取回并更新。</span>
+INFO:root:word:<span>git pull origin develop</span>
+INFO:root:word:<span>然后再切换回自己的分支，用rebase命令合并新更新到自己目前工作的分支。</span>
+INFO:root:word:<span>再检查有没有冲突，最好双手合十起到没有冲突，有的话可能目前你们的水平也解决不了。</span>
+INFO:root:word:<span>静静、字母哥、大长腿: 这么麻烦啊！！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduSmfQhVyEgpjx04XOoxosqhRoX4grjsqn96xN0P9rYnOHNBJ60VicRZg/640?"/>
+INFO:root:word:<span>人甲：没办法，git就是这么设计的，如果一切安好的话。就可以用merge命令合并分支</span>
+INFO:root:word:<span>git merge --no-ff feature-A</span>
+INFO:root:word:<span>合并之后就剩下最后一步操作了。</span>
+INFO:root:word:<span>大长腿: 甲大，选我来说</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduk5hyC0Gt6FFpQ09ibuE1coiaIpAqq4ChsLFBVlEcAwE0icPYqdSyeb3Hw/640?"/>
+INFO:root:word:<span>这个时候，我们已经成功合并分支到develop分支上了，为了防止工作丢失，可以把刚才的工作推送给到云端去了。</span>
+INFO:root:word:<span>人甲：是的，最后一步工作就是用push命令推送到Github就完事了</span>
+INFO:root:word:<span>git push origin develop</span>
+INFO:root:word:<span>好的，今天就给大家讲这么多，大家要是明白了之后，就可以去试着开发上面交代的工作了。</span>
+INFO:root:word:<span>对了，静静，下班后请你到我办公室来。</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<title>这种公司都得死</title>
+</head>
+INFO:root:word:<span>「没有大公司的命，得了大公司的病」想起这句话的时候源自于我跟一家小企业的合作。整个合作的流程非常糟糕，甚至让我觉得他们并不是一家称职的外包公司。</span>
+INFO:root:word:<span>流程混乱</span>
+INFO:root:word:<span>群龙无首</span>
+INFO:root:word:<span>流程冗长</span>
+INFO:root:word:<span>整个合作让人非常之不爽</span>
+INFO:root:word:<span>我断言这家公司在未来的路走的不会太远。具体怎么说？且听我详细说来。</span>
+INFO:root:word:<span>小公司的优势在于小巧灵活，甚至可以因为外在因素调整公司的大方向。小公司因为其小、人员简单，做事情的流程也相对简单。比方说你想调整一个线上的小功能，可能就是拉上几个人一起开个会，通过了就能开发了，然后就上线了。这个流程可能就是一周的时间。</span>
+INFO:root:word:<span>但是在大公司是不行的，你有这么一个小想法需要经过一层一层的审批，审批完了之后也需要开发来 评估排期，测试测试排期。很多想法被扼杀在审批中，开发也会拒绝掉一些需求。这样一来一个想法的实施非常难，就算能够实施也是几个月之后。</span>
+INFO:root:word:<span>说实话</span>
+INFO:root:word:<span>看到这个流程之后</span>
+INFO:root:word:<span>你自己可能会把想法只埋在心中了</span>
+INFO:root:word:<span>再问你一句：</span>
+INFO:root:word:<span>几个月之后</span>
+INFO:root:word:<span>你还有动力？</span>
+INFO:root:word:<span>以上只是个例子。小公司能够成功，非常依赖于这一点：所有人都有话语权，做事情流程简单也很迅速。</span>
+INFO:root:word:<span>但是所有都有话语权并不是说每个人都是老大，就是说在整个公司中必须要有统一的声音，并且有非常明确的谁大谁小的概念，尤其是对外的时候。</span>
+INFO:root:word:<span>在对外合作的时候，小公司派出多个代表与合作方对接，最后多个代表却代表了多层的意思。比方说是一个软件的开发需求，代表A的需求是N界面，代表B的需求是M界面。</span>
+INFO:root:word:<span>出现这种状况</span>
+INFO:root:word:<span>本质上就是管理权的问题</span>
+INFO:root:word:<span>散漫惯了</span>
+INFO:root:word:<span>很难改变</span>
+INFO:root:word:<span>当然这种管理权的问题说到底其实又是流程的问题。如果公司早已经把对外合作、对内工作的这种工作形成了一套流程模板也不会出现上面所说的这种情况。</span>
+INFO:root:word:<span>无论是一家公司还是一个团队，规章制度是必须要有的。如果没有规则的约束，公司的一切都是混乱的，会出现种种你不愿意看到的东西。</span>
+INFO:root:word:<span>各位小伙伴</span>
+INFO:root:word:<span>如果碰到符合上面特征的公司</span>
+INFO:root:word:<span>听我一句</span>
+INFO:root:word:<span>撤！</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史！</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- Android都要收费了</span>
+INFO:root:word:<span>- Github发布史上最大更新</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<title>作为程序员，我是如何通过一个方法记住7000单词的！</title>
+</head>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wf5rxZQ06pTJOPbJIcLWGCtq4FanHrpA0w6zQekOhVF3hXfNtGcEeXw/640"/>
+INFO:root:word:<span>单词是基石</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_gif/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqF9fYaGBSg5vmbVJSsDWqYoGRNBsMia1NyTuAJg3F5Mc7oefCYXc2fRg/640"/>
+INFO:root:word:<span>为什么学英语这么难？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/tPK9oOJ9hl01iaHuwlx3smsCKpvvibQuZaZiceSo3nlKHVV15jvRqz0cROGpiaMVc01Za7WBNlrnVuianVVXQRQL7kw/640"/>
+INFO:root:word:<span>答案是显而易见的。传统的学习英语、背单词的方式根本就是错的！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJicT1SQLiaHicgV5sxvSQSsYudDcAg5hjIgo6YcC7DzV5qMaSDhp85T5w/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wvhhWDXSibHhqOpCup6jn9LfUwZciaU0cFd6HXibsFdWh71BoyBotYTssQ/640"/>
+INFO:root:word:<span>所以只要我们在对待单词时，不要死记硬背，把它们融入到我们的生活中，奇迹就发生了！</span>
+INFO:root:word:<span>极光单词</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJyNG1VMe2IQXKsZfvnxiaLLctkibJSAeKhZTId3iaWasOicTqW2nc0F8wg/640"/>
+INFO:root:word:<span>极光单词</span>
+INFO:root:word:<span>让每个人都拥有记光单词的能力！</span>
+INFO:root:word:<span>【电影原声】+【电影画面】</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZLNRQfAgJtkpdKqpPyAmZmujibViczWYtBSnJGbPdcLPicyKHmh3N6KgA/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlK4GB0wo9esGedo5wW3xYNLKcLfTM7QFp3DibV5YFzyiavv7ibMPwCIuRWw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKcptx6Csz8h0AcC4UHBYh6OlJr6qAQWliafbWq1n7zvANG2mh4DmuOMw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKTjicG2Du3y0VaAmtUxDVfe1pLgD7wLAw5Fn2YC3eOIibJxDaphiasjXrg/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZM0VvpEbZZEIc98XxiaSKKb9W6ia4l4ZopSRbHupQ2j3dbWnGHMgQLKA/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKjZWaibYNOWcFssiaDB1CAtgHngWBfTCo3LJhMaibMoeImyLSjDQ0TIxtw/640"/>
+INFO:root:word:<span>极光单词还把每一个单词都放在了与我们生活息息相关的情景之中</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKs4zOic73KrJ84hiaV2p6Vl4boFHkcTQZWmU7I7pMtrofC9cgumnTmia2A/640"/>
+INFO:root:word:<span>突出了它们最能被记住的特征！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8ib7odrZbAj0fnFEglSq4H2V2qfnTrpLfo63agXNeQy3fOWp1ibVyJOQ/640"/>
+INFO:root:word:<span>用这些特征，直击每个英语学习者的记忆神经。</span>
+INFO:root:word:<span>第一天心血来潮背了200多个单词</span>
+INFO:root:word:<span>第二天累了只背了50多个</span>
+INFO:root:word:<span>第三天20个</span>
+INFO:root:word:<span>第四天就完全放弃了，把单词书扔在一边逍遥快活去了……</span>
+INFO:root:word:<span>学习赌局返现金钱来刺激</span>
+INFO:root:word:<span>返1元69元全部返还！</span>
+INFO:root:word:<span>一个程序员的日常粉丝专属福利</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640"/>
+INFO:root:word:<span>原价30天99元  凡是一个程序员的日常的粉丝</span>
+INFO:root:word:<span>只要每天坚持学习并达到标准</span>
+INFO:root:word:<span>99元 全部退还</span>
+INFO:root:word:<span>相当于免费学习，不花1分钱</span>
+INFO:root:word:<span>付费1次就不用再付费，可长期学习！</span>
+INFO:root:word:<span>↓↓↓↓↓↓↓↓↓</span>
+INFO:root:word:<span>长按扫码，立即加入</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640"/>
+INFO:root:word:<span>本期仅开放100个名额，先到先得！</span>
+INFO:root:word:<span>90%退回了全部学费</span>
+INFO:root:word:<span>极光单词</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jSkyVJH0rfV9jTzbxicKVjBhfZCVKUb6wvF2klQfRuHnK78E8KPvQxwicf1EIVvlaR491UQRg7BKw/640"/>
+INFO:root:word:<span>美剧、VOA、BBC纪录片原生……</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8vcsEsIdnUapSZIia1VYmZa5qRq4lBeLuRcicGKPxM1vKLkIePYgUHicQ/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w5vddK7FJgMcdm3Z5BHlod5b66ib9UO6zQpgLy4yXw4VVxyE9mibia5NVA/640"/>
+INFO:root:word:<span>情景记忆法</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wPzNFzpQXjvd7VgnLCk8xFYXjBhsLoXuLib74OPSEhCP17MxSPLVvXPg/640"/>
+INFO:root:word:<span>医疗、亲子、旅行、商务新概念、以及小学、初中、高中、大学四六八级、留学考试（雅思、托福）、KET、GRE</span>
+INFO:root:word:<span>学习赌局返现金钱来激励自己学习。</span>
+INFO:root:word:<span>返1元69元全部返还</span>
+INFO:root:word:<span>一个程序员的日常粉丝专属福利</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640"/>
+INFO:root:word:<span>原价30天99元  凡是一个程序员的日常的粉丝</span>
+INFO:root:word:<span>只要每天坚持学习并达到标准</span>
+INFO:root:word:<span>99元 全部退还</span>
+INFO:root:word:<span>相当于免费学习，不花1分钱</span>
+INFO:root:word:<span>付费1次就不用再付费，可长期学习！</span>
+INFO:root:word:<span>↓↓↓↓↓↓↓↓↓</span>
+INFO:root:word:<span>长按扫码，立即加入</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640"/>
+INFO:root:word:<span>本期活动仅开放100个名额，先到先得！</span>
+INFO:root:word:<span>90%的学员</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicVPVSAx4LmsuYUFJibBe6olvP6iaDpWC2fy9ALYtVXMRsnmok2QMeBVYwVuHsTJhIMsP0eibHUulicDg/640"/>
+INFO:root:word:<span>***  课程评价  ***</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH56NLveo135AJbevoLgVrPBcm2DkDuHibiakrhOADGnKsXXa5OqxbsfpMQ/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wSZicChecNIFezgHJeGlXYEewJxJ8pT3qcNHWkicQQXOvvuLGDibAErh8g/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wrZAvoGk88icehHEqoCWtP19w6D3WP1Zztm7RoEgBdIhiamuQXrprPic3w/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wGYyiaLicGiaoicAx03ehrTL0kAsIM16ArcRCnIiaxjguF2R9Zb6Dibyphjibg/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH5WcDuiacZ4SH611V4fhh970p9DpDMyZl1ia9xC16wnjSib6lIJC6v8aZ7w/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wZmaUatgliarsLuot55d2cUiaU3LYn43Cxe3mVaibSoggmGgXN0iawUTRPQ/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wkq1cibzZEJ8FMLGrgdPdKEUmicuuia6YJufjkh8CzVslbhmnEqgIHGdEw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wwtLqZYHwdwu8Rx7I5947KfiaLKVkzDicApEbUe8v25v8TiaiaFxBhMHJrw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wLacYZ3VhEAXtscTGwiaTVv5SFB7TyDNw4QC2lNLDkxdLaOId7PsMHoA/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wn7ct9WaEA4ga2IH5AUZfXseCFQLkmcl5nAnW5WP5UubcCLDFQ0ENRw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wsw8nhlmAnwNMZjiaFeQmNJAdHgDPWg4EVRpMXkbQ9VcJJq2TemM4jicw/640"/>
+INFO:root:word:<span>全额退费</span>
+INFO:root:word:<span>一个程序员的日常粉丝</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640"/>
+INFO:root:word:<span>原价30天99元  凡是一个程序员的日常的粉丝</span>
+INFO:root:word:<span>只要每天坚持学习并达到标准</span>
+INFO:root:word:<span>99元 全部退还</span>
+INFO:root:word:<span>相当于免费学习，不花1分钱</span>
+INFO:root:word:<span>付费1次就不用再付费，可长期学习！</span>
+INFO:root:word:<span>↓↓↓↓↓↓↓↓↓</span>
+INFO:root:word:<span>长按扫码，立即加入</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640"/>
+INFO:root:word:<span>本期活动仅开放100个名额，先到先得！</span>
+INFO:root:word:<span>▼点击原文链接，立即参加赌局！</span>
+INFO:root:title:<head>
+<title>程序员捅了马蜂窝：都是爬虫的锅</title>
+</head>
+INFO:root:word:<span>几天马蜂窝这个网站火了，世界杯期间它是因为那个洗脑的广告火的，而这几天火是因为几个程序员捅了它。他们采集了马蜂窝的数据，他们用马蜂窝的数据跟携程、大众点评等网站的数据对比，发现了一个惊天的事实：</span>
+INFO:root:word:<span>马蜂窝整个网站的自称21000000条的真实点评，实际上其中有85%的点评搬运自大众点评、携程、yelp；也就是说马蜂窝这个网站上的真实点评可能只有315万。</span>
+INFO:root:word:<span>官方口径的2100万</span>
+INFO:root:word:<span>VS</span>
+INFO:root:word:<span>实际上真实的315万</span>
+INFO:root:word:<span>你特娘的也是个人才啊。其实咱们都知道在当今的互联网界，大家在冷启动的时候都喜欢这么干：把别人网站的成熟的资料抄袭过来。我们都熟知的Airbnb在冷启动的时候前1000个房源信息就是从Craigslist采集过来直接贴在网站上的。</span>
+INFO:root:word:<span>同样来自携程、大众点评等网站的这些点评资料拿过来之后可以丰富马蜂窝网站的内容。冷启动的时候干情有可原。</span>
+INFO:root:word:<span>但是马蜂窝错就错在</span>
+INFO:root:word:<span>它不是冷启动的时候在做这件事情</span>
+INFO:root:word:<span>他是一直在做这件事情</span>
+INFO:root:word:<span>甚至在公司内部养着一个大型的团队在做这件事情</span>
+INFO:root:word:<span>把抄袭、搬运做大了规模</span>
+INFO:root:word:<span>做成了产业</span>
+INFO:root:word:<span>这不是找死么？</span>
+INFO:root:word:<span>过了冷启动期其实也可以干，你看国内的很多新闻网网站都是互相的采集对方的新闻信息进行伪装，今日头条也采集新浪微博的，悟空问答也采集知乎的。</span>
+INFO:root:word:<span>但是这种采集都要有个限度、要小声的采集，你网站本身提供的独立价值要远远大于抄袭搬运带来的价值。</span>
+INFO:root:word:<span>而马蜂窝就不一样，你默默的抄袭也就罢了，你默默的搬运也就罢了。你还生怕别人不知道，所以你还非要在各种地方重点宣布：来自网友2100万的真实点评，引以为傲。</span>
+INFO:root:word:<span>你还把这2100万的真实点评数据放在投资人的面前，投资人眼花了，一转眼间给马蜂窝投成了独角兽，体积大了几千倍。虽然我知道国内很多投资人都是只看数据、不长记性的，但是这么造假玩骗钱就有点过了。我想问问马蜂窝「独角兽」</span>
+INFO:root:word:<span>马蜂窝你们在用假数据宣传的时候就没有一点的脸红吗？</span>
+INFO:root:word:<span>你们在用假数据向投资人骗钱的时候就没有一点心虚吗？</span>
+INFO:root:word:<span>哦，我懂了，可能宣传久了，你们已经认为那2100万点评真的是你们自己的了。</span>
+INFO:root:word:<span>按照马蜂窝这个逻辑，说实话，我一个程序员加上一个能吹牛的合伙人我们能复制出一百个独角兽出来。</span>
+INFO:root:word:<span>我可以采集飞猪、去哪儿、携程所有酒店的资料和点评内容，做一个酒店预订网站，而且保证我的酒店信息和点评资料是全中国最全的、最大的，投资人你给钱吗？别问我为什么，因为我是汇总的。</span>
+INFO:root:word:<span>我可以采集知乎、悟空问答、Quora等等所有问答内容做一个全球最大的问答网站。别问我为什么敢自称最大，因为爬虫所以自信。</span>
+INFO:root:word:<span>我可以采集…</span>
+INFO:root:word:<span>现在爬虫这个技术是有些泛滥了，会爬虫的人和公司也越来越多了。所以造假、搬运、抄袭的成本也越来越低了。</span>
+INFO:root:word:<span>不奢望捅马蜂窝这事情能改变互联网大环境，</span>
+INFO:root:word:<span>但致少能给那些还在抄袭的大型互联网企业敲个钟吧！</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史！</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- Android都要收费了</span>
+INFO:root:word:<span>- Github发布史上最大更新</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<title>成人网站Pornhup挂了</title>
+</head>
+INFO:root:word:<span>坐在办公司的人甲看着显示器前记录Pornhup的访问量相比前几天有所下降，看着10月31日万圣节就要到来，再过几天又是双十一，还有程序员节1024，人甲眉头一皱，发现事情没那么简单。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6y8EibffD3niciaicgTOzqrvLtTLYfOBbfjyibCvRtVWRjiaibALcpCkSG0dGg/640"/>
+INFO:root:word:<span>目前pornhup流量走低只是暴风雨前的平静，有经验的管理者都知道，每逢大节来临，网站必定流量激增。到时候如果pornhup如果出现服务器宕机，全球70亿同胞无法正常看「电影」，那可就出大事情了。</span>
+INFO:root:word:<span>全体集合，开个会吧。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6gctK6mWbtEPicROM6zKxfiaiaulX5J9YGsGMW7WKOa6ppibLENKC05fLAQ/640"/>
+INFO:root:word:<span></span>
+INFO:root:word:<span>管理者人甲：各位，由于我们目前的服务器选择的带宽刚好能满足我们业务的正常需求。但是我有预感，过几天我们的网站即将引来一次流量激增，到时候我们目前的服务器配置可能处理不了那么大的访问量，可能会导致服务器宕机，各位对此有什么好的解决办法吗？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6VMPKD9aKftCdjGdEBbziasicDYZJuQEOh58wHAETib0fTCaRlAT6dicEAw/640"/>
+INFO:root:word:<span>运维小A：网站流量暴涨这肯定是好事情，不过如果不能未雨绸缪，保证服务器的稳定，好事情也可能变成坏事。</span>
+INFO:root:word:<span>管理者人甲：哦？为什么这么说呢？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Fu7zquEyb92LcmCIE99WdknHmSP4jm2F2IJqP2RTe6sInojtcQRIMA/640"/>
+INFO:root:word:<span>运维小A：网站访问量增多，更能提高我们pornhup的知名度，同时吸引更多人来我们网站投放广告，我们也能通过访问量赚更多的钱。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Qy5YkeULlB2XTR0fveq2poBFcDGbl6kYhqPwib8l1kWnkksuEj8WWGQ/640"/>
+INFO:root:word:<span>但是，要是网站访问量人太多，造成资源耗尽，超出带宽使用范围，服务器处理不过来如此大量的数据，就会导致服务器宕机。</span>
+INFO:root:word:<span>服务器出现宕机，可能会出现数据丢失或损坏的情况。更可怕的是，要是服务器宕机，传出pornhup网站不稳定的负面消息，到时候产生用户对pornhup的信任危机，不是砸了自己的名声么。</span>
+INFO:root:word:<span>你看看国内微博整天宕机，千万不能像他一样！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6OMsMANSaxFwQ7Leg3IKianicgqN3xw7fHwqGF2lLLb6DeGEK80gw5tLg/640"/>
+INFO:root:word:<span>管理者人甲：是的，我们pornhup公司好歹也是世界500强，网站下线1分钟也可能造成很大的负面消息，服务器宕机这类的事情绝对不允许发生！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6ZibPePbAfYiabOswClX2RT1T8oQsGxhCDd6arK1cibuQzZ7UX0IcK7pxg/640"/>
+INFO:root:word:<span>运维小A：人甲刚刚预测后面几个节日，会有一大波流量来袭我们pornhup网站，当然这属于可预测的流量咯。</span>
+INFO:root:word:<span>那我这个老运维便给大家说说的对于可预测的流量激增可以采取哪些措施。</span>
+INFO:root:word:<span>1. 对未来的流量进行估算，提前购买带宽资源，增加高性能的服务器，优化数据库访问速度，对内容传输网络的配置进行流量优化。</span>
+INFO:root:word:<span>管理者人甲: 那这样大规模购买带宽，服务器肯定会增加不少费用吧？虽然我们公司已经很有钱了，但是花钱也是要有个尺度的。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6icRbRCtSUdGk057ia6sYubCFaZXA1qWr3e0kdUtCibYlur6ia7wDqt4UlQ/640"/>
+INFO:root:word:<span>运维小A: 是的，上面说的是最基本的控制大流量的方面。当然还需要结合其他方面进行优化。</span>
+INFO:root:word:<span>管理者人甲：好的，那你继续说说你下面要说的方案。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6vHOjEY2FicquhQXHJCCeXDs7kZ8boibhMmhAxq2oK6419QicibjOOicBfgQ/640"/>
+INFO:root:word:<span>运维小A:</span>
+INFO:root:word:<span>2.部分网页可选用默认缓存模式。这样用户请求服务器的时候，这些网页已经在用户电脑上有了缓存，就不需要再从服务器上面下载，这样就可以减轻服务器负载。</span>
+INFO:root:word:<span>管理者人甲：但是一个网页最多也几百KB, 光从配置缓存的办法似乎不能减少太多服务器的压力。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q63Pm9v8SI2V2lmbTQXqU0IIaicY0icHC44Cetv5XqQhM0O1YtBpgePUdQ/640"/>
+INFO:root:word:<span>运维小A：</span>
+INFO:root:word:<span>3. 对于不影响到系统核心服务和性能的服务配置降级方案。因为服务器资源有限，所以服务器处理的内容也应分个有限等级。应尽可能的把系统资源让给优先级高的服务。</span>
+INFO:root:word:<span>这就像不重要的东西就先扔一边，别占着茅坑不拉屎是一个道理。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6Z3zl7ia3sQBdnzicOWvQIDeje8wNe6Fj6AranW6ibR8SdEnsDMssQ9x1Q/640"/>
+INFO:root:word:<span>所以发现一些服务长时间超市或者有网络抖动，或者网页一些不必要的渲染，或者一些占用系统资源太高的应用，都可以进行降级处理。</span>
+INFO:root:word:<span>管理者人甲：这个解决办法听起来很不错嘛。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6v1m4szskQJNreSTSjHMQ7gnXnvQsEgHiahicHhicm1RLAECXLCaZbNmHg/640"/>
+INFO:root:word:<span>运维小A：</span>
+INFO:root:word:<span>4. 采取限流方案。对每个p2p进行流量监控，设置每个ip连接数和流量上限，并配置好防火墙。这样有恶意攻击，突发流量等情况则可进行拦截。</span>
+INFO:root:word:<span>管理者人甲：感觉小A说得很有道理，那么大家便按照说的方案去实施。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q64p22gh1PzHmETrMWUFnMT0ca6Dn33EKpwu5k5mNocOpicehMHfiaL1PQ/640"/>
+INFO:root:word:<span>运维小B: 不过，老甲，小A刚才说到的那些方案也只是在有可预测流量部分的解决方案。</span>
+INFO:root:word:<span>但是更多情况下，网站要面临的是不可预测流量。如果一直用小A那套方案，必定会造成很多服务器资源的浪费，这样做不行啊。</span>
+INFO:root:word:<span>管理者人甲：那么，面对不可预测流量激增的时候，又有什么解决办法呢？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q66hyzwufkZ53TQkibGXaqLxxHcBEY8tj6KNCOy7vebgNbpHfyz4ibibJ8g/640"/>
+INFO:root:word:<span>运维小B:</span>
+INFO:root:word:<span>1. 采用合适的CDN服务。CDN服务可以避开数据传输速度速度和稳定性上的瓶颈，保证传输内容更快更稳定。</span>
+INFO:root:word:<span>管理者人甲：感觉好像很厉害的样子，CDN服务能做到这么优秀，是怎么实现的呢？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6XeT1MHmPUOicEcP8mvjv53dzZS7EdhfEwJAvlv5moR1hKwvw2cGxA4g/640"/>
+INFO:root:word:<span>运维小B:其实里面的原理就是采用各种缓存服务器，通过负载均衡技术，让不同地区的服务器保存相应地区的缓存。</span>
+INFO:root:word:<span>比如北京地区就访问北京地区的节点，上海地区的用户访问上海地区的节点，这样访问的速度更快，也可以防止网络拥堵情况。</span>
+INFO:root:word:<span>2. 选择优秀的自动化运维工具也很重要。如果还按照传统的方案，几千台服务器全靠人去维护，效率不仅不高，而且维护起来还很麻烦。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KpDcXHttmlZianzIk0md80Q6ib2MBvsSrQeTnTAQCBor6jNg2iccyBiaiasz3zicsibAs6FXSHZ1pqvaHppQ/640"/>
+INFO:root:word:<span>如果能采用一套好的运维工具，这样这些脏活累活全部交给计算机自动解决。这样就等于一套工具就把数名运维的苦力工作都做了。</span>
+INFO:root:word:<span>内部资源能更好的整合到一块，这样pornhup的服务器也能更好的面对流量激增的问题。</span>
+INFO:root:word:<span>嘿嘿，自从有了上述的几套方案，pornhup高清无码，想看就看。万圣节人甲邀你pornhup激情看片，约吗？</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史！</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- Android都要收费了、Java也要收费了</span>
+INFO:root:word:<span>- Github发布史上最大更新</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:apscheduler.executors.default:Job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:58:25 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:58:25 CST)" (scheduled at 2018-11-04 18:58:25.535065+08:00)
+INFO:apscheduler.executors.default:Job "begin_test (trigger: interval[0:00:10], next run at: 2018-11-04 18:58:35 CST)" executed successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "begin_test" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:apscheduler.executors.default:Running job "begin_test (trigger: interval[0:00:20], next run at: 2018-11-05 09:27:59 CST)" (scheduled at 2018-11-05 09:27:59.013804+08:00)
+INFO:root:最近有一部电视剧挺火的，叫做「创业时代」，我估计不少同学都有耳闻，讲的是在电话和短信为王的年带，一个程序员创业做了一个即时通讯软件，在创业过程中他遇到了各种各样的问题，通过自身以及团队的努力以及身边朋友的帮助，他一步一步的解决这些问题。最终自己完成从一个程序员到一个CEO的蜕变。
+INFO:root:在我印象里这应该是第一部互联网创业类型的电视剧，但凡是披着「第一」这件外衣的东西，总少不了外界的吐槽，这不这边这部电视剧才刚播了一半，豆瓣上就挂满了差评。
+INFO:root:吐槽我总结了一下，大致分成了两种，一种是牛角尖型吐槽，另一种是风油精型吐槽；牛角尖型吐槽者大部分是程序员，他们认为电视剧中两个程序员就能把后端和移动端做了不太现实，也有人说iOS一般来说从提交申请到在Appstore上架一般来说是要好几天的时间的，但是在电视剧中当天就通过了。
+INFO:root:好吧，程序员真的惹不起！
+INFO:root:所谓风油精型吐槽，一般又分成两种类型：一种类型听风就是雨，听别人说这个电视剧不好看，我就说这部电视剧不好看，为了跟大众有共同语言而跟风，你也可以理解为无脑黑的一种。第二种类型是看风就是雨，这种人高于第一种类型，他们会截取电视剧中所看到的一些小小的点拿出来仔细揣度，对其进行批判，而实际上他们可能只看了电视剧中某一集的十几分钟片段。
+INFO:root:基于这点我这个人是向来不相信豆瓣上那票人的评价的，比如说我喜欢的很多好莱坞大片在豆瓣上只有6分，一些高达8.5分的电影我却看了前几分钟就看不下去了。
+INFO:root:所以我还是毅然决然的去看了看这部「豆瓣烂片」。果不其然，不出我所料，我的评价是：从我这个同是程序员出身创过业的人来说，个人觉得这是很不错的、值得学习的电视剧。虽然剧中的某些片段为了推送剧情发展，导演确实用了夸张的手法，也有个别的演员演技……
+INFO:root:最近几年，国家一直在倡导创新创业。早在2015年的时候国家就提出了「大众创业，万众创新」这个口号，2018年国家还做了升级版的「双创」口号。在国家的领导下，全国各个地方也都纷纷响应号召，给出了很多的创业优惠政策，创业基金扶持等等。
+INFO:root:在这样的号召下，创业像一股热潮在一二线城市打得火热。也就是在那个时候「就差一个程序员了」这句话被传开了。为什么？因为人人都是产品经理、人人都可以有想法。但所有的产品都需要开发、上架，都离不开程序员。技术并不是人人都会的。在这样的大环境下，程序员创业的情况也越来越多见。自己会做软件，自己为什么不创业呢？为什么要给别人打工呢？
+INFO:root:电视剧中的男主角郭鑫年可以说就是这个时代背景下最典型的一个代表：是个程序员、有一些不错的想法、想把这些想法实现。为了把这个想法变成现实，他纠集了他的兄弟和大学同学一行三个人开始了创业之路。但是在创业之路他们遇到了各种各样的问题：
+INFO:root:1.被抄袭
+INFO:root:准确来说是被剽窃，男主的创业计划书因为种种原因落到了一个富二代的手里，富二代觉得这给点子不错，于是这个富二代就组建了一个实力雄厚的团队也来做这款实时通信软件。实话来说真的有如此的团队来做同样的产品的话，除非前期的计划书在后期变化很大，不然男主郭鑫年的团队肯定是要输的。
+INFO:root:2.被大厂打压
+INFO:root:大家都知道实时通信软件肯定是触及到很多公司的利益的，同样电视剧中的魔晶团队也遇到了这样的威胁，大厂想方设法的扼杀这种软件，同样现实生活中类似的扼杀其实很多。很多大厂的方案是通过收购或者黑公关来毁掉这样的新型产品。
+INFO:root:3.被威胁
+INFO:root:说到威胁这个词可能大家会觉得不可思议。职场如战场这句话其实说的一点也不错，就是在如今也经常会听到创业公司的创始人公司被砸、创始人被揍、受到人身威胁的故事。而剧中的男主同样也受到了来自富二代的威胁。
+INFO:root:4.团队不协调
+INFO:root:创业的时候最怕的事情是后院起火，一个创始团队只有齐心协力，向同一个方向使力才能有希望，然而永远和谐的团队都是理想的。在漫长的创业周期中的，难免会遇到团队在同一件事情上的观点大相径庭、团队争吵，出现团队人员的变动情况。遇到这样的情况，男主是怎么一步一步处理，最终得到解决自己也得到了成长。
+INFO:root:创业是一件小事，因为说起来它只是把一个想法给实现这么简单。它又从来不是一件小事，因为实现这个想法之前如何组建团队、如何平衡团队利益关系、如何拿到钱让团队活下去、如何应对抄袭、如何推广产品走向市场、面对诱惑如何不动摇自己当初的想法等等等等，都是创始人要考虑的事情。
+INFO:root:今天看了看网上对这部电视剧的评论都不太友好，但说实话，其实是很多人没有用心去阅读理解其本质的东西。无论你是一个程序员，还是一个刚开始创业的创业者，这都是一部值得花点时间看看的电视剧：了解创业路上会遇到的种种问题，学习学习创业需要准备的东西。
+INFO:root:创业不易、且行且珍惜。
+INFO:root:黑话这个词，说起来各位都会会心一笑。各行各业都有自己的行业内的黑话，产品经理有产品经理的黑话、金融行业有金融行业的黑话，而程序员这个群体虽然虽然忠厚老实，但是却有着丰富的黑话史。
+INFO:root:今天小甲就给大家来整理整理互联网公司程序员的黑话，出一篇程序员黑话指南，你只有了解程序员的黑话才能跟程序员打成一团，获得buff加成，产品尽早上线。
+INFO:root:作为程序员你只有熟悉掌握程序员黑话才能更快融入群体，从此一步走向人生巅峰、赢取白富美，走向人生巅峰。
+INFO:root:1. 跟产品经理对话的时候
+INFO:root:我想想这个怎么实现
+INFO:root:== 我想想怎么砍掉这个需求
+INFO:root:没看过别的产品这么设计的
+INFO:root:== 这功能也太傻逼了
+INFO:root:你确定有这个需求吗
+INFO:root:== 做出来没人用劳资打死你
+INFO:root:不好意思，我没听清楚
+INFO:root:== 你是傻逼
+INFO:root:今天做不了
+INFO:root:== 今天回去看新垣结衣
+INFO:root:下个版本再做吧
+INFO:root:== 我不想做
+INFO:root:别人家的实现方式不一样
+INFO:root:== 我不会做
+INFO:root:你这个需求不清晰
+INFO:root:== 要不打一架
+INFO:root:你说的这个东西有什么可以参考的东西吗
+INFO:root:== 废话少说，你想抄哪个网站
+INFO:root:正在改
+INFO:root:== 我去，刷知乎太久了，居然把这茬给忘记了
+INFO:root:我先评估一下技术难度
+INFO:root:== 先拖几天
+INFO:root:我再想想还有什么解决办法没
+INFO:root:== 我再去 stack overflow 上抄抄其他解决办法
+INFO:root:这个软件是用的是最典型的做法
+INFO:root:== 我抄的微信 || 淘宝 || 滴滴
+INFO:root:我测试的时候没问题啊
+INFO:root:== 傻X，你到底会不会用我的软件啊
+INFO:root:2. 当程序员跟外行交流的时候
+INFO:root:你怎么还在用Windows啊
+INFO:root:== Linux要不要了解下
+INFO:root:你用的什么浏览器？
+INFO:root:== 要不要试试Chrome
+INFO:root:抱歉，我不会修
+INFO:root:== 你大爷，又让我修电脑
+INFO:root:不好意思，这个我弄不了
+INFO:root:== 这个项目你能给多少钱
+INFO:root:时间不早了
+INFO:root:== 我还要回去写代码
+INFO:root:你用百度搜一下
+INFO:root:== 这么简单的问题也来问我
+INFO:root:== 看你这土鳖就不会用Google
+INFO:root:3. 当程序员跟同行交流时
+INFO:root:哥们，最近怎么样？
+INFO:root:== 秃了吗？
+INFO:root:你告诉我怎么做吧，我自己来
+INFO:root:== 别用你的脏手摸我的宝贝键盘
+INFO:root:Talk is cheap,show me you code
+INFO:root:== 看你整天吹牛逼，就知道你写不好代码
+INFO:root:今晚早点回去陪我女朋友
+INFO:root:== 我的右手已经饥渴难耐了
+INFO:root:明天天冷
+INFO:root:== 不知道家里有格子衫没
+INFO:root:你帮我看看我的代码
+INFO:root:== 碰到个bug，我已经要崩溃了
+INFO:root:你确定吗？
+INFO:root:== 我代码不可能出问题的
+INFO:root:你用的什么系统？
+INFO:root:== 我在Linux上运行的好好的
+INFO:root:我正在调试程序
+INFO:root:==不想理你
+INFO:root:你怎么还在学Python啊
+INFO:root:== PHP才是世界上最好的语言
+INFO:root:你怎么还在用VS啊
+INFO:root:== 辣鸡，Vim才是正解
+INFO:root:兄弟，你能上得了网吗？
+INFO:root:== 我代理好像出问题了
+INFO:root:兄弟，有梯子吗
+INFO:root:== 我想看Pornhub
+INFO:root:大佬果然是大佬，写的代码就是不一样
+INFO:root:== 这代码我一句都看不懂
+INFO:root:我下班了
+INFO:root:== 现在是凌晨了
+INFO:root:说到这里，作为程序员群体中最优秀的你们，日常生活工作中还有哪些黑话是我没整理出来的？欢迎各位小伙伴踊跃发言！我在留言区等你们！
+INFO:root:参考资料：
+INFO:root:http://www.sohu.com/a/130389343_612768
+INFO:root:距离上次送书活动过去很久了，前几个月可以说都是犯懒一直没给大家送书，小甲掐指一算又到了给大家送书的时候了，这不刚好又在后台收到了读者的提醒。
+INFO:root:这次我打算送出50本书，这些书是由博文视点以及图灵教育赞助的，另外呢我还自掏腰包给大家随书赠送一些非常有纪念意义的鼠标垫，以及其他小礼品。
+INFO:root:当然我必须要告诉你们的是：这些书都会有我本人一一签名以及写上祝福语再寄给各位最终中奖的读者。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHkxAxqKgXVmZ8N2afyMAxyopiaI1AbLM0P5U9zu6sZwYCj408cKPOpfA/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHqtBUZU05oH259vyWiaFJkOrklESUEWRoLqiakUJJB62ibDLVFiafXLCnsw/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHUqjdic9MWwaf61ba0Anvm19GjfibIyk0qvnnegjicMBlgnxkjj5qshWicA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHTbQUOXb5kARXtTOk6bARF0CqI6rnpZib3Q3l2W6VXalmPsH47Edq1Cw/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHE5ps7I4YPcjoXQ4b0H5WBJVK6GaNfdx0TTmewtZWBKurlDI6c56t3g/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHL0wn5spFZSibMvEov7DvsIHZTJyYEPMrnJUics6Ub4wcbiaTPhm5Pkkmw/640?wx_fmt=png
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsH3icr9b5tYAUX5hjyZZlUPkib5Lw8L4Lk4oRZhyeJwBK7I6ic4RUlTMcgA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHQDLEZJnibUsVK2n6olLDTiaJfSjTV5sLR6BR1rb2mU048dM2wWR6SrjA/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHbhxzYQHF45DUw7m8RHdQ5yhaxcbNlVwUveyags49JqjeMJwvUxQbVw/640?wx_fmt=jpeg
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHnkGyd2IvUwdcwwLDibPiciakuOCgZSrttI2qI9bM70lstfAmjsoxe7ccQ/640?wx_fmt=png
+INFO:root:另外，我公众号一般都不开赞赏，一个月就开这么一次，就是在做送书活动的时候，其他时间你都看不到打赏按钮。
+INFO:root:只要在这段时间内你觉得我的文章帮助到了你，你都可以小小的打赏意思一下，顺便也能当是买个彩票抽个奖。打个赏也能让我眼熟你，下次做活动的时候肯定忘不掉你。
+INFO:root:关于抽奖方式，简单粗暴，抽奖的方式就是从赞赏的人中抽取50位读者。另外，我这个人就喜欢听别人夸我，所以如果留言能有打动我的，我也会酌情加一些礼物，期待你们的表演了。
+INFO:root:Pronhup大公司招来了三位实习生「大长腿、字母哥、静静」，经过一周的时间他们已经慢慢适应公司的工作环境。这几天大长腿接到项目经理的一个需求：
+INFO:root:用户在看视频的时候，需要同时按住键盘上的「A+P+M」三个键才能观看，否则会直接暂停。
+INFO:root:但是因为她还不是太熟悉git，一不小心把一个还有bug的版本提交了上去。这个时候大长腿开始慌了，不知道该怎么办才能撤回提交。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YmQpuNI7KrXoIXCPuCDzbXT4Oaz2huv7mPELk6Ar9DVWfuqsuCbxnibQ/640
+INFO:root:大长腿立马向身边的静静和字母发起求救：静静，字母哥，不好了！快来帮我看看怎么才能撤回提交啊！我刚刚一不小心提交了一个有BUG的版本提交上去了，这个要是被甲哥发现，我估计就得gg了。
+INFO:root:字母哥路见不平一声吼：大长腿你别急，让我来看看！还好你没有把你的提交push到远程仓库，我看你这个还能抢救。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YRALQfib2KcBuuejSP50u1E6mvhVhY5Y8UicNn2eyD8TD9f40mmPiaUYbg/640
+INFO:root:这个时候，你可以用 git log 命令就可以查看历史提交记录。然后找到上一个版本的id，用reset命令就可以退回到上个版本了。
+INFO:root:git reset --hard id
+INFO:root:大长腿如释负重：牛逼，字母哥好手段啊！之前可担心死我了。还好可以回退回去。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yd84axetxJk4SnQwOENeR0QyICYibGlyV1KVK7dBnLIVKo5bibFiaoBsxw/640
+INFO:root:静静心生疑问：字母哥，我看你刚才操作的时候，发现git回退版本的速度好快啊，为什么这么快啊？
+INFO:root:字母哥雄赳赳气昂昂：git回退速度快，其中的原理只是更改了版本head指针的指向而已。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YV6Bxn8kqOEaFvRoYibXn1GzlIibzuvVaaOAHTrGicDKEfvJ9ghyVre03g/640
+INFO:root:以前head指针指向你新提交的记录，现在指针只改了个指向，指向到上一个版本，所以回退得快咯。
+INFO:root:静静由衷佩服：原来字母哥懂这么多啊。我也不太熟悉git里面操作失误如何处理，要不你给我们讲一下吧。
+INFO:root:字母哥洋洋得意：其实我们实际操作中，肯定会遇到某个文件被修改，文件不小心被删除「当然删除文件也算作一种修改」，但是之后又后悔之前的修改的情况。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YVB2YlmoVWfQ5bQC6nibROBPw9BWaL1zWMGrZtaSHV2MdBQbk4nnq6Ng/640
+INFO:root:还好有git, 这个时候就可以使用 git status 命令查看当前仓库的状态，被修改的文件都会显示出来。然后再使用上次甲哥讲过的，用git中最常用的切换分支的命令checkout就可以放弃更改了。
+INFO:root:大长腿似懂非懂：原来用checkout就可以恢复啊，我试试随便在test.txt里面改两句话。然后
+INFO:root:git add test.txt
+INFO:root:git checkout test.txt
+INFO:root:神奇！！果然恢复了！！
+INFO:root:静静一脸正经：别这么一惊一乍嘛，这些基础的东西不应该不知道的。
+INFO:root:大长腿跃跃欲试：哈哈，我还要再试一次，太神奇了。我就随便再在还原的文档里面再改动改动，看看还能不能再次还原。然后
+INFO:root:git add test.txt
+INFO:root:git commit -m "modify test"
+INFO:root:git checkout test.txt
+INFO:root:欸，不对啊，你看这次我为什么又无法恢复修改前的内容啊？
+INFO:root:字母哥恨铁不成钢：你随便在test.txt里面修改了几句，相当于工作区修改了；之后你又用add命令，工作区的内容就保存到暂存区了。
+INFO:root:用checkout命令只有当本地工作区跟暂存区有修改的时候才有用。但是你这次操作还加了commit，commit之后，工作区跟暂存区都是干净的，是本地仓库有了修改。要撤回本地仓库修改就不归checkout管了，所以你最后一次用checkout才没反应。
+INFO:root:大长腿恍然大悟: 哦，那我知道为什么了。我需要先查log，再reset对吧，就像你刚才退回我不小心提交的那个版本一样，对吧？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Y2NtU1QG7vSE4rmLApHxPVpFjrYQ9QsK3rLtbhx2Mic7QmhBBYQz9sMA/640
+INFO:root:字母哥孺子可教：是的哦，如果commit之后，相当于目前的head指针指向了最新提交的内容，你需要找到上次提交的内容，用reset修改指针指向。
+INFO:root:大长腿小手一抖：哎呀，刚才我一不小心手贱把git关闭了，然后再用git log查看上传记录，一个都看不到了，怎么办啊？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YzFQUfD7IAYvibV8uia1TChBOlUtJrLNN4RWM0iakkIXlU14NxCFUjy2gA/640
+INFO:root:字母哥一口老血：平时使用的时候就得注意点哦，不要不小心关闭git了。不过一个优秀的版本控制系统总会给你好多后悔药吃的。这个时候就需要用到git reflog命令。
+INFO:root:git reflog命令会显示出你每一次操作命令，你看你之前的add, commit, log, reset命令这里统统都有显示，然后找到相应版本的id, 再用reset回退。
+INFO:root:现在世界就终于清净了。
+INFO:root:大长腿爱心泛滥：没想到关于一个git操作失误都有这么多学问，今天麻烦字母哥啦。待会请你跟静静吃海底捞，要不是你帮我这么多，以后就得你们去海底打捞我了。
+INFO:root:字母哥洋洋得意：哈哈，这个故事告诉我们，人帅又会用git，是会有免费海底捞吃的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yy4x3nKvofKSLxaKnJS4icrZm5DVng4xZ96kqHESiaMba9ZMwsiay4vEwg/640
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:- 成人网站Pornhup招人了
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:早晨起来发现这么一个很劲爆的消息：IBM宣布以2360亿人民币收购RedHat，这笔交易一旦达成将成为IBM自成立以来最大的一笔交易，也是美国科技历史上第三大收购案。
+INFO:root:关于RedHat「红帽」，我们开发者能比较了解的是它提供的操作系统Red Hat Enterprise Linux(RHEL)，但其实红帽远远不是一家提供操作系统的公司。除了操作系统，红帽提供的产品还包括云计算、存储、虚拟化、中间件等。
+INFO:root:红帽是世界上最成功的开源公司，世界上唯一一个年盈利超过10亿美元的开源公司。它通过把开源社区的项目产品化，使普通企业客户更容易消费开源创新技术。红帽将系统源代码共享给具有一定资格的使用者，并且这些使用者可以免费使用并且进行自定义编写红帽的产品。
+INFO:root:IBM坦言此次收购Red Hat主要是想在云市场发力，近几年来无论是在美国还是在中国云计算都是大公司们追逐的话题。国内的华为云、阿里云、京东云，国外的Microsoft Azure、Amazon Aws.无一不在花大代价在云计算上面。
+INFO:root:IBM也不例外，此次收购红帽公司将使其成为多云和混合云市场的领导者。这两家公司认为，这一交易将使企业能利用云计算服务完成更多工作，提高应用和数据的便携性、安全性。
+INFO:root:IBM的总裁表示：如今，大多数公司租用计算能力来削减成本，它们的云计算之路仅走到 20％，接下来的 80％ 是关于释放实际业务价值和推动增长的，这才是云的未来。它需要将业务应用程序转移到混合云中，提取更多数据并优化从供应链到销售业务的每个部分。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/b96CibCt70iaa8r7PJoyAtlfHAKe8RosE3UGPUQnuib0MWzGRby3b3aNvlUg4bQbFLwHQUsCRatNc4ab8WCrLH9LQ/640
+INFO:root:小甲有话说
+INFO:root:1.各位小伙伴们应该会问这次收购会对Red Hat有什么影响吗？
+INFO:root:从IBM的收购方案来看，Red Hat将作为IBM混合云团队独立运营。通过此次收购，IBM将继续致力于红帽的开放式治理、开源贡献、参与开源社区和开发模式，以及促进其广泛的开发人员生态系统。但其实从历年收购案来看，独立运营也只是暂时的。
+INFO:root:2.这次收购跟我们有什么关系？
+INFO:root:其实硬要说跟我们这些开发者有什么直接关系，我觉得倒是没有，但是近几年的这种云热潮，能让我们这些普通人知道当前的发展趋势，对未来的自身的发展选择有所借鉴意义。
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝：都是爬虫的锅
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:阅读本文大概需要 4 分钟。
+INFO:root:大家都知道最近各个行业不太景气，互联网行业也毫不例外，其中以游戏等为首的细分行业更是一跌再跌。我之前也写过一篇文章给大家支招：互联网寒冬来了，怎么去应对。
+INFO:root:互联网行业不太景气最直接的表现是股票大跌，然后就是各种公司的裁员了。最近就传出了阿里和华为缩招的消息，虽然之后阿里华为都出来辟谣了，但是一切的消息都不会是空穴来风的。
+INFO:root:从智联招聘发布的数据来看：今年的第三季度跟去年相比，互联网内各个行业的招聘需求都下降了接近40%
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdajF93Fia1o4fHYvJ6jn7zIMtWP4iaTFeTeibsxyT5JrwS5uHHPcXGuFyqw/640
+INFO:root:大公司在缩招，小公司也没闲着。这不华为缩招的「谣言」还没几天，人工智能明星企业第四范式就出事了。
+INFO:root:第四范式在互联网业尤其是人工智能方面已经是非常优秀的企业了，在今年校园招聘阶段凭着自己的名声招纳了不少优秀的学生，最终经过层层选拔大约一共发出了90封左右的offer意向书。
+INFO:root:但是发了意向书之后，第四范式却一直拖着不给发offer，实际上就是想对offer毁约。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhda1DDESdicNo76PGavwNVWqK6kdFSe1sPyz2FStqjuTORguTibGtfEUGaw/640
+INFO:root:这种单方面毁约的行为对很多学生来说无疑是非常大的打击。作为一家还算比较有名的公司，不遵守合约、不守诚信也是非常让人作恶。想想这些被毁约的同学，现在秋招都快结束了，本来想着找到工作了就安安稳稳的准备毕业的，现在可倒好。
+INFO:root:大公司蹲，大公司蹲，大公司蹲完小公司蹲。很多毕业生本来想着：大公司的工作不好找就算了，先去小公司磨练磨练也不错，但是从现在的情况来看，有点高兴的太早了。
+INFO:root:第四范式这件事情我这两天一直在关注。也就是在今天的时候我突然看到一个消息，字节头条「字节跳动是今日头条的母公司」HR放出了一个消息或者是说政策：
+INFO:root:如果你已经拿到BAT网易等互联网大厂的offer，或者你拥有AI独角兽or准独角兽公司的offer，那你将享受绿色通道，获得直通字节跳动面试的资格！
+INFO:root:
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaxwCl6cQjsgt2HkbwwrP7tfbKflaCX3VLbjJ44emR2lUZBJNcfUYvfA/640
+INFO:root:
+INFO:root:虽然今日头条没有明确提出，但是字里行间的「AI独角兽」有些特指的意味，很明显今日头条打算把这些被第四范式毁约的同学以及其它有相同遭遇的程序员接下来，可以参加今日头条的直通面试。
+INFO:root:这事情真的让我眼前一亮，以前我就听说今日头条是一个很注重技术人才的公司，今日头条的推荐算法团队可以说是全国最牛逼的团队，不少程序员挤破脑袋想进去。以前只是听说，真实情况不太了解，但是这件事情可以说证实了这一点。
+INFO:root:头条可以说是一个非常聪明的公司，我们能看到这个政策非常聪明，体现在两个地方：首先这批程序员都是经过大厂、独角兽筛选过的人，对他们来说筛选成本就降低了；第二头条接纳并且给这些程序员机会，相信不论是对那那拿到offer却被毁约的人还是广大程序员群体都是非常大的安慰。
+INFO:root:当然，最最重要的是头条还通过这件事情向我们这些程序员群体传达了消息：并不是所有的大厂都是在缩招的。同时头条还给互联网行业其它的大厂以及小企业做了一个非常好的榜样。
+INFO:root:最后，虽然一而再再而三的传出这种消息，但是大家仍然不要担心，因为从数据来看，咱们所在的互联网行业的薪资仍然是最高的。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaSlQibDATibr6slgx9lVt35n6SD7CDkMOy9AuB4MKjtUe4lF4H0QoDUxw/640
+INFO:root:而且还是有像今日头条这样的大企业在不断的扩大招聘的，据我所知今日头条今年秋招一次性放出5000个HC，包括2000个技术HC，是一般互联网大厂的3-5倍，不但是今年最大规模的互联网校园招聘，可能是有史以来最大规模的互联网校园招聘。
+INFO:root:所以想进大厂其实机会一直是都在的，只是你有没有好好把握。总结一句：就算是经济不怎么好，也就算是互联网真的来了，那又怎样？只要真的好好学习了，有一身好的本领，什么样的公司会不要你呢？
+INFO:root:希望大家把今日头条这件事情转发传播出去，让更多的人看到，也让更多的企业看到。这件事情，我必须给头条点赞！
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝：都是爬虫的锅
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:近期正值冬招，Pornhup公司也招来了几位实习生，分别是：北大还行静静、清华不错ABCDEF「人称字母哥」，南翔技校盖儿「人称大长腿」
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduqGlPndwq6IWQnLlUbFmGHOd0hftuJ0WStQ2IEkiapFMjt5gqicBTaIgg/640?
+INFO:root:每年实习生来了，一般都有一个实习生培训，让实习生们快速的融入Pornhup的工作环境中。
+INFO:root:搁在以前大家都是不愿意去培训的，但是这次不仅公司的老王，老张吵着要去培训这几位实习生，连公司的女程序员都抢着要在实习周去培训他们。
+INFO:root:那么到底是什么原因让这几位实习生备受公司的重视？因为北大还行吗？其实是因为来的这几位实习生，男的是长这样子的：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zDzaqLOWiaANukG0iav1EibLtkwWK8ob5YSTsiaB1lbeLnMn1eBmNr6wbicg/640?
+INFO:root:女的是长这样子的
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zhocZNJ8MOYT2DnicmibEsGZ4LBUJcDlczjdfu7ungC1XmNpgQQDLiaFqg/640?
+INFO:root:就在公司的各种骨干吵得热火朝天的时候，还是管理者人甲出面，解决了这个问题：
+INFO:root:各位，我看这几位高材生，还是我亲自出面培训他们吧，不然显得咋们Pornhup不重视实习生，所以大家都不要争了，就这么愉快的决定了。就由我代替各位直接到前线去亲力亲为吧。
+INFO:root:小甲内心OS：这么漂亮的妹子，当然是我来了！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdurrLeuDy0E3kuqfR3I840dKutoaibxLOxGkvicalcuPVYjJacRNicZCQvg/640?
+INFO:root:人甲：欢迎各位加入Pornhup公司，相信之前的新员工培训大家已经知道我们公司的规章制度了。那么咱们也废话不多说，主要讲讲咱们公司程序员工作中使用的最重要的工具：版本控制工具Git怎么使用。
+INFO:root:Git是什么相信在这里不需要我多解释了吧？
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduZ7wtdwnr4ZicJePic7dE7lL07uYfgqophKCwLu8g6zYdGs0kzCCEibIrg/640?
+INFO:root:人甲：我们公司的Git分支主要涉及到：master，即主分支，这是每个项目必须有的；develop, 开发分支；feature，从develop分支上分出来的功能分支；release, 发布分支；fix，补丁分支；hotfix，热补丁分支。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCducGwpDpky1V3aRUZoVxI80iczQbyv8sRu7Rvhu0zvtXyQvbYiaPbV7Q7A/640?
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdusdbb0AiaBib6v6xe3Ugnxia1koibIDR2L6scibcvar5tbqjPI0NE4uAlNMQ/640?
+INFO:root:人甲：哈哈，目前听不太懂没关系，今天是第一天，我主要给大家讲一些基础。我就拿你们以后开发经常需要用到的feature分支举例子吧。
+INFO:root:静静、字母哥、大长腿：
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduXmJ3lSUCNFeHzF4qeNhRWicxx8dcicSq1NhLOWDkZia2FdkRtL8HibgGxQ/640?
+INFO:root:人甲：首先，大家需要从Github上用git把我们的Pornhup项目下载下来。
+INFO:root:字母哥：那个，甲大，咋下载啊？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdugMlUUicRlTc0tznrI0icLsvjL7IIKXY7ibGnw29JKFjuoDEmkrliafu1KQ/640?
+INFO:root:静静：我看你有张吴彦祖的脸，为啥却没别人那智商，这你居然都不知道！
+INFO:root:要从Github下载一个项目，需要用到clone命令。在你常用的目录下面打开git, 输入如下命令，就把项目下载下来了。
+INFO:root:git clone xxxxxxx.git
+INFO:root:我说得没错吧，甲大
+INFO:root:人甲：嗯，没错。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdumlSZTE83nFWoj5DouHu9ur0XKsS3JPabKJ2ShL7xtJ9efeu96kVmZA/640?
+INFO:root:下载下来我们的项目后，默认是在master分支。master分支你们可以理解为是老虎的屁股，摸不得。
+INFO:root:所以就需要用checkout命令跳转到develop分支。checkout [切克闹] 被用来切换分支，是git中最常用的命令之一。
+INFO:root:git checkout develop
+INFO:root:如果这个时候，字母哥接到个任务是加入A功能，你知道该怎么做吗？
+INFO:root:字母哥：我想想啊
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduiaIzP8BC1icjeIEp9OFoicicvPGYctwKJBvicThITwfhbP9p2wzGygIrPsA/640?
+INFO:root:好像我们也不在develop分支上直接操作，这个时候应该需要再从develop分支上搞个分支出来。创建一个新分支，就需要用到branch命令。
+INFO:root:git branch feature-Agit checkout feature-A
+INFO:root:人甲：你这样说也没错，其实还有更简单的办法。两条命令合并成一条，branch直接用-b代替，然后再用checkout跳转到该分支，所以上面两句命令就变成一句了
+INFO:root:git checkout -b feature-A develop
+INFO:root:然后你们就可以在这个feature-A分支上完成你们的工作了。那么，如果代码写完发现没有问题，接下来大家知道怎么做吗？
+INFO:root:静静: 哈哈，我知道！
+INFO:root:用add命令来添加新写的代码
+INFO:root:commit命令用来提交新写的代码
+INFO:root:git add feature-Agit commit -m "add feature A"
+INFO:root:人甲：静静你很厉害嘛，晚上下班到我办公室来。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdussK5icNzDuPa0ZQ8ia4WIedohQefmeJAGqnpkKNx7YjOxUicgpT3TI6icQ/640?
+INFO:root:但是先add, 再commit你们不觉得很繁琐吗？git这么设计必定由它的道理，你们有人知道为什么需要先add, 再commit吗？
+INFO:root:静静、字母哥、大长腿：不知道欸，没仔细研究过。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduejc5ILQW0YaB0H3gGGcRhZDLqGtTWMGm5vicxQPYZnZbm7zeqKzZlibw/640?
+INFO:root:人甲：git有好几个区，我们平时更改添加删减的代码都在工作区里面保存。
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdu5RHAtZDmZw5VZxxtSjopLuUbG4ILDmSib89A8Zqo4oApmJyLnbOWTtg/640?
+INFO:root:add命令执行后，修改被保存到暂存区。可以理解为你操作本地文件按了下ctrl + s
+INFO:root:然后当你commit后，暂存区里的东西就被保存到了本地仓库。这里可以理解成你把修改好的东西放到了仓库，已经准备好运到下一个仓库去了，也就是所谓的远程仓库，Github。
+INFO:root:静静、字母哥、大长腿：原来是这样啊！！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduayOqbsDZYL1v07P0iclZa69fXFdo0Y66cQZOhia1U5BLiayYdAVe782RA/640?
+INFO:root:大长腿：人甲，接下来我来抢答下，add跟commit后是不是这个时候就用到merge命令，合并feature-A分到develop去啊？
+INFO:root:人甲：不对哦，你如果这样做，很可能出现冲突。因为可能出现有很多人在develop分支上更新。所以你这个时候用pull命令，把远程仓库的更新取回并更新。
+INFO:root:git pull origin develop
+INFO:root:然后再切换回自己的分支，用rebase命令合并新更新到自己目前工作的分支。
+INFO:root:再检查有没有冲突，最好双手合十起到没有冲突，有的话可能目前你们的水平也解决不了。
+INFO:root:静静、字母哥、大长腿: 这么麻烦啊！！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduSmfQhVyEgpjx04XOoxosqhRoX4grjsqn96xN0P9rYnOHNBJ60VicRZg/640?
+INFO:root:人甲：没办法，git就是这么设计的，如果一切安好的话。就可以用merge命令合并分支
+INFO:root:git merge --no-ff feature-A
+INFO:root:合并之后就剩下最后一步操作了。
+INFO:root:大长腿: 甲大，选我来说
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduk5hyC0Gt6FFpQ09ibuE1coiaIpAqq4ChsLFBVlEcAwE0icPYqdSyeb3Hw/640?
+INFO:root:这个时候，我们已经成功合并分支到develop分支上了，为了防止工作丢失，可以把刚才的工作推送给到云端去了。
+INFO:root:人甲：是的，最后一步工作就是用push命令推送到Github就完事了
+INFO:root:git push origin develop
+INFO:root:好的，今天就给大家讲这么多，大家要是明白了之后，就可以去试着开发上面交代的工作了。
+INFO:root:对了，静静，下班后请你到我办公室来。
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- 这种公司都得死
+INFO:root:- 程序员捅了马蜂窝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:「没有大公司的命，得了大公司的病」想起这句话的时候源自于我跟一家小企业的合作。整个合作的流程非常糟糕，甚至让我觉得他们并不是一家称职的外包公司。
+INFO:root:流程混乱
+INFO:root:群龙无首
+INFO:root:流程冗长
+INFO:root:整个合作让人非常之不爽
+INFO:root:我断言这家公司在未来的路走的不会太远。具体怎么说？且听我详细说来。
+INFO:root:小公司的优势在于小巧灵活，甚至可以因为外在因素调整公司的大方向。小公司因为其小、人员简单，做事情的流程也相对简单。比方说你想调整一个线上的小功能，可能就是拉上几个人一起开个会，通过了就能开发了，然后就上线了。这个流程可能就是一周的时间。
+INFO:root:但是在大公司是不行的，你有这么一个小想法需要经过一层一层的审批，审批完了之后也需要开发来 评估排期，测试测试排期。很多想法被扼杀在审批中，开发也会拒绝掉一些需求。这样一来一个想法的实施非常难，就算能够实施也是几个月之后。
+INFO:root:说实话
+INFO:root:看到这个流程之后
+INFO:root:你自己可能会把想法只埋在心中了
+INFO:root:再问你一句：
+INFO:root:几个月之后
+INFO:root:你还有动力？
+INFO:root:以上只是个例子。小公司能够成功，非常依赖于这一点：所有人都有话语权，做事情流程简单也很迅速。
+INFO:root:但是所有都有话语权并不是说每个人都是老大，就是说在整个公司中必须要有统一的声音，并且有非常明确的谁大谁小的概念，尤其是对外的时候。
+INFO:root:在对外合作的时候，小公司派出多个代表与合作方对接，最后多个代表却代表了多层的意思。比方说是一个软件的开发需求，代表A的需求是N界面，代表B的需求是M界面。
+INFO:root:出现这种状况
+INFO:root:本质上就是管理权的问题
+INFO:root:散漫惯了
+INFO:root:很难改变
+INFO:root:当然这种管理权的问题说到底其实又是流程的问题。如果公司早已经把对外合作、对内工作的这种工作形成了一套流程模板也不会出现上面所说的这种情况。
+INFO:root:无论是一家公司还是一个团队，规章制度是必须要有的。如果没有规则的约束，公司的一切都是混乱的，会出现种种你不愿意看到的东西。
+INFO:root:各位小伙伴
+INFO:root:如果碰到符合上面特征的公司
+INFO:root:听我一句
+INFO:root:撤！
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wf5rxZQ06pTJOPbJIcLWGCtq4FanHrpA0w6zQekOhVF3hXfNtGcEeXw/640
+INFO:root:单词是基石
+INFO:root:https://mmbiz.qpic.cn/mmbiz_gif/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqF9fYaGBSg5vmbVJSsDWqYoGRNBsMia1NyTuAJg3F5Mc7oefCYXc2fRg/640
+INFO:root:为什么学英语这么难？
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/tPK9oOJ9hl01iaHuwlx3smsCKpvvibQuZaZiceSo3nlKHVV15jvRqz0cROGpiaMVc01Za7WBNlrnVuianVVXQRQL7kw/640
+INFO:root:答案是显而易见的。传统的学习英语、背单词的方式根本就是错的！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJicT1SQLiaHicgV5sxvSQSsYudDcAg5hjIgo6YcC7DzV5qMaSDhp85T5w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wvhhWDXSibHhqOpCup6jn9LfUwZciaU0cFd6HXibsFdWh71BoyBotYTssQ/640
+INFO:root:所以只要我们在对待单词时，不要死记硬背，把它们融入到我们的生活中，奇迹就发生了！
+INFO:root:极光单词
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJyNG1VMe2IQXKsZfvnxiaLLctkibJSAeKhZTId3iaWasOicTqW2nc0F8wg/640
+INFO:root:极光单词
+INFO:root:让每个人都拥有记光单词的能力！
+INFO:root:【电影原声】+【电影画面】
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZLNRQfAgJtkpdKqpPyAmZmujibViczWYtBSnJGbPdcLPicyKHmh3N6KgA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlK4GB0wo9esGedo5wW3xYNLKcLfTM7QFp3DibV5YFzyiavv7ibMPwCIuRWw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKcptx6Csz8h0AcC4UHBYh6OlJr6qAQWliafbWq1n7zvANG2mh4DmuOMw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKTjicG2Du3y0VaAmtUxDVfe1pLgD7wLAw5Fn2YC3eOIibJxDaphiasjXrg/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZM0VvpEbZZEIc98XxiaSKKb9W6ia4l4ZopSRbHupQ2j3dbWnGHMgQLKA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKjZWaibYNOWcFssiaDB1CAtgHngWBfTCo3LJhMaibMoeImyLSjDQ0TIxtw/640
+INFO:root:极光单词还把每一个单词都放在了与我们生活息息相关的情景之中
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKs4zOic73KrJ84hiaV2p6Vl4boFHkcTQZWmU7I7pMtrofC9cgumnTmia2A/640
+INFO:root:突出了它们最能被记住的特征！
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8ib7odrZbAj0fnFEglSq4H2V2qfnTrpLfo63agXNeQy3fOWp1ibVyJOQ/640
+INFO:root:用这些特征，直击每个英语学习者的记忆神经。
+INFO:root:第一天心血来潮背了200多个单词
+INFO:root:第二天累了只背了50多个
+INFO:root:第三天20个
+INFO:root:第四天就完全放弃了，把单词书扔在一边逍遥快活去了……
+INFO:root:学习赌局返现金钱来刺激
+INFO:root:返1元69元全部返还！
+INFO:root:一个程序员的日常粉丝专属福利
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期仅开放100个名额，先到先得！
+INFO:root:90%退回了全部学费
+INFO:root:极光单词
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jSkyVJH0rfV9jTzbxicKVjBhfZCVKUb6wvF2klQfRuHnK78E8KPvQxwicf1EIVvlaR491UQRg7BKw/640
+INFO:root:美剧、VOA、BBC纪录片原生……
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8vcsEsIdnUapSZIia1VYmZa5qRq4lBeLuRcicGKPxM1vKLkIePYgUHicQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w5vddK7FJgMcdm3Z5BHlod5b66ib9UO6zQpgLy4yXw4VVxyE9mibia5NVA/640
+INFO:root:情景记忆法
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wPzNFzpQXjvd7VgnLCk8xFYXjBhsLoXuLib74OPSEhCP17MxSPLVvXPg/640
+INFO:root:医疗、亲子、旅行、商务新概念、以及小学、初中、高中、大学四六八级、留学考试（雅思、托福）、KET、GRE
+INFO:root:学习赌局返现金钱来激励自己学习。
+INFO:root:返1元69元全部返还
+INFO:root:一个程序员的日常粉丝专属福利
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期活动仅开放100个名额，先到先得！
+INFO:root:90%的学员
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicVPVSAx4LmsuYUFJibBe6olvP6iaDpWC2fy9ALYtVXMRsnmok2QMeBVYwVuHsTJhIMsP0eibHUulicDg/640
+INFO:root:***  课程评价  ***
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH56NLveo135AJbevoLgVrPBcm2DkDuHibiakrhOADGnKsXXa5OqxbsfpMQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wSZicChecNIFezgHJeGlXYEewJxJ8pT3qcNHWkicQQXOvvuLGDibAErh8g/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wrZAvoGk88icehHEqoCWtP19w6D3WP1Zztm7RoEgBdIhiamuQXrprPic3w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wGYyiaLicGiaoicAx03ehrTL0kAsIM16ArcRCnIiaxjguF2R9Zb6Dibyphjibg/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH5WcDuiacZ4SH611V4fhh970p9DpDMyZl1ia9xC16wnjSib6lIJC6v8aZ7w/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wZmaUatgliarsLuot55d2cUiaU3LYn43Cxe3mVaibSoggmGgXN0iawUTRPQ/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wkq1cibzZEJ8FMLGrgdPdKEUmicuuia6YJufjkh8CzVslbhmnEqgIHGdEw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wwtLqZYHwdwu8Rx7I5947KfiaLKVkzDicApEbUe8v25v8TiaiaFxBhMHJrw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wLacYZ3VhEAXtscTGwiaTVv5SFB7TyDNw4QC2lNLDkxdLaOId7PsMHoA/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wn7ct9WaEA4ga2IH5AUZfXseCFQLkmcl5nAnW5WP5UubcCLDFQ0ENRw/640
+INFO:root:https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wsw8nhlmAnwNMZjiaFeQmNJAdHgDPWg4EVRpMXkbQ9VcJJq2TemM4jicw/640
+INFO:root:全额退费
+INFO:root:一个程序员的日常粉丝
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640
+INFO:root:原价30天99元  凡是一个程序员的日常的粉丝
+INFO:root:只要每天坚持学习并达到标准
+INFO:root:99元 全部退还
+INFO:root:相当于免费学习，不花1分钱
+INFO:root:付费1次就不用再付费，可长期学习！
+INFO:root:↓↓↓↓↓↓↓↓↓
+INFO:root:长按扫码，立即加入
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640
+INFO:root:本期活动仅开放100个名额，先到先得！
+INFO:root:▼点击原文链接，立即参加赌局！
+INFO:root:几天马蜂窝这个网站火了，世界杯期间它是因为那个洗脑的广告火的，而这几天火是因为几个程序员捅了它。他们采集了马蜂窝的数据，他们用马蜂窝的数据跟携程、大众点评等网站的数据对比，发现了一个惊天的事实：
+INFO:root:马蜂窝整个网站的自称21000000条的真实点评，实际上其中有85%的点评搬运自大众点评、携程、yelp；也就是说马蜂窝这个网站上的真实点评可能只有315万。
+INFO:root:官方口径的2100万
+INFO:root:VS
+INFO:root:实际上真实的315万
+INFO:root:你特娘的也是个人才啊。其实咱们都知道在当今的互联网界，大家在冷启动的时候都喜欢这么干：把别人网站的成熟的资料抄袭过来。我们都熟知的Airbnb在冷启动的时候前1000个房源信息就是从Craigslist采集过来直接贴在网站上的。
+INFO:root:同样来自携程、大众点评等网站的这些点评资料拿过来之后可以丰富马蜂窝网站的内容。冷启动的时候干情有可原。
+INFO:root:但是马蜂窝错就错在
+INFO:root:它不是冷启动的时候在做这件事情
+INFO:root:他是一直在做这件事情
+INFO:root:甚至在公司内部养着一个大型的团队在做这件事情
+INFO:root:把抄袭、搬运做大了规模
+INFO:root:做成了产业
+INFO:root:这不是找死么？
+INFO:root:过了冷启动期其实也可以干，你看国内的很多新闻网网站都是互相的采集对方的新闻信息进行伪装，今日头条也采集新浪微博的，悟空问答也采集知乎的。
+INFO:root:但是这种采集都要有个限度、要小声的采集，你网站本身提供的独立价值要远远大于抄袭搬运带来的价值。
+INFO:root:而马蜂窝就不一样，你默默的抄袭也就罢了，你默默的搬运也就罢了。你还生怕别人不知道，所以你还非要在各种地方重点宣布：来自网友2100万的真实点评，引以为傲。
+INFO:root:你还把这2100万的真实点评数据放在投资人的面前，投资人眼花了，一转眼间给马蜂窝投成了独角兽，体积大了几千倍。虽然我知道国内很多投资人都是只看数据、不长记性的，但是这么造假玩骗钱就有点过了。我想问问马蜂窝「独角兽」
+INFO:root:马蜂窝你们在用假数据宣传的时候就没有一点的脸红吗？
+INFO:root:你们在用假数据向投资人骗钱的时候就没有一点心虚吗？
+INFO:root:哦，我懂了，可能宣传久了，你们已经认为那2100万点评真的是你们自己的了。
+INFO:root:按照马蜂窝这个逻辑，说实话，我一个程序员加上一个能吹牛的合伙人我们能复制出一百个独角兽出来。
+INFO:root:我可以采集飞猪、去哪儿、携程所有酒店的资料和点评内容，做一个酒店预订网站，而且保证我的酒店信息和点评资料是全中国最全的、最大的，投资人你给钱吗？别问我为什么，因为我是汇总的。
+INFO:root:我可以采集知乎、悟空问答、Quora等等所有问答内容做一个全球最大的问答网站。别问我为什么敢自称最大，因为爬虫所以自信。
+INFO:root:我可以采集…
+INFO:root:现在爬虫这个技术是有些泛滥了，会爬虫的人和公司也越来越多了。所以造假、搬运、抄袭的成本也越来越低了。
+INFO:root:不奢望捅马蜂窝这事情能改变互联网大环境，
+INFO:root:但致少能给那些还在抄袭的大型互联网企业敲个钟吧！
+INFO:root:系列文章
+INFO:root:- 成人网站Pornhup被黑了
+INFO:root:- 成人网站Pornhup重构史！
+INFO:root:- 成人网站Pornhup挂了
+INFO:root:推荐阅读
+INFO:root:- Android都要收费了
+INFO:root:- Github发布史上最大更新
+INFO:root:https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>一个程序员的创业史</title>
+</head>
+INFO:root:word:<span>最近有一部电视剧挺火的，叫做「创业时代」，我估计不少同学都有耳闻，讲的是在电话和短信为王的年带，一个程序员创业做了一个即时通讯软件，在创业过程中他遇到了各种各样的问题，通过自身以及团队的努力以及身边朋友的帮助，他一步一步的解决这些问题。最终自己完成从一个程序员到一个CEO的蜕变。</span>
+INFO:root:word:<span>在我印象里这应该是第一部互联网创业类型的电视剧，但凡是披着「第一」这件外衣的东西，总少不了外界的吐槽，这不这边这部电视剧才刚播了一半，豆瓣上就挂满了差评。</span>
+INFO:root:word:<span>吐槽我总结了一下，大致分成了两种，一种是牛角尖型吐槽，另一种是风油精型吐槽；牛角尖型吐槽者大部分是程序员，他们认为电视剧中两个程序员就能把后端和移动端做了不太现实，也有人说iOS一般来说从提交申请到在Appstore上架一般来说是要好几天的时间的，但是在电视剧中当天就通过了。</span>
+INFO:root:word:<span>好吧，程序员真的惹不起！</span>
+INFO:root:word:<span>所谓风油精型吐槽，一般又分成两种类型：一种类型听风就是雨，听别人说这个电视剧不好看，我就说这部电视剧不好看，为了跟大众有共同语言而跟风，你也可以理解为无脑黑的一种。第二种类型是看风就是雨，这种人高于第一种类型，他们会截取电视剧中所看到的一些小小的点拿出来仔细揣度，对其进行批判，而实际上他们可能只看了电视剧中某一集的十几分钟片段。</span>
+INFO:root:word:<span>基于这点我这个人是向来不相信豆瓣上那票人的评价的，比如说我喜欢的很多好莱坞大片在豆瓣上只有6分，一些高达8.5分的电影我却看了前几分钟就看不下去了。</span>
+INFO:root:word:<span>所以我还是毅然决然的去看了看这部「豆瓣烂片」。果不其然，不出我所料，我的评价是：从我这个同是程序员出身创过业的人来说，个人觉得这是很不错的、值得学习的电视剧。虽然剧中的某些片段为了推送剧情发展，导演确实用了夸张的手法，也有个别的演员演技……</span>
+INFO:root:word:<span>最近几年，国家一直在倡导创新创业。早在2015年的时候国家就提出了「大众创业，万众创新」这个口号，2018年国家还做了升级版的「双创」口号。在国家的领导下，全国各个地方也都纷纷响应号召，给出了很多的创业优惠政策，创业基金扶持等等。</span>
+INFO:root:word:<span>在这样的号召下，创业像一股热潮在一二线城市打得火热。也就是在那个时候「就差一个程序员了」这句话被传开了。为什么？因为人人都是产品经理、人人都可以有想法。但所有的产品都需要开发、上架，都离不开程序员。技术并不是人人都会的。在这样的大环境下，程序员创业的情况也越来越多见。自己会做软件，自己为什么不创业呢？为什么要给别人打工呢？</span>
+INFO:root:word:<span>电视剧中的男主角郭鑫年可以说就是这个时代背景下最典型的一个代表：是个程序员、有一些不错的想法、想把这些想法实现。为了把这个想法变成现实，他纠集了他的兄弟和大学同学一行三个人开始了创业之路。但是在创业之路他们遇到了各种各样的问题：</span>
+INFO:root:word:<span>1.被抄袭</span>
+INFO:root:word:<span>准确来说是被剽窃，男主的创业计划书因为种种原因落到了一个富二代的手里，富二代觉得这给点子不错，于是这个富二代就组建了一个实力雄厚的团队也来做这款实时通信软件。实话来说真的有如此的团队来做同样的产品的话，除非前期的计划书在后期变化很大，不然男主郭鑫年的团队肯定是要输的。</span>
+INFO:root:word:<span>2.被大厂打压</span>
+INFO:root:word:<span>大家都知道实时通信软件肯定是触及到很多公司的利益的，同样电视剧中的魔晶团队也遇到了这样的威胁，大厂想方设法的扼杀这种软件，同样现实生活中类似的扼杀其实很多。很多大厂的方案是通过收购或者黑公关来毁掉这样的新型产品。</span>
+INFO:root:word:<span>3.被威胁</span>
+INFO:root:word:<span>说到威胁这个词可能大家会觉得不可思议。职场如战场这句话其实说的一点也不错，就是在如今也经常会听到创业公司的创始人公司被砸、创始人被揍、受到人身威胁的故事。而剧中的男主同样也受到了来自富二代的威胁。</span>
+INFO:root:word:<span>4.团队不协调</span>
+INFO:root:word:<span>创业的时候最怕的事情是后院起火，一个创始团队只有齐心协力，向同一个方向使力才能有希望，然而永远和谐的团队都是理想的。在漫长的创业周期中的，难免会遇到团队在同一件事情上的观点大相径庭、团队争吵，出现团队人员的变动情况。遇到这样的情况，男主是怎么一步一步处理，最终得到解决自己也得到了成长。</span>
+INFO:root:word:<span>创业是一件小事，因为说起来它只是把一个想法给实现这么简单。它又从来不是一件小事，因为实现这个想法之前如何组建团队、如何平衡团队利益关系、如何拿到钱让团队活下去、如何应对抄袭、如何推广产品走向市场、面对诱惑如何不动摇自己当初的想法等等等等，都是创始人要考虑的事情。</span>
+INFO:root:word:<span>今天看了看网上对这部电视剧的评论都不太友好，但说实话，其实是很多人没有用心去阅读理解其本质的东西。无论你是一个程序员，还是一个刚开始创业的创业者，这都是一部值得花点时间看看的电视剧：了解创业路上会遇到的种种问题，学习学习创业需要准备的东西。</span>
+INFO:root:word:<span>创业不易、且行且珍惜。</span>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>程序员黑话指南</title>
+</head>
+INFO:root:word:<span>黑话这个词，说起来各位都会会心一笑。各行各业都有自己的行业内的黑话，产品经理有产品经理的黑话、金融行业有金融行业的黑话，而程序员这个群体虽然虽然忠厚老实，但是却有着丰富的黑话史。</span>
+INFO:root:word:<span>今天小甲就给大家来整理整理互联网公司程序员的黑话，出一篇程序员黑话指南，你只有了解程序员的黑话才能跟程序员打成一团，获得buff加成，产品尽早上线。</span>
+INFO:root:word:<span>作为程序员你只有熟悉掌握程序员黑话才能更快融入群体，从此一步走向人生巅峰、赢取白富美，走向人生巅峰。</span>
+INFO:root:word:<span>1. 跟产品经理对话的时候</span>
+INFO:root:word:<span>我想想这个怎么实现</span>
+INFO:root:word:<span>== 我想想怎么砍掉这个需求</span>
+INFO:root:word:<span>没看过别的产品这么设计的</span>
+INFO:root:word:<span>== 这功能也太傻逼了</span>
+INFO:root:word:<span>你确定有这个需求吗</span>
+INFO:root:word:<span>== 做出来没人用劳资打死你</span>
+INFO:root:word:<span>不好意思，我没听清楚</span>
+INFO:root:word:<span>== 你是傻逼</span>
+INFO:root:word:<span>今天做不了</span>
+INFO:root:word:<span>== 今天回去看新垣结衣</span>
+INFO:root:word:<span>下个版本再做吧</span>
+INFO:root:word:<span>== 我不想做</span>
+INFO:root:word:<span>别人家的实现方式不一样</span>
+INFO:root:word:<span>== 我不会做</span>
+INFO:root:word:<span>你这个需求不清晰</span>
+INFO:root:word:<span>== 要不打一架</span>
+INFO:root:word:<span>你说的这个东西有什么可以参考的东西吗</span>
+INFO:root:word:<span>== 废话少说，你想抄哪个网站</span>
+INFO:root:word:<span>正在改</span>
+INFO:root:word:<span>== 我去，刷知乎太久了，居然把这茬给忘记了</span>
+INFO:root:word:<span>我先评估一下技术难度</span>
+INFO:root:word:<span>== 先拖几天</span>
+INFO:root:word:<span>我再想想还有什么解决办法没</span>
+INFO:root:word:<span>== 我再去 stack overflow 上抄抄其他解决办法</span>
+INFO:root:word:<span>这个软件是用的是最典型的做法</span>
+INFO:root:word:<span>== 我抄的微信 || 淘宝 || 滴滴</span>
+INFO:root:word:<span>我测试的时候没问题啊</span>
+INFO:root:word:<span>== 傻X，你到底会不会用我的软件啊</span>
+INFO:root:word:<span>2. 当程序员跟外行交流的时候</span>
+INFO:root:word:<span>你怎么还在用Windows啊</span>
+INFO:root:word:<span>== Linux要不要了解下</span>
+INFO:root:word:<span>你用的什么浏览器？</span>
+INFO:root:word:<span>== 要不要试试Chrome</span>
+INFO:root:word:<span>抱歉，我不会修</span>
+INFO:root:word:<span>== 你大爷，又让我修电脑</span>
+INFO:root:word:<span>不好意思，这个我弄不了</span>
+INFO:root:word:<span>== 这个项目你能给多少钱</span>
+INFO:root:word:<span>时间不早了</span>
+INFO:root:word:<span>== 我还要回去写代码</span>
+INFO:root:word:<span>你用百度搜一下</span>
+INFO:root:word:<span>== 这么简单的问题也来问我</span>
+INFO:root:word:<span>== 看你这土鳖就不会用Google</span>
+INFO:root:word:<span>3. 当程序员跟同行交流时</span>
+INFO:root:word:<span>哥们，最近怎么样？</span>
+INFO:root:word:<span>== 秃了吗？</span>
+INFO:root:word:<span>你告诉我怎么做吧，我自己来</span>
+INFO:root:word:<span>== 别用你的脏手摸我的宝贝键盘</span>
+INFO:root:word:<span>Talk is cheap,show me you code</span>
+INFO:root:word:<span>== 看你整天吹牛逼，就知道你写不好代码</span>
+INFO:root:word:<span>今晚早点回去陪我女朋友</span>
+INFO:root:word:<span>== 我的右手已经饥渴难耐了</span>
+INFO:root:word:<span>明天天冷</span>
+INFO:root:word:<span>== 不知道家里有格子衫没</span>
+INFO:root:word:<span>你帮我看看我的代码</span>
+INFO:root:word:<span>== 碰到个bug，我已经要崩溃了</span>
+INFO:root:word:<span>你确定吗？</span>
+INFO:root:word:<span>== 我代码不可能出问题的</span>
+INFO:root:word:<span>你用的什么系统？</span>
+INFO:root:word:<span>== 我在Linux上运行的好好的</span>
+INFO:root:word:<span>我正在调试程序</span>
+INFO:root:word:<span>==不想理你</span>
+INFO:root:word:<span>你怎么还在学Python啊</span>
+INFO:root:word:<span>== PHP才是世界上最好的语言</span>
+INFO:root:word:<span>你怎么还在用VS啊</span>
+INFO:root:word:<span>== 辣鸡，Vim才是正解</span>
+INFO:root:word:<span>兄弟，你能上得了网吗？</span>
+INFO:root:word:<span>== 我代理好像出问题了</span>
+INFO:root:word:<span>兄弟，有梯子吗</span>
+INFO:root:word:<span>== 我想看Pornhub</span>
+INFO:root:word:<span>大佬果然是大佬，写的代码就是不一样</span>
+INFO:root:word:<span>== 这代码我一句都看不懂</span>
+INFO:root:word:<span>我下班了</span>
+INFO:root:word:<span>== 现在是凌晨了</span>
+INFO:root:word:<span>说到这里，作为程序员群体中最优秀的你们，日常生活工作中还有哪些黑话是我没整理出来的？欢迎各位小伙伴踊跃发言！我在留言区等你们！</span>
+INFO:root:word:<span>参考资料：</span>
+INFO:root:word:<span>http://www.sohu.com/a/130389343_612768</span>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>滴，送书！</title>
+</head>
+INFO:root:word:<span>距离上次送书活动过去很久了，前几个月可以说都是犯懒一直没给大家送书，小甲掐指一算又到了给大家送书的时候了，这不刚好又在后台收到了读者的提醒。</span>
+INFO:root:word:<span>这次我打算送出50本书，这些书是由博文视点以及图灵教育赞助的，另外呢我还自掏腰包给大家随书赠送一些非常有纪念意义的鼠标垫，以及其他小礼品。</span>
+INFO:root:word:<span>当然我必须要告诉你们的是：这些书都会有我本人一一签名以及写上祝福语再寄给各位最终中奖的读者。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHkxAxqKgXVmZ8N2afyMAxyopiaI1AbLM0P5U9zu6sZwYCj408cKPOpfA/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHqtBUZU05oH259vyWiaFJkOrklESUEWRoLqiakUJJB62ibDLVFiafXLCnsw/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHUqjdic9MWwaf61ba0Anvm19GjfibIyk0qvnnegjicMBlgnxkjj5qshWicA/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHTbQUOXb5kARXtTOk6bARF0CqI6rnpZib3Q3l2W6VXalmPsH47Edq1Cw/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHE5ps7I4YPcjoXQ4b0H5WBJVK6GaNfdx0TTmewtZWBKurlDI6c56t3g/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHL0wn5spFZSibMvEov7DvsIHZTJyYEPMrnJUics6Ub4wcbiaTPhm5Pkkmw/640?wx_fmt=png"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsH3icr9b5tYAUX5hjyZZlUPkib5Lw8L4Lk4oRZhyeJwBK7I6ic4RUlTMcgA/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHQDLEZJnibUsVK2n6olLDTiaJfSjTV5sLR6BR1rb2mU048dM2wWR6SrjA/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHbhxzYQHF45DUw7m8RHdQ5yhaxcbNlVwUveyags49JqjeMJwvUxQbVw/640?wx_fmt=jpeg"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyan8LAxR0NmSw8Zrib9sRacsHnkGyd2IvUwdcwwLDibPiciakuOCgZSrttI2qI9bM70lstfAmjsoxe7ccQ/640?wx_fmt=png"/>
+INFO:root:word:<span>另外，我公众号一般都不开赞赏，一个月就开这么一次，就是在做送书活动的时候，其他时间你都看不到打赏按钮。</span>
+INFO:root:word:<span>只要在这段时间内你觉得我的文章帮助到了你，你都可以小小的打赏意思一下，顺便也能当是买个彩票抽个奖。打个赏也能让我眼熟你，下次做活动的时候肯定忘不掉你。</span>
+INFO:root:word:<span>关于抽奖方式，简单粗暴，抽奖的方式就是从赞赏的人中抽取50位读者。另外，我这个人就喜欢听别人夸我，所以如果留言能有打动我的，我也会酌情加一些礼物，期待你们的表演了。</span>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>Pornhup 出 Bug 了</title>
+</head>
+INFO:root:word:<span>Pronhup大公司招来了三位实习生「大长腿、字母哥、静静」，经过一周的时间他们已经慢慢适应公司的工作环境。这几天大长腿接到项目经理的一个需求：</span>
+INFO:root:word:<span>用户在看视频的时候，需要同时按住键盘上的「A+P+M」三个键才能观看，否则会直接暂停。</span>
+INFO:root:word:<span>但是因为她还不是太熟悉git，一不小心把一个还有bug的版本提交了上去。这个时候大长腿开始慌了，不知道该怎么办才能撤回提交。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YmQpuNI7KrXoIXCPuCDzbXT4Oaz2huv7mPELk6Ar9DVWfuqsuCbxnibQ/640"/>
+INFO:root:word:<span>大长腿立马向身边的静静和字母发起求救：静静，字母哥，不好了！快来帮我看看怎么才能撤回提交啊！我刚刚一不小心提交了一个有BUG的版本提交上去了，这个要是被甲哥发现，我估计就得gg了。</span>
+INFO:root:word:<span>字母哥路见不平一声吼：大长腿你别急，让我来看看！还好你没有把你的提交push到远程仓库，我看你这个还能抢救。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YRALQfib2KcBuuejSP50u1E6mvhVhY5Y8UicNn2eyD8TD9f40mmPiaUYbg/640"/>
+INFO:root:word:<span>这个时候，你可以用 git log 命令就可以查看历史提交记录。然后找到上一个版本的id，用reset命令就可以退回到上个版本了。</span>
+INFO:root:word:<span>git reset --hard id</span>
+INFO:root:word:<span>大长腿如释负重：牛逼，字母哥好手段啊！之前可担心死我了。还好可以回退回去。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yd84axetxJk4SnQwOENeR0QyICYibGlyV1KVK7dBnLIVKo5bibFiaoBsxw/640"/>
+INFO:root:word:<span>静静心生疑问：字母哥，我看你刚才操作的时候，发现git回退版本的速度好快啊，为什么这么快啊？</span>
+INFO:root:word:<span>字母哥雄赳赳气昂昂：git回退速度快，其中的原理只是更改了版本head指针的指向而已。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YV6Bxn8kqOEaFvRoYibXn1GzlIibzuvVaaOAHTrGicDKEfvJ9ghyVre03g/640"/>
+INFO:root:word:<span>以前head指针指向你新提交的记录，现在指针只改了个指向，指向到上一个版本，所以回退得快咯。</span>
+INFO:root:word:<span>静静由衷佩服：原来字母哥懂这么多啊。我也不太熟悉git里面操作失误如何处理，要不你给我们讲一下吧。</span>
+INFO:root:word:<span>字母哥洋洋得意：其实我们实际操作中，肯定会遇到某个文件被修改，文件不小心被删除「当然删除文件也算作一种修改」，但是之后又后悔之前的修改的情况。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YVB2YlmoVWfQ5bQC6nibROBPw9BWaL1zWMGrZtaSHV2MdBQbk4nnq6Ng/640"/>
+INFO:root:word:<span>还好有git, 这个时候就可以使用 git status 命令查看当前仓库的状态，被修改的文件都会显示出来。然后再使用上次甲哥讲过的，用git中最常用的切换分支的命令checkout就可以放弃更改了。</span>
+INFO:root:word:<span>大长腿似懂非懂：原来用checkout就可以恢复啊，我试试随便在test.txt里面改两句话。然后</span>
+INFO:root:word:<span>git add test.txt</span>
+INFO:root:word:<span>git checkout test.txt</span>
+INFO:root:word:<span>神奇！！果然恢复了！！</span>
+INFO:root:word:<span>静静一脸正经：别这么一惊一乍嘛，这些基础的东西不应该不知道的。</span>
+INFO:root:word:<span>大长腿跃跃欲试：哈哈，我还要再试一次，太神奇了。我就随便再在还原的文档里面再改动改动，看看还能不能再次还原。然后</span>
+INFO:root:word:<span>git add test.txt</span>
+INFO:root:word:<span>git commit -m "modify test"</span>
+INFO:root:word:<span>git checkout test.txt</span>
+INFO:root:word:<span>欸，不对啊，你看这次我为什么又无法恢复修改前的内容啊？</span>
+INFO:root:word:<span>字母哥恨铁不成钢：你随便在test.txt里面修改了几句，相当于工作区修改了；之后你又用add命令，工作区的内容就保存到暂存区了。</span>
+INFO:root:word:<span>用checkout命令只有当本地工作区跟暂存区有修改的时候才有用。但是你这次操作还加了commit，commit之后，工作区跟暂存区都是干净的，是本地仓库有了修改。要撤回本地仓库修改就不归checkout管了，所以你最后一次用checkout才没反应。</span>
+INFO:root:word:<span>大长腿恍然大悟: 哦，那我知道为什么了。我需要先查log，再reset对吧，就像你刚才退回我不小心提交的那个版本一样，对吧？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Y2NtU1QG7vSE4rmLApHxPVpFjrYQ9QsK3rLtbhx2Mic7QmhBBYQz9sMA/640"/>
+INFO:root:word:<span>字母哥孺子可教：是的哦，如果commit之后，相当于目前的head指针指向了最新提交的内容，你需要找到上次提交的内容，用reset修改指针指向。</span>
+INFO:root:word:<span>大长腿小手一抖：哎呀，刚才我一不小心手贱把git关闭了，然后再用git log查看上传记录，一个都看不到了，怎么办啊？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5YzFQUfD7IAYvibV8uia1TChBOlUtJrLNN4RWM0iakkIXlU14NxCFUjy2gA/640"/>
+INFO:root:word:<span>字母哥一口老血：平时使用的时候就得注意点哦，不要不小心关闭git了。不过一个优秀的版本控制系统总会给你好多后悔药吃的。这个时候就需要用到git reflog命令。</span>
+INFO:root:word:<span>git reflog命令会显示出你每一次操作命令，你看你之前的add, commit, log, reset命令这里统统都有显示，然后找到相应版本的id, 再用reset回退。</span>
+INFO:root:word:<span>现在世界就终于清净了。</span>
+INFO:root:word:<span>大长腿爱心泛滥：没想到关于一个git操作失误都有这么多学问，今天麻烦字母哥啦。待会请你跟静静吃海底捞，要不是你帮我这么多，以后就得你们去海底打捞我了。</span>
+INFO:root:word:<span>字母哥洋洋得意：哈哈，这个故事告诉我们，人帅又会用git，是会有免费海底捞吃的。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kr5ib3sX8wgWQSOz8tAb1L5Yy4x3nKvofKSLxaKnJS4icrZm5DVng4xZ96kqHESiaMba9ZMwsiay4vEwg/640"/>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>- 成人网站Pornhup招人了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>重磅！IBM以2360亿元收购 RedHat！</title>
+</head>
+INFO:root:word:<span>早晨起来发现这么一个很劲爆的消息：IBM宣布以2360亿人民币收购RedHat，这笔交易一旦达成将成为IBM自成立以来最大的一笔交易，也是美国科技历史上第三大收购案。</span>
+INFO:root:word:<span>关于RedHat「红帽」，我们开发者能比较了解的是它提供的操作系统Red Hat Enterprise Linux(RHEL)，但其实红帽远远不是一家提供操作系统的公司。除了操作系统，红帽提供的产品还包括云计算、存储、虚拟化、中间件等。</span>
+INFO:root:word:<span>红帽是世界上最成功的开源公司，世界上唯一一个年盈利超过10亿美元的开源公司。它通过把开源社区的项目产品化，使普通企业客户更容易消费开源创新技术。红帽将系统源代码共享给具有一定资格的使用者，并且这些使用者可以免费使用并且进行自定义编写红帽的产品。</span>
+INFO:root:word:<span>IBM坦言此次收购Red Hat主要是想在云市场发力，近几年来无论是在美国还是在中国云计算都是大公司们追逐的话题。国内的华为云、阿里云、京东云，国外的Microsoft Azure、Amazon Aws.无一不在花大代价在云计算上面。</span>
+INFO:root:word:<span>IBM也不例外，此次收购红帽公司将使其成为多云和混合云市场的领导者。这两家公司认为，这一交易将使企业能利用云计算服务完成更多工作，提高应用和数据的便携性、安全性。</span>
+INFO:root:word:<span>IBM的总裁表示：如今，大多数公司租用计算能力来削减成本，它们的云计算之路仅走到 20％，接下来的 80％ 是关于释放实际业务价值和推动增长的，这才是云的未来。它需要将业务应用程序转移到混合云中，提取更多数据并优化从供应链到销售业务的每个部分。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/b96CibCt70iaa8r7PJoyAtlfHAKe8RosE3UGPUQnuib0MWzGRby3b3aNvlUg4bQbFLwHQUsCRatNc4ab8WCrLH9LQ/640"/>
+INFO:root:word:<span>小甲有话说</span>
+INFO:root:word:<span>1.各位小伙伴们应该会问这次收购会对Red Hat有什么影响吗？</span>
+INFO:root:word:<span>从IBM的收购方案来看，Red Hat将作为IBM混合云团队独立运营。通过此次收购，IBM将继续致力于红帽的开放式治理、开源贡献、参与开源社区和开发模式，以及促进其广泛的开发人员生态系统。但其实从历年收购案来看，独立运营也只是暂时的。</span>
+INFO:root:word:<span>2.这次收购跟我们有什么关系？</span>
+INFO:root:word:<span>其实硬要说跟我们这些开发者有什么直接关系，我觉得倒是没有，但是近几年的这种云热潮，能让我们这些普通人知道当前的发展趋势，对未来的自身的发展选择有所借鉴意义。</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝：都是爬虫的锅</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>给今日头条点赞</title>
+</head>
+INFO:root:word:<span>阅读本文大概需要 4 分钟。</span>
+INFO:root:word:<span>大家都知道最近各个行业不太景气，互联网行业也毫不例外，其中以游戏等为首的细分行业更是一跌再跌。我之前也写过一篇文章给大家支招：互联网寒冬来了，怎么去应对。</span>
+INFO:root:word:<span>互联网行业不太景气最直接的表现是股票大跌，然后就是各种公司的裁员了。最近就传出了阿里和华为缩招的消息，虽然之后阿里华为都出来辟谣了，但是一切的消息都不会是空穴来风的。</span>
+INFO:root:word:<span>从智联招聘发布的数据来看：今年的第三季度跟去年相比，互联网内各个行业的招聘需求都下降了接近40%</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdajF93Fia1o4fHYvJ6jn7zIMtWP4iaTFeTeibsxyT5JrwS5uHHPcXGuFyqw/640"/>
+INFO:root:word:<span>大公司在缩招，小公司也没闲着。这不华为缩招的「谣言」还没几天，人工智能明星企业第四范式就出事了。</span>
+INFO:root:word:<span>第四范式在互联网业尤其是人工智能方面已经是非常优秀的企业了，在今年校园招聘阶段凭着自己的名声招纳了不少优秀的学生，最终经过层层选拔大约一共发出了90封左右的offer意向书。</span>
+INFO:root:word:<span>但是发了意向书之后，第四范式却一直拖着不给发offer，实际上就是想对offer毁约。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhda1DDESdicNo76PGavwNVWqK6kdFSe1sPyz2FStqjuTORguTibGtfEUGaw/640"/>
+INFO:root:word:<span>这种单方面毁约的行为对很多学生来说无疑是非常大的打击。作为一家还算比较有名的公司，不遵守合约、不守诚信也是非常让人作恶。想想这些被毁约的同学，现在秋招都快结束了，本来想着找到工作了就安安稳稳的准备毕业的，现在可倒好。</span>
+INFO:root:word:<span>大公司蹲，大公司蹲，大公司蹲完小公司蹲。很多毕业生本来想着：大公司的工作不好找就算了，先去小公司磨练磨练也不错，但是从现在的情况来看，有点高兴的太早了。</span>
+INFO:root:word:<span>第四范式这件事情我这两天一直在关注。也就是在今天的时候我突然看到一个消息，字节头条「字节跳动是今日头条的母公司」HR放出了一个消息或者是说政策：</span>
+INFO:root:word:<span>如果你已经拿到BAT网易等互联网大厂的offer，或者你拥有AI独角兽or准独角兽公司的offer，那你将享受绿色通道，获得直通字节跳动面试的资格！</span>
+INFO:root:word:<span></span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaxwCl6cQjsgt2HkbwwrP7tfbKflaCX3VLbjJ44emR2lUZBJNcfUYvfA/640"/>
+INFO:root:word:<span></span>
+INFO:root:word:<span>虽然今日头条没有明确提出，但是字里行间的「AI独角兽」有些特指的意味，很明显今日头条打算把这些被第四范式毁约的同学以及其它有相同遭遇的程序员接下来，可以参加今日头条的直通面试。</span>
+INFO:root:word:<span>这事情真的让我眼前一亮，以前我就听说今日头条是一个很注重技术人才的公司，今日头条的推荐算法团队可以说是全国最牛逼的团队，不少程序员挤破脑袋想进去。以前只是听说，真实情况不太了解，但是这件事情可以说证实了这一点。</span>
+INFO:root:word:<span>头条可以说是一个非常聪明的公司，我们能看到这个政策非常聪明，体现在两个地方：首先这批程序员都是经过大厂、独角兽筛选过的人，对他们来说筛选成本就降低了；第二头条接纳并且给这些程序员机会，相信不论是对那那拿到offer却被毁约的人还是广大程序员群体都是非常大的安慰。</span>
+INFO:root:word:<span>当然，最最重要的是头条还通过这件事情向我们这些程序员群体传达了消息：并不是所有的大厂都是在缩招的。同时头条还给互联网行业其它的大厂以及小企业做了一个非常好的榜样。</span>
+INFO:root:word:<span>最后，虽然一而再再而三的传出这种消息，但是大家仍然不要担心，因为从数据来看，咱们所在的互联网行业的薪资仍然是最高的。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/k1lLFZEXyamnTu3QcNy9icKW78w7zHhdaSlQibDATibr6slgx9lVt35n6SD7CDkMOy9AuB4MKjtUe4lF4H0QoDUxw/640"/>
+INFO:root:word:<span>而且还是有像今日头条这样的大企业在不断的扩大招聘的，据我所知今日头条今年秋招一次性放出5000个HC，包括2000个技术HC，是一般互联网大厂的3-5倍，不但是今年最大规模的互联网校园招聘，可能是有史以来最大规模的互联网校园招聘。</span>
+INFO:root:word:<span>所以想进大厂其实机会一直是都在的，只是你有没有好好把握。总结一句：就算是经济不怎么好，也就算是互联网真的来了，那又怎样？只要真的好好学习了，有一身好的本领，什么样的公司会不要你呢？</span>
+INFO:root:word:<span>希望大家把今日头条这件事情转发传播出去，让更多的人看到，也让更多的企业看到。这件事情，我必须给头条点赞！</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝：都是爬虫的锅</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>成人网站Pornhup招人了</title>
+</head>
+INFO:root:word:<span>近期正值冬招，Pornhup公司也招来了几位实习生，分别是：北大还行静静、清华不错ABCDEF「人称字母哥」，南翔技校盖儿「人称大长腿」</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduqGlPndwq6IWQnLlUbFmGHOd0hftuJ0WStQ2IEkiapFMjt5gqicBTaIgg/640?"/>
+INFO:root:word:<span>每年实习生来了，一般都有一个实习生培训，让实习生们快速的融入Pornhup的工作环境中。</span>
+INFO:root:word:<span>搁在以前大家都是不愿意去培训的，但是这次不仅公司的老王，老张吵着要去培训这几位实习生，连公司的女程序员都抢着要在实习周去培训他们。</span>
+INFO:root:word:<span>那么到底是什么原因让这几位实习生备受公司的重视？因为北大还行吗？其实是因为来的这几位实习生，男的是长这样子的：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zDzaqLOWiaANukG0iav1EibLtkwWK8ob5YSTsiaB1lbeLnMn1eBmNr6wbicg/640?"/>
+INFO:root:word:<span>女的是长这样子的</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2KqGxATLNbrPAzDFrn4MOo3zhocZNJ8MOYT2DnicmibEsGZ4LBUJcDlczjdfu7ungC1XmNpgQQDLiaFqg/640?"/>
+INFO:root:word:<span>就在公司的各种骨干吵得热火朝天的时候，还是管理者人甲出面，解决了这个问题：</span>
+INFO:root:word:<span>各位，我看这几位高材生，还是我亲自出面培训他们吧，不然显得咋们Pornhup不重视实习生，所以大家都不要争了，就这么愉快的决定了。就由我代替各位直接到前线去亲力亲为吧。</span>
+INFO:root:word:<span>小甲内心OS：这么漂亮的妹子，当然是我来了！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdurrLeuDy0E3kuqfR3I840dKutoaibxLOxGkvicalcuPVYjJacRNicZCQvg/640?"/>
+INFO:root:word:<span>人甲：欢迎各位加入Pornhup公司，相信之前的新员工培训大家已经知道我们公司的规章制度了。那么咱们也废话不多说，主要讲讲咱们公司程序员工作中使用的最重要的工具：版本控制工具Git怎么使用。</span>
+INFO:root:word:<span>Git是什么相信在这里不需要我多解释了吧？</span>
+INFO:root:word:<span>静静、字母哥、大长腿：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduZ7wtdwnr4ZicJePic7dE7lL07uYfgqophKCwLu8g6zYdGs0kzCCEibIrg/640?"/>
+INFO:root:word:<span>人甲：我们公司的Git分支主要涉及到：master，即主分支，这是每个项目必须有的；develop, 开发分支；feature，从develop分支上分出来的功能分支；release, 发布分支；fix，补丁分支；hotfix，热补丁分支。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCducGwpDpky1V3aRUZoVxI80iczQbyv8sRu7Rvhu0zvtXyQvbYiaPbV7Q7A/640?"/>
+INFO:root:word:<span>静静、字母哥、大长腿：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdusdbb0AiaBib6v6xe3Ugnxia1koibIDR2L6scibcvar5tbqjPI0NE4uAlNMQ/640?"/>
+INFO:root:word:<span>人甲：哈哈，目前听不太懂没关系，今天是第一天，我主要给大家讲一些基础。我就拿你们以后开发经常需要用到的feature分支举例子吧。</span>
+INFO:root:word:<span>静静、字母哥、大长腿：</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduXmJ3lSUCNFeHzF4qeNhRWicxx8dcicSq1NhLOWDkZia2FdkRtL8HibgGxQ/640?"/>
+INFO:root:word:<span>人甲：首先，大家需要从Github上用git把我们的Pornhup项目下载下来。</span>
+INFO:root:word:<span>字母哥：那个，甲大，咋下载啊？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdugMlUUicRlTc0tznrI0icLsvjL7IIKXY7ibGnw29JKFjuoDEmkrliafu1KQ/640?"/>
+INFO:root:word:<span>静静：我看你有张吴彦祖的脸，为啥却没别人那智商，这你居然都不知道！</span>
+INFO:root:word:<span>要从Github下载一个项目，需要用到clone命令。在你常用的目录下面打开git, 输入如下命令，就把项目下载下来了。</span>
+INFO:root:word:<span>git clone xxxxxxx.git</span>
+INFO:root:word:<span>我说得没错吧，甲大</span>
+INFO:root:word:<span>人甲：嗯，没错。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdumlSZTE83nFWoj5DouHu9ur0XKsS3JPabKJ2ShL7xtJ9efeu96kVmZA/640?"/>
+INFO:root:word:<span>下载下来我们的项目后，默认是在master分支。master分支你们可以理解为是老虎的屁股，摸不得。</span>
+INFO:root:word:<span>所以就需要用checkout命令跳转到develop分支。checkout [切克闹] 被用来切换分支，是git中最常用的命令之一。</span>
+INFO:root:word:<span>git checkout develop</span>
+INFO:root:word:<span>如果这个时候，字母哥接到个任务是加入A功能，你知道该怎么做吗？</span>
+INFO:root:word:<span>字母哥：我想想啊</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduiaIzP8BC1icjeIEp9OFoicicvPGYctwKJBvicThITwfhbP9p2wzGygIrPsA/640?"/>
+INFO:root:word:<span>好像我们也不在develop分支上直接操作，这个时候应该需要再从develop分支上搞个分支出来。创建一个新分支，就需要用到branch命令。</span>
+INFO:root:word:<span>git branch feature-Agit checkout feature-A</span>
+INFO:root:word:<span>人甲：你这样说也没错，其实还有更简单的办法。两条命令合并成一条，branch直接用-b代替，然后再用checkout跳转到该分支，所以上面两句命令就变成一句了</span>
+INFO:root:word:<span>git checkout -b feature-A develop</span>
+INFO:root:word:<span>然后你们就可以在这个feature-A分支上完成你们的工作了。那么，如果代码写完发现没有问题，接下来大家知道怎么做吗？</span>
+INFO:root:word:<span>静静: 哈哈，我知道！</span>
+INFO:root:word:<span>用add命令来添加新写的代码</span>
+INFO:root:word:<span>commit命令用来提交新写的代码</span>
+INFO:root:word:<span>git add feature-Agit commit -m "add feature A"</span>
+INFO:root:word:<span>人甲：静静你很厉害嘛，晚上下班到我办公室来。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdussK5icNzDuPa0ZQ8ia4WIedohQefmeJAGqnpkKNx7YjOxUicgpT3TI6icQ/640?"/>
+INFO:root:word:<span>但是先add, 再commit你们不觉得很繁琐吗？git这么设计必定由它的道理，你们有人知道为什么需要先add, 再commit吗？</span>
+INFO:root:word:<span>静静、字母哥、大长腿：不知道欸，没仔细研究过。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduejc5ILQW0YaB0H3gGGcRhZDLqGtTWMGm5vicxQPYZnZbm7zeqKzZlibw/640?"/>
+INFO:root:word:<span>人甲：git有好几个区，我们平时更改添加删减的代码都在工作区里面保存。</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCdu5RHAtZDmZw5VZxxtSjopLuUbG4ILDmSib89A8Zqo4oApmJyLnbOWTtg/640?"/>
+INFO:root:word:<span>add命令执行后，修改被保存到暂存区。可以理解为你操作本地文件按了下ctrl + s</span>
+INFO:root:word:<span>然后当你commit后，暂存区里的东西就被保存到了本地仓库。这里可以理解成你把修改好的东西放到了仓库，已经准备好运到下一个仓库去了，也就是所谓的远程仓库，Github。</span>
+INFO:root:word:<span>静静、字母哥、大长腿：原来是这样啊！！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduayOqbsDZYL1v07P0iclZa69fXFdo0Y66cQZOhia1U5BLiayYdAVe782RA/640?"/>
+INFO:root:word:<span>大长腿：人甲，接下来我来抢答下，add跟commit后是不是这个时候就用到merge命令，合并feature-A分到develop去啊？</span>
+INFO:root:word:<span>人甲：不对哦，你如果这样做，很可能出现冲突。因为可能出现有很多人在develop分支上更新。所以你这个时候用pull命令，把远程仓库的更新取回并更新。</span>
+INFO:root:word:<span>git pull origin develop</span>
+INFO:root:word:<span>然后再切换回自己的分支，用rebase命令合并新更新到自己目前工作的分支。</span>
+INFO:root:word:<span>再检查有没有冲突，最好双手合十起到没有冲突，有的话可能目前你们的水平也解决不了。</span>
+INFO:root:word:<span>静静、字母哥、大长腿: 这么麻烦啊！！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduSmfQhVyEgpjx04XOoxosqhRoX4grjsqn96xN0P9rYnOHNBJ60VicRZg/640?"/>
+INFO:root:word:<span>人甲：没办法，git就是这么设计的，如果一切安好的话。就可以用merge命令合并分支</span>
+INFO:root:word:<span>git merge --no-ff feature-A</span>
+INFO:root:word:<span>合并之后就剩下最后一步操作了。</span>
+INFO:root:word:<span>大长腿: 甲大，选我来说</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/I0OrH0ZH2Kp9Ziaia9ClG4ZFF15BKWnCduk5hyC0Gt6FFpQ09ibuE1coiaIpAqq4ChsLFBVlEcAwE0icPYqdSyeb3Hw/640?"/>
+INFO:root:word:<span>这个时候，我们已经成功合并分支到develop分支上了，为了防止工作丢失，可以把刚才的工作推送给到云端去了。</span>
+INFO:root:word:<span>人甲：是的，最后一步工作就是用push命令推送到Github就完事了</span>
+INFO:root:word:<span>git push origin develop</span>
+INFO:root:word:<span>好的，今天就给大家讲这么多，大家要是明白了之后，就可以去试着开发上面交代的工作了。</span>
+INFO:root:word:<span>对了，静静，下班后请你到我办公室来。</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- 这种公司都得死</span>
+INFO:root:word:<span>- 程序员捅了马蜂窝</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>这种公司都得死</title>
+</head>
+INFO:root:word:<span>「没有大公司的命，得了大公司的病」想起这句话的时候源自于我跟一家小企业的合作。整个合作的流程非常糟糕，甚至让我觉得他们并不是一家称职的外包公司。</span>
+INFO:root:word:<span>流程混乱</span>
+INFO:root:word:<span>群龙无首</span>
+INFO:root:word:<span>流程冗长</span>
+INFO:root:word:<span>整个合作让人非常之不爽</span>
+INFO:root:word:<span>我断言这家公司在未来的路走的不会太远。具体怎么说？且听我详细说来。</span>
+INFO:root:word:<span>小公司的优势在于小巧灵活，甚至可以因为外在因素调整公司的大方向。小公司因为其小、人员简单，做事情的流程也相对简单。比方说你想调整一个线上的小功能，可能就是拉上几个人一起开个会，通过了就能开发了，然后就上线了。这个流程可能就是一周的时间。</span>
+INFO:root:word:<span>但是在大公司是不行的，你有这么一个小想法需要经过一层一层的审批，审批完了之后也需要开发来 评估排期，测试测试排期。很多想法被扼杀在审批中，开发也会拒绝掉一些需求。这样一来一个想法的实施非常难，就算能够实施也是几个月之后。</span>
+INFO:root:word:<span>说实话</span>
+INFO:root:word:<span>看到这个流程之后</span>
+INFO:root:word:<span>你自己可能会把想法只埋在心中了</span>
+INFO:root:word:<span>再问你一句：</span>
+INFO:root:word:<span>几个月之后</span>
+INFO:root:word:<span>你还有动力？</span>
+INFO:root:word:<span>以上只是个例子。小公司能够成功，非常依赖于这一点：所有人都有话语权，做事情流程简单也很迅速。</span>
+INFO:root:word:<span>但是所有都有话语权并不是说每个人都是老大，就是说在整个公司中必须要有统一的声音，并且有非常明确的谁大谁小的概念，尤其是对外的时候。</span>
+INFO:root:word:<span>在对外合作的时候，小公司派出多个代表与合作方对接，最后多个代表却代表了多层的意思。比方说是一个软件的开发需求，代表A的需求是N界面，代表B的需求是M界面。</span>
+INFO:root:word:<span>出现这种状况</span>
+INFO:root:word:<span>本质上就是管理权的问题</span>
+INFO:root:word:<span>散漫惯了</span>
+INFO:root:word:<span>很难改变</span>
+INFO:root:word:<span>当然这种管理权的问题说到底其实又是流程的问题。如果公司早已经把对外合作、对内工作的这种工作形成了一套流程模板也不会出现上面所说的这种情况。</span>
+INFO:root:word:<span>无论是一家公司还是一个团队，规章制度是必须要有的。如果没有规则的约束，公司的一切都是混乱的，会出现种种你不愿意看到的东西。</span>
+INFO:root:word:<span>各位小伙伴</span>
+INFO:root:word:<span>如果碰到符合上面特征的公司</span>
+INFO:root:word:<span>听我一句</span>
+INFO:root:word:<span>撤！</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史！</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- Android都要收费了</span>
+INFO:root:word:<span>- Github发布史上最大更新</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>作为程序员，我是如何通过一个方法记住7000单词的！</title>
+</head>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wf5rxZQ06pTJOPbJIcLWGCtq4FanHrpA0w6zQekOhVF3hXfNtGcEeXw/640"/>
+INFO:root:word:<span>单词是基石</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_gif/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqF9fYaGBSg5vmbVJSsDWqYoGRNBsMia1NyTuAJg3F5Mc7oefCYXc2fRg/640"/>
+INFO:root:word:<span>为什么学英语这么难？</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/tPK9oOJ9hl01iaHuwlx3smsCKpvvibQuZaZiceSo3nlKHVV15jvRqz0cROGpiaMVc01Za7WBNlrnVuianVVXQRQL7kw/640"/>
+INFO:root:word:<span>答案是显而易见的。传统的学习英语、背单词的方式根本就是错的！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJicT1SQLiaHicgV5sxvSQSsYudDcAg5hjIgo6YcC7DzV5qMaSDhp85T5w/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wvhhWDXSibHhqOpCup6jn9LfUwZciaU0cFd6HXibsFdWh71BoyBotYTssQ/640"/>
+INFO:root:word:<span>所以只要我们在对待单词时，不要死记硬背，把它们融入到我们的生活中，奇迹就发生了！</span>
+INFO:root:word:<span>极光单词</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jfP0Ruk6FADfzaicfiblvwqJyNG1VMe2IQXKsZfvnxiaLLctkibJSAeKhZTId3iaWasOicTqW2nc0F8wg/640"/>
+INFO:root:word:<span>极光单词</span>
+INFO:root:word:<span>让每个人都拥有记光单词的能力！</span>
+INFO:root:word:<span>【电影原声】+【电影画面】</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZLNRQfAgJtkpdKqpPyAmZmujibViczWYtBSnJGbPdcLPicyKHmh3N6KgA/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlK4GB0wo9esGedo5wW3xYNLKcLfTM7QFp3DibV5YFzyiavv7ibMPwCIuRWw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKcptx6Csz8h0AcC4UHBYh6OlJr6qAQWliafbWq1n7zvANG2mh4DmuOMw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKTjicG2Du3y0VaAmtUxDVfe1pLgD7wLAw5Fn2YC3eOIibJxDaphiasjXrg/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKZM0VvpEbZZEIc98XxiaSKKb9W6ia4l4ZopSRbHupQ2j3dbWnGHMgQLKA/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKjZWaibYNOWcFssiaDB1CAtgHngWBfTCo3LJhMaibMoeImyLSjDQ0TIxtw/640"/>
+INFO:root:word:<span>极光单词还把每一个单词都放在了与我们生活息息相关的情景之中</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU9xlJDN0maSw6dfJib9MibLlKs4zOic73KrJ84hiaV2p6Vl4boFHkcTQZWmU7I7pMtrofC9cgumnTmia2A/640"/>
+INFO:root:word:<span>突出了它们最能被记住的特征！</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8ib7odrZbAj0fnFEglSq4H2V2qfnTrpLfo63agXNeQy3fOWp1ibVyJOQ/640"/>
+INFO:root:word:<span>用这些特征，直击每个英语学习者的记忆神经。</span>
+INFO:root:word:<span>第一天心血来潮背了200多个单词</span>
+INFO:root:word:<span>第二天累了只背了50多个</span>
+INFO:root:word:<span>第三天20个</span>
+INFO:root:word:<span>第四天就完全放弃了，把单词书扔在一边逍遥快活去了……</span>
+INFO:root:word:<span>学习赌局返现金钱来刺激</span>
+INFO:root:word:<span>返1元69元全部返还！</span>
+INFO:root:word:<span>一个程序员的日常粉丝专属福利</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640"/>
+INFO:root:word:<span>原价30天99元  凡是一个程序员的日常的粉丝</span>
+INFO:root:word:<span>只要每天坚持学习并达到标准</span>
+INFO:root:word:<span>99元 全部退还</span>
+INFO:root:word:<span>相当于免费学习，不花1分钱</span>
+INFO:root:word:<span>付费1次就不用再付费，可长期学习！</span>
+INFO:root:word:<span>↓↓↓↓↓↓↓↓↓</span>
+INFO:root:word:<span>长按扫码，立即加入</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640"/>
+INFO:root:word:<span>本期仅开放100个名额，先到先得！</span>
+INFO:root:word:<span>90%退回了全部学费</span>
+INFO:root:word:<span>极光单词</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/edAXWNwKhU8jSkyVJH0rfV9jTzbxicKVjBhfZCVKUb6wvF2klQfRuHnK78E8KPvQxwicf1EIVvlaR491UQRg7BKw/640"/>
+INFO:root:word:<span>美剧、VOA、BBC纪录片原生……</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w8vcsEsIdnUapSZIia1VYmZa5qRq4lBeLuRcicGKPxM1vKLkIePYgUHicQ/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79w5vddK7FJgMcdm3Z5BHlod5b66ib9UO6zQpgLy4yXw4VVxyE9mibia5NVA/640"/>
+INFO:root:word:<span>情景记忆法</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wPzNFzpQXjvd7VgnLCk8xFYXjBhsLoXuLib74OPSEhCP17MxSPLVvXPg/640"/>
+INFO:root:word:<span>医疗、亲子、旅行、商务新概念、以及小学、初中、高中、大学四六八级、留学考试（雅思、托福）、KET、GRE</span>
+INFO:root:word:<span>学习赌局返现金钱来激励自己学习。</span>
+INFO:root:word:<span>返1元69元全部返还</span>
+INFO:root:word:<span>一个程序员的日常粉丝专属福利</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640"/>
+INFO:root:word:<span>原价30天99元  凡是一个程序员的日常的粉丝</span>
+INFO:root:word:<span>只要每天坚持学习并达到标准</span>
+INFO:root:word:<span>99元 全部退还</span>
+INFO:root:word:<span>相当于免费学习，不花1分钱</span>
+INFO:root:word:<span>付费1次就不用再付费，可长期学习！</span>
+INFO:root:word:<span>↓↓↓↓↓↓↓↓↓</span>
+INFO:root:word:<span>长按扫码，立即加入</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640"/>
+INFO:root:word:<span>本期活动仅开放100个名额，先到先得！</span>
+INFO:root:word:<span>90%的学员</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicVPVSAx4LmsuYUFJibBe6olvP6iaDpWC2fy9ALYtVXMRsnmok2QMeBVYwVuHsTJhIMsP0eibHUulicDg/640"/>
+INFO:root:word:<span>***  课程评价  ***</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH56NLveo135AJbevoLgVrPBcm2DkDuHibiakrhOADGnKsXXa5OqxbsfpMQ/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wSZicChecNIFezgHJeGlXYEewJxJ8pT3qcNHWkicQQXOvvuLGDibAErh8g/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wrZAvoGk88icehHEqoCWtP19w6D3WP1Zztm7RoEgBdIhiamuQXrprPic3w/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wGYyiaLicGiaoicAx03ehrTL0kAsIM16ArcRCnIiaxjguF2R9Zb6Dibyphjibg/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/edAXWNwKhUicspBx9jlQEXlErVaibtXvH5WcDuiacZ4SH611V4fhh970p9DpDMyZl1ia9xC16wnjSib6lIJC6v8aZ7w/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wZmaUatgliarsLuot55d2cUiaU3LYn43Cxe3mVaibSoggmGgXN0iawUTRPQ/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wkq1cibzZEJ8FMLGrgdPdKEUmicuuia6YJufjkh8CzVslbhmnEqgIHGdEw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wwtLqZYHwdwu8Rx7I5947KfiaLKVkzDicApEbUe8v25v8TiaiaFxBhMHJrw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wLacYZ3VhEAXtscTGwiaTVv5SFB7TyDNw4QC2lNLDkxdLaOId7PsMHoA/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wn7ct9WaEA4ga2IH5AUZfXseCFQLkmcl5nAnW5WP5UubcCLDFQ0ENRw/640"/>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_jpg/oI6aic9OnHLB7hQGXtWjBDxZf869tY79wsw8nhlmAnwNMZjiaFeQmNJAdHgDPWg4EVRpMXkbQ9VcJJq2TemM4jicw/640"/>
+INFO:root:word:<span>全额退费</span>
+INFO:root:word:<span>一个程序员的日常粉丝</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/vfP3XcoqEpJDY7PYpv4H01vVf9Hicy0E6QYZKNRxhCxWsf2CpX9feywLKBQcq4eWB1rYJrDzU2pRcLaLSHNicAcQ/640"/>
+INFO:root:word:<span>原价30天99元  凡是一个程序员的日常的粉丝</span>
+INFO:root:word:<span>只要每天坚持学习并达到标准</span>
+INFO:root:word:<span>99元 全部退还</span>
+INFO:root:word:<span>相当于免费学习，不花1分钱</span>
+INFO:root:word:<span>付费1次就不用再付费，可长期学习！</span>
+INFO:root:word:<span>↓↓↓↓↓↓↓↓↓</span>
+INFO:root:word:<span>长按扫码，立即加入</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/Ekn9BeR8uxN2QAxtehdaNKzPZEah2Mic4xtxP7k90T7Haic00q67iaHygmBeqic9R9icnzHMLHLQvRwv7tHgFL63icyw/640"/>
+INFO:root:word:<span>本期活动仅开放100个名额，先到先得！</span>
+INFO:root:word:<span>▼点击原文链接，立即参加赌局！</span>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>程序员捅了马蜂窝：都是爬虫的锅</title>
+</head>
+INFO:root:word:<span>几天马蜂窝这个网站火了，世界杯期间它是因为那个洗脑的广告火的，而这几天火是因为几个程序员捅了它。他们采集了马蜂窝的数据，他们用马蜂窝的数据跟携程、大众点评等网站的数据对比，发现了一个惊天的事实：</span>
+INFO:root:word:<span>马蜂窝整个网站的自称21000000条的真实点评，实际上其中有85%的点评搬运自大众点评、携程、yelp；也就是说马蜂窝这个网站上的真实点评可能只有315万。</span>
+INFO:root:word:<span>官方口径的2100万</span>
+INFO:root:word:<span>VS</span>
+INFO:root:word:<span>实际上真实的315万</span>
+INFO:root:word:<span>你特娘的也是个人才啊。其实咱们都知道在当今的互联网界，大家在冷启动的时候都喜欢这么干：把别人网站的成熟的资料抄袭过来。我们都熟知的Airbnb在冷启动的时候前1000个房源信息就是从Craigslist采集过来直接贴在网站上的。</span>
+INFO:root:word:<span>同样来自携程、大众点评等网站的这些点评资料拿过来之后可以丰富马蜂窝网站的内容。冷启动的时候干情有可原。</span>
+INFO:root:word:<span>但是马蜂窝错就错在</span>
+INFO:root:word:<span>它不是冷启动的时候在做这件事情</span>
+INFO:root:word:<span>他是一直在做这件事情</span>
+INFO:root:word:<span>甚至在公司内部养着一个大型的团队在做这件事情</span>
+INFO:root:word:<span>把抄袭、搬运做大了规模</span>
+INFO:root:word:<span>做成了产业</span>
+INFO:root:word:<span>这不是找死么？</span>
+INFO:root:word:<span>过了冷启动期其实也可以干，你看国内的很多新闻网网站都是互相的采集对方的新闻信息进行伪装，今日头条也采集新浪微博的，悟空问答也采集知乎的。</span>
+INFO:root:word:<span>但是这种采集都要有个限度、要小声的采集，你网站本身提供的独立价值要远远大于抄袭搬运带来的价值。</span>
+INFO:root:word:<span>而马蜂窝就不一样，你默默的抄袭也就罢了，你默默的搬运也就罢了。你还生怕别人不知道，所以你还非要在各种地方重点宣布：来自网友2100万的真实点评，引以为傲。</span>
+INFO:root:word:<span>你还把这2100万的真实点评数据放在投资人的面前，投资人眼花了，一转眼间给马蜂窝投成了独角兽，体积大了几千倍。虽然我知道国内很多投资人都是只看数据、不长记性的，但是这么造假玩骗钱就有点过了。我想问问马蜂窝「独角兽」</span>
+INFO:root:word:<span>马蜂窝你们在用假数据宣传的时候就没有一点的脸红吗？</span>
+INFO:root:word:<span>你们在用假数据向投资人骗钱的时候就没有一点心虚吗？</span>
+INFO:root:word:<span>哦，我懂了，可能宣传久了，你们已经认为那2100万点评真的是你们自己的了。</span>
+INFO:root:word:<span>按照马蜂窝这个逻辑，说实话，我一个程序员加上一个能吹牛的合伙人我们能复制出一百个独角兽出来。</span>
+INFO:root:word:<span>我可以采集飞猪、去哪儿、携程所有酒店的资料和点评内容，做一个酒店预订网站，而且保证我的酒店信息和点评资料是全中国最全的、最大的，投资人你给钱吗？别问我为什么，因为我是汇总的。</span>
+INFO:root:word:<span>我可以采集知乎、悟空问答、Quora等等所有问答内容做一个全球最大的问答网站。别问我为什么敢自称最大，因为爬虫所以自信。</span>
+INFO:root:word:<span>我可以采集…</span>
+INFO:root:word:<span>现在爬虫这个技术是有些泛滥了，会爬虫的人和公司也越来越多了。所以造假、搬运、抄袭的成本也越来越低了。</span>
+INFO:root:word:<span>不奢望捅马蜂窝这事情能改变互联网大环境，</span>
+INFO:root:word:<span>但致少能给那些还在抄袭的大型互联网企业敲个钟吧！</span>
+INFO:root:word:<span>系列文章</span>
+INFO:root:word:<span>- 成人网站Pornhup被黑了</span>
+INFO:root:word:<span>- 成人网站Pornhup重构史！</span>
+INFO:root:word:<span>- 成人网站Pornhup挂了</span>
+INFO:root:word:<span>推荐阅读</span>
+INFO:root:word:<span>- Android都要收费了</span>
+INFO:root:word:<span>- Github发布史上最大更新</span>
+INFO:root:img:<img src="https://mmbiz.qpic.cn/mmbiz_png/k1lLFZEXyalX9vdzDBna5PDgIVAMMMn7fH8LAF1iaSQ9lVCjib8RwlQYACnibia0LjOrvERo9V7exMYtXehk8EmpJg/640?"/>
+INFO:apscheduler.executors.default:Job "begin_test (trigger: interval[0:00:20], next run at: 2018-11-05 09:28:19 CST)" executed successfully
+INFO:apscheduler.executors.default:Running job "begin_test (trigger: interval[0:00:20], next run at: 2018-11-05 09:28:19 CST)" (scheduled at 2018-11-05 09:28:19.013804+08:00)
+INFO:apscheduler.executors.default:Job "begin_test (trigger: interval[0:00:20], next run at: 2018-11-05 09:28:39 CST)" executed successfully
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>Hello world!</title>
+</head>
+INFO:root:word:<span>Hello word!</span>
+INFO:root:img:<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541335954390&di=54bf3c40bd45201cf749307670cf64d2&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F6c224f4a20a44623639e57469222720e0cf3d7ba.jpg"/>
+INFO:root:video:<video width="320" height="240" controls="controls">
+<source src="https://tv.sohu.com/e08f8896-6a87-4e2b-9baf-642e07b70c81" type="video/ogg">
+<source src="https://tv.sohu.com/e08f8896-6a87-4e2b-9baf-642e07b70c81" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+INFO:root:<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>Hello world!</title>
+</head>
+<span>Hello word!</span>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541335954390&di=54bf3c40bd45201cf749307670cf64d2&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F6c224f4a20a44623639e57469222720e0cf3d7ba.jpg"/>
+<video width="320" height="240" controls="controls">
+<source src="https://tv.sohu.com/e08f8896-6a87-4e2b-9baf-642e07b70c81" type="video/ogg">
+<source src="https://tv.sohu.com/e08f8896-6a87-4e2b-9baf-642e07b70c81" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+INFO:root:title:<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>Hello world!</title>
+</head>
+INFO:root:word:<span>Hello word!</span>
+INFO:root:img:<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541335954390&di=54bf3c40bd45201cf749307670cf64d2&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F6c224f4a20a44623639e57469222720e0cf3d7ba.jpg"/>
+INFO:root:video:<video width="320" height="240" controls="controls">
+<source src="http://baishi.baidu.com/watch/06212930388548252356.html?&page=videoMultiNeed" type="video/ogg">
+<source src="http://baishi.baidu.com/watch/06212930388548252356.html?&page=videoMultiNeed" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+INFO:root:<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>Hello world!</title>
+</head>
+<span>Hello word!</span>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541335954390&di=54bf3c40bd45201cf749307670cf64d2&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F6c224f4a20a44623639e57469222720e0cf3d7ba.jpg"/>
+<video width="320" height="240" controls="controls">
+<source src="http://baishi.baidu.com/watch/06212930388548252356.html?&page=videoMultiNeed" type="video/ogg">
+<source src="http://baishi.baidu.com/watch/06212930388548252356.html?&page=videoMultiNeed" type="video/mp4">
+Your browser does not support the video tag.
+</video>
